@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@mipmap/choose_card_bg" android:layout_width="200.0dip" android:layout_height="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/choose_card_recentContent" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+    <TextView android:textSize="@dimen/text_size_28px" android:textColor="@color/time_color" android:id="@id/tv_card_item" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

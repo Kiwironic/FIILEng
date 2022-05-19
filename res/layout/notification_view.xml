@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/notification_large_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@mipmap/ic_launcher" android:scaleType="fitXY" />
+    <TextView android:id="@id/notification_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="Title" android:layout_toRightOf="@id/notification_large_icon" />
+    <TextView android:id="@id/notification_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Message" android:layout_toRightOf="@id/notification_large_icon" android:layout_below="@id/notification_title" />
+    <TextView android:textSize="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="(Hey, I'm secretly listening to tell you, I'm custom)" android:layout_toRightOf="@id/notification_large_icon" android:layout_below="@id/notification_text" />
+    <ImageView android:id="@id/notification_small_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:src="@mipmap/ic_launcher" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

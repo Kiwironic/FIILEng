@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffededed" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/main_top" />
+    <include layout="@layout/view_line" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <RelativeLayout android:id="@id/rl_moreset_zero" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/use_liuliang_linstenr" style="@style/TextView_MoreSetting_Little" />
+                    <FrameLayout android:id="@id/fl_moreset_zero" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                        <ImageView android:id="@id/iv_moreset_zero_btn" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                    </FrameLayout>
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_moreset_one" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/use_liuliang_download" style="@style/TextView_MoreSetting_Little" />
+                    <FrameLayout android:id="@id/fl_moreset_one" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                        <ImageView android:id="@id/iv_moreset_one_btn" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                    </FrameLayout>
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_moreset_two" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/linstener_quea" style="@style/TextView_MoreSetting_Little" />
+                    <ImageView android:id="@id/iv_moreset_two_arrow" style="@style/ImageView_MoreFragment_Arrow" />
+                    <TextView android:id="@id/tv_moreset_two" android:layout_alignRight="@id/iv_moreset_two_arrow" style="@style/TextView_MusicSetting_Little" />
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_moreset_three" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/download_quea" style="@style/TextView_MoreSetting_Little" />
+                    <ImageView android:id="@id/iv_moreset_three_arrow" style="@style/ImageView_MoreFragment_Arrow" />
+                    <TextView android:id="@id/tv_moreset_three" android:layout_alignRight="@id/iv_moreset_three_arrow" style="@style/TextView_MusicSetting_Little" />
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_moreset_four" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/download_path" style="@style/TextView_MoreSetting_Little" />
+                    <ImageView android:id="@id/iv_moreset_four_arrow" style="@style/ImageView_MoreFragment_Arrow" />
+                    <TextView android:id="@id/tv_moreset_four" android:layout_alignRight="@id/iv_moreset_four_arrow" style="@style/TextView_MusicSetting_Little" />
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <RelativeLayout android:id="@id/rl_moreset_five" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/music_cache_space" style="@style/TextView_MoreSetting_Little" />
+                    <TextView android:id="@id/tv_moreset_five" android:layout_marginRight="40.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TextView_MusicSetting_Little" />
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_moreset_six" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/music_cache_limit" style="@style/TextView_MoreSetting_Little" />
+                    <ImageView android:id="@id/iv_moreset_six_arrow" style="@style/ImageView_MoreFragment_Arrow" />
+                    <TextView android:id="@id/tv_moreset_six" android:layout_alignRight="@id/iv_moreset_six_arrow" style="@style/TextView_MusicSetting_Little" />
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_moreset_seven" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/music_cache_clean" style="@style/TextView_MoreSetting_Little" />
+                    <TextView android:textSize="16.0sp" android:id="@id/tv_moreset_seven" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" />
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <RelativeLayout android:id="@id/rl_moreset_eight" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/auto_match_lrc_and_pic" style="@style/TextView_MoreSetting_Little" />
+                    <FrameLayout android:id="@id/fl_moreset_eight" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                        <ImageView android:id="@id/iv_moreset_eight_btn" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                    </FrameLayout>
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_moreset_nine" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/use_liuliang_pic" style="@style/TextView_MoreSetting_Little" />
+                    <FrameLayout android:id="@id/fl_moreset_nine" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                        <ImageView android:id="@id/iv_moreset_nine_btn" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                    </FrameLayout>
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_moreset_ten" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/lrc_and_pic_space" style="@style/TextView_MoreSetting_Little" />
+                    <TextView android:id="@id/tv_moreset_ten" android:layout_marginRight="40.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TextView_MusicSetting_Little" />
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_moreset_elevent" style="@style/RelativeLayout_MoreSetting">
+                    <TextView android:text="@string/lrc_and_pic_clean" style="@style/TextView_MoreSetting_Little" />
+                    <TextView android:textSize="16.0sp" android:id="@id/tv_moreset_elevent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_centerVertical="true" />
+                    <include layout="@layout/view_line_bottom" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

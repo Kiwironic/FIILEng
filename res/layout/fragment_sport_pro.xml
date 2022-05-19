@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="420.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:circlepointview="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <LinearLayout android:gravity="center|right" android:id="@id/ll_gps_sign" android:background="@color/white" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="15.0">
+        <include layout="@layout/layout_gps" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="45.0">
+        <TextView android:textSize="90.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/tv_show_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="---" android:shadowColor="@color/choose_bgthree" android:shadowDy="10.0" android:shadowRadius="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="160.0dip" android:layout_height="wrap_content">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <FrameLayout android:layout_width="40.0dip" android:layout_height="40.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/iv_check_heart_rate" android:background="@mipmap/check_heart_rate" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_gravity="center" android:id="@id/iv_heart_rate" android:background="@mipmap/sport_red_heart" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <TextView android:textSize="20.0sp" android:textColor="#ff888888" android:id="@id/tv_heart_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="bpm" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="37.0">
+        <TextView android:id="@id/tv_sign" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="当前信号0" />
+        <RelativeLayout android:id="@id/rl_sport_start" android:background="@mipmap/sport_start" android:layout_width="113.0dip" android:layout_height="127.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <TextView android:textColor="@color/sport_start" android:id="@id/tv_sport_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:text="@string/sport_start" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_sport_record" android:background="@mipmap/sport_record" android:layout_width="93.0dip" android:layout_height="103.0dip" android:layout_marginRight="11.0dip" android:layout_toLeftOf="@id/rl_sport_start" android:layout_centerVertical="true" android:layout_toStartOf="@id/rl_sport_start">
+            <TextView android:textColor="@color/sport_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:text="@string/sport_record" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_sport_detection" android:background="@mipmap/sport_detection" android:layout_width="93.0dip" android:layout_height="103.0dip" android:layout_marginLeft="11.0dip" android:layout_toRightOf="@id/rl_sport_start" android:layout_centerVertical="true">
+            <TextView android:textColor="@color/sport_detection" android:id="@id/tv_sport_detection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="55.0dip" android:text="@string/sport_detection" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

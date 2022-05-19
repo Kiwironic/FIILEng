@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.fengeek.f002">
+    <permission android:name="com.fengeek.f002.permission.MIPUSH_RECEIVE" android:protectionLevel="signatureOrSystem"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+    <uses-permission android:name="android.permission.CAPTURE_SECURE_VIDEO_OUTPUT"/>
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.READ_VOICEMAIL"/>
+    <uses-permission android:name="android.permission.ADD_VOICEMAIL"/>
+    <uses-permission android:name="android.permission.WRITE_VOICEMAIL"/>
+    <uses-permission android:name="com.fengeek.f002.permission.MIPUSH_RECEIVE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="true"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>
+    <application android:allowBackup="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.fengeek.application.FiilApplication" android:networkSecurityConfig="@xml/network_security_config" android:supportsRtl="true" android:theme="@style/AppTheme.NoActionBar" android:usesCleartextTraffic="true">
+        <activity android:name="com.fengeek.f002.PrivacyAgreementActivity"/>
+        <activity android:name="com.fengeek.f002.UserAgreementActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.MoreSetting.FIILT1XSTouchSensitivityActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.umeng.socialize.media.WBShareCallBackActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.sina.weibo.sdk.web.WeiboSdkWebActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleTask" android:name="com.sina.weibo.sdk.share.WbShareTransActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="com.fengeek.f002.wxapi.WXEntryActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.fengeek.f002.WelcomeActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.music.view.DuerPlayActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.fengeek.f002.MainActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.LoginActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.GuideActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:launchMode="singleInstance" android:name="com.aligenie.ui.act.AliGeniActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.AgreementActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Agreement"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.view.SelectPicPopupWindow" android:screenOrientation="portrait" android:theme="@style/MyDialogStyleBottom"/>
+        <activity android:launchMode="singleTask" android:name="com.fengeek.f002.VerifyActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.fengeek.f002.CaptureActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.ProductRegistActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.textburn.BurnStartActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.textburn.CreateEarphoneActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.ChooseEarphoneActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.main.heat_info_fragment.customEQ.CustomEQActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.MoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.MoreSetting.FIILT1XSMoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.T1ProMoreSetting.FIILT1ProSMoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.MoreSetting.FIILT1XSWearSensitivityErrorActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.T1ProMoreSetting.FIILT1ProTouchSensitivityActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.MoreSetting.FIILT1XSWearSensitivityActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.CC2MoreSetting.FIILCC2MoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.CGMoreSetting.FIILCGMoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.CGProMoreSetting.FIILCGProMoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.T2ProMoreSetting.FIILT2ProMoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.CCnanoMoreSetting.FIILCCnanoMoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.CC2MoreSetting.FIILCC2TouchSensitivityActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.T1LiteMoreSetting.FIILT1LiteMoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.CCProMoreSetting.FIILCCProMoreSettingActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.BlueConnectActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.SuccessRegistActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.HeatSetDetailActivty" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.about.view.AboutActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.WebActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.textburn.BurnTimeActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.ChangeSkinActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.QAActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.XieyiActivity" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.PlaylistActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.fengeek.f002.MusicWarehouseActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.AllMusicListActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.EnjoyMusiclistActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.MusicTransportActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="com.fengeek.f002.BaiduSpeekActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.AlertActivity" android:screenOrientation="portrait" android:theme="@style/AlertDialogCustom"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.SportDetailActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.HealthyActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.RunningActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.fengeek.f002.HeatRateSportActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.fengeek.f002.HeartHistoryActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.fengeek.f002.AllFragmentActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.fengeek.f002.HeartFragmentActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:launchMode="singleTop" android:name="com.fengeek.f002.HeartWearActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.fengeek.f002.HeartRateActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.downmusic.MusicDownActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.downmusic.MusicListActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.fengeek.music.view.MusicPlayerActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme_NoAnimation"/>
+        <activity android:name="com.downmusic.MusicDetailActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.downmusic.MusicSearchActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.fengeek.hsmusic.HSMusicActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.downmusic.MusicHomeActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.fengeek.sport.FiilCaratSportActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:launchMode="singleTop" android:name="com.xunfei.SearchShowActivity" android:theme="@style/dialog_activity"/>
+        <activity android:name="com.fengeek.musicset.view.MusicSetActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.fengeek.f002.ProtocolRequestActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.fengeek.f002.DialogActivity" android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"/>
+        <activity android:name="com.fengeek.duer.BindBaiDuAccountActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.fengeek.duer.DuerSettingActivity"/>
+        <activity android:launchMode="singleInstance" android:name="com.fengeek.duer.DuerChatActivity" android:screenOrientation="portrait" android:theme="@style/NormalTheme"/>
+        <activity android:name="com.fengeek.duer.MusicListActivity"/>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="d5cbb6c916a591aae9105fadd1d9894b"/>
+        <meta-data android:name="UMENG_APPKEY" android:value="557a4b1a67e58e1b9b0023cc"/>
+        <meta-data android:name="UMENG_MESSAGE_SECRET" android:value="9e36f0befdb205a5f344be2bfa5ec8bf"/>
+        <meta-data android:name="UMENG_CHANNEL" android:value="umeng"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="2b51299008ebaee36666311113afc77e75744a48"/>
+        <provider android:authorities="com.fengeek.f002.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <receiver android:label="@string/app_name" android:name="com.fengeek.widget.AppInstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.textburn.burn.AlarmReceiver">
+            <intent-filter>
+                <action android:name="FENGFAN_CLOCK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.fengeek.receiver.BootStartReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.fengeek.music.MusicPlayerServer$MediaButtonReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="true" android:name="com.fengeek.bluetoothserver.BlueToothService"/>
+        <service android:name="com.amap.api.location.APSService"/>
+        <service android:name="com.fengeek.service.SplashInfoService"/>
+        <service android:enabled="true" android:name="com.textburn.SoundService">
+            <intent-filter>
+                <action android:name="com.angel.Android.MUSIC"/>
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.fengeek.service.CountService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.fengeek.service.ScanSDcardService"/>
+        <service android:name="com.fengeek.music.MusicPlayerServer"/>
+        <service android:name="com.downmusic.down.DownService">
+            <intent-filter>
+                <action android:name="com.downmusic.down.downtaskadd"/>
+                <action android:name="com.downmusic.down.resumestarttask"/>
+                <action android:name="com.downmusic.down.startalltask"/>
+                <action android:name="com.downmusic.down.multidowntaskadd"/>
+                <action android:name="com.downmusic.down.pausetask"/>
+                <action android:name="com.downmusic.down.pausealltask"/>
+                <action android:name="com.downmusic.down.cacletask"/>
+                <action android:name="com.downmusic.down.caclealltask"/>
+                <action android:name="com.downmusic.down.pauseparttask"/>
+                <action android:name="com.downmusic.down.cancleparttask"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.fiil.sdk.connection.MyFiilReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.bluetooth.device.action.FOUND"/>
+                <action android:name="android.bluetooth.device.action.BOND_STATE_CHANGED"/>
+                <action android:name="android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.baidu.duer.dcs.duerlink.DlpClient"/>
+        <service android:exported="false" android:name="com.baidu.duer.dcs.duerlink.DiscoveryClient"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name="com.alibaba.sdk.android.feedback.windvane.CustomHybirdActivity" android:screenOrientation="portrait" android:theme="@style/ali_feedback_contentoverlay" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name="com.alibaba.sdk.android.feedback.impl.ErrorPageActivity" android:screenOrientation="portrait" android:theme="@style/ali_feedback_contentoverlay"/>
+        <service android:name="com.alibaba.mtl.appmonitor.AppMonitorService"/>
+        <provider android:authorities="com.fengeek.f002.alifb_fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.alibaba.sdk.android.feedback.util.FBFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/alifb_provider_paths"/>
+        </provider>
+        <activity android:enabled="false" android:icon="@drawable/block_canary_icon" android:label="@string/display_activity_label" android:name="com.github.moduth.blockcanary.ui.DisplayBlockActivity" android:taskAffinity="com.github.moduth.blockcanary" android:theme="@style/block_canary_BlockCanary.Base">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

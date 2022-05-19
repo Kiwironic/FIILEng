@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_baidu1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@id/tv_baidu2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@id/tv_baidu3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Button android:id="@id/btn_baidu1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start loop" />
+    <Button android:id="@id/btn_baidu2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Screenshot" />
+    <Button android:id="@id/btn_init" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Initialize Microsoft" />
+</LinearLayout>

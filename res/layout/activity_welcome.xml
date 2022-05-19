@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/we_constraint" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/we_launcher_rl" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/we_launcher_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/welcome_logo1" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/we_opurl_img" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@mipmap/welcome_logo1" android:scaleType="centerCrop" />
+        <SurfaceView android:id="@id/we_video_sf" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <Button android:textSize="15.0sp" android:textColor="@android:color/white" android:id="@id/we_voice_btn" android:background="@null" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="50.0dip" android:layout_marginTop="@dimen/margin_9dp" android:layout_marginRight="@dimen/margin_9dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <Button android:textSize="15.0sp" android:textColor="@android:color/white" android:id="@id/we_video_skip" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_9dp" android:layout_marginBottom="@dimen/margin_9dp" android:text="@string/welcom_skip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/welcome_permission_ll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/time_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/access_page_use" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/time_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/access_page_need" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+            <RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="100.0dip" android:layout_height="80.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/iv_permission_storage" android:layout_centerHorizontal="true" />
+                <TextView android:textColor="@color/time_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/access_page_storage" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="vertical" android:layout_width="100.0dip" android:layout_height="80.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/iv_permission_phone" android:layout_centerHorizontal="true" />
+                <TextView android:textColor="@color/time_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/access_page_phone" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <Button android:textColor="@android:color/white" android:id="@id/welcome_next_btn" android:background="@mipmap/button1" android:layout_width="178.0dip" android:layout_height="47.0dip" android:layout_marginTop="50.0dip" android:text="@string/next" />
+    </LinearLayout>
+</RelativeLayout>

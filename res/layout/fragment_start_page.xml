@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:background="@mipmap/start_pager_logo" android:layout_width="280.0dip" android:layout_height="280.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@mipmap/iv_login_logo" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <Button android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_pager_start" android:background="@drawable/start_page_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/my_start" />
+        <RelativeLayout android:id="@id/rl_login_agreement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/iv_login_frame" android:background="@mipmap/iv_wel_frame2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+            <TextView android:textColor="@color/heart_record_text" android:id="@id/tv_login_agree" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/login_aggrement" android:layout_toRightOf="@id/iv_login_frame" android:layout_centerVertical="true" />
+            <TextView android:textColor="@color/heart_record_text" android:id="@id/tv_login_agree1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/login_aggrement_privacy" android:layout_toRightOf="@id/tv_login_agree" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

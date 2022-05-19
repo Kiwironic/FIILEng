@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/full_operation_description_lineaLayout1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <ImageView android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@mipmap/quan_neng_chao" android:scaleType="fitCenter" />
+                <TextView android:textSize="15.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="The Full Control Mode will allow left and right earbuds to control volume and sound track switching." />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="350.0dip" android:layout_marginTop="25.0dip" android:src="@drawable/fiilcgpro_contro" />
+            <TextView android:textSize="15.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="8.0dip" android:text="After &quot;Full Control Mode&quot;is turned on, it will be more convenient to control playback and other operations. However it may also increase the probability of accidental touch." />
+            <Button android:textColor="#ff069adc" android:id="@id/full_operation_click" android:background="@drawable/control_mode_btn_bg" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="OK" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/style_back1" android:background="@drawable/xs_home_bg" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                <RelativeLayout android:id="@id/full_operation" android:layout_height="44.0dip" style="@style/RelativeLayout_MusicSetting_home">
+                    <ImageView android:id="@id/iv_full_operation_outside" android:background="@mipmap/quan_neng_chao" style="@style/fragment_set_img" />
+                    <TextView android:text="@string/CC_Setting_Quanchaozuo" android:layout_toRightOf="@id/iv_full_operation_outside" style="@style/TextView_MoreSetting_Little" />
+                    <FrameLayout android:id="@id/fl_full_operation" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                        <ImageView android:id="@id/iv_full_operation" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                    </FrameLayout>
+                </RelativeLayout>
+                <TextView android:id="@id/full_operation_detailText1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="10.0dip" android:text="Headset is set to easy mode by default (double-click to play/pause, answer/hang up, control MAF ANC adjustment). Turning on this function will allow headset to adjust volume and switch next/previous track." />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/style_back2" android:background="@drawable/xs_home_bg" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                <RelativeLayout android:id="@id/cc_low_latency" android:layout_height="44.0dip" style="@style/RelativeLayout_MusicSetting_home">
+                    <ImageView android:id="@id/iv_cc_low_latency_outside" android:background="@mipmap/cc_low_latency" style="@style/fragment_set_img" />
+                    <TextView android:text="@string/CC_Setting_LowLatencyMode" android:layout_toRightOf="@id/iv_cc_low_latency_outside" style="@style/TextView_MoreSetting_Little" />
+                    <FrameLayout android:id="@id/fl_cc_low_latency" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                        <ImageView android:id="@id/iv_cc_low_latency" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                    </FrameLayout>
+                </RelativeLayout>
+                <TextView android:id="@id/cc_low_latency_detailText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="10.0dip" android:text="@string/CC_Setting_LowLatencyModeDetail" />
+                <LinearLayout android:orientation="vertical" android:id="@id/low_latency_back_linearlayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="90.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/movie_linearLayout1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <ImageView android:id="@id/movie_imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/cc_game" />
+                            <TextView android:id="@id/movie_textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Game mode" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/movie_linearLayout2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <ImageView android:id="@id/movie_imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/cc_music_select" />
+                            <TextView android:textColor="#ff069adc" android:id="@id/movie_textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Music mode" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/movie_linearLayout3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <ImageView android:id="@id/movie_imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/cc_movie" />
+                            <TextView android:id="@id/movie_textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Video mode" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+                            <TextView android:id="@id/low_latency_title_textView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Music mode" android:layout_weight="1.0" />
+                            <TextView android:textSize="8.0sp" android:gravity="right" android:id="@id/low_latency_zhu_textView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" android:layout_weight="1.0" />
+                        </LinearLayout>
+                        <TextView android:textSize="9.0sp" android:id="@id/low_latency_detail_textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="For the best sound quality experience use the default music mode." android:layout_marginStart="8.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/style_back9" android:background="@drawable/custom_bg" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                <RelativeLayout android:layout_height="50.0dip" style="@style/RelativeLayout_MusicSetting_home">
+                    <ImageView android:id="@id/custom_keys_imageV" android:src="@drawable/t1pro_custom_keys" style="@style/fragment_set_img" />
+                    <TextView android:text="Custom button function" android:layout_toEndOf="@id/custom_keys_imageV" style="@style/TextView_MoreSetting_Little" />
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="You can customize the function implemented by the headset by pressing the middle (press and hold for 2s)." android:layout_marginStart="18.0dip" android:layout_marginEnd="10.0dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="18.0dip">
+                    <RelativeLayout android:id="@id/custom_rl1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/custom_iamgeV1" android:layout_width="17.0dip" android:layout_height="18.0dip" android:src="@drawable/t1pro_maf" android:layout_centerVertical="true" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ff565656" android:id="@id/custom_tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MAF" android:layout_centerVertical="true" android:layout_marginStart="13.0dip" android:layout_toEndOf="@id/custom_iamgeV1" />
+                        <TextView android:textSize="20.0px" android:textColor="#ff565656" android:layout_gravity="end|center|top" android:id="@id/custom_tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="TM" android:layout_toEndOf="@id/custom_tv1" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ff565656" android:gravity="center" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="ANC adjustment (ANC / Ambient)" android:layout_centerVertical="true" android:layout_toEndOf="@id/custom_tv2" />
+                        <ImageView android:id="@id/custom_circle1" android:layout_width="30.0dip" android:layout_height="19.0dip" android:src="@drawable/t1pro_maf_select" android:layout_centerVertical="true" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/custom_rl2" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="8.0dip">
+                        <ImageView android:id="@id/custom_iamgeV2" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/t1pro_noise" android:layout_marginStart="45.0dip" />
+                        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="ANC mode - Toggle" android:layout_marginStart="14.0dip" android:layout_toEndOf="@id/custom_iamgeV2" />
+                        <FrameLayout android:id="@id/custom_circle2_fl" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+                            <ImageView android:id="@id/custom_circle2" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                        </FrameLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="center_vertical" android:id="@id/custom_rl3" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="8.0dip">
+                        <ImageView android:id="@id/custom_iamgeV3" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ccpro_open" android:layout_marginStart="45.0dip" />
+                        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="Ambient Mode - Toggle" android:layout_marginStart="15.0dip" android:layout_toEndOf="@id/custom_iamgeV3" />
+                        <FrameLayout android:id="@id/custom_circle3_fl" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+                            <ImageView android:id="@id/custom_circle3" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                        </FrameLayout>
+                    </RelativeLayout>
+                    <TextView android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginEnd="10.0dip" />
+                    <RelativeLayout android:id="@id/custom_rl1_breeze" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                        <ImageView android:id="@id/custom_iamgeV1_breeze" android:layout_width="17.0dip" android:layout_height="18.0dip" android:src="@drawable/t1pro_maf" android:layout_centerVertical="true" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ff565656" android:id="@id/custom_tv1_breeze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MAF" android:layout_centerVertical="true" android:layout_marginStart="13.0dip" android:layout_toEndOf="@id/custom_iamgeV1_breeze" />
+                        <TextView android:textSize="20.0px" android:textColor="#ff565656" android:layout_gravity="end|center|top" android:id="@id/custom_tv2_breeze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="TM" android:layout_toEndOf="@id/custom_tv1_breeze" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ff565656" android:gravity="center" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="ANC adjustment (wind /voice)" android:layout_centerVertical="true" android:layout_toEndOf="@id/custom_tv2_breeze" />
+                        <ImageView android:id="@id/custom_circle1_breeze" android:layout_width="30.0dip" android:layout_height="19.0dip" android:src="@drawable/t1pro_maf_unselect" android:layout_centerVertical="true" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/custom_rl2_breeze" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="8.0dip">
+                        <ImageView android:id="@id/custom_iamgeV2_breeze" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ccpro_wind" android:layout_marginStart="45.0dip" />
+                        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="Wind Mode - Toggle" android:layout_marginStart="15.0dip" android:layout_toEndOf="@id/custom_iamgeV2_breeze" />
+                        <FrameLayout android:id="@id/custom_circle2_breeze_fl" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+                            <ImageView android:id="@id/custom_circle2_breeze" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                        </FrameLayout>
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="center_vertical" android:id="@id/custom_rl3_breeze" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="10.0dip">
+                        <ImageView android:id="@id/custom_iamgeV3_breeze" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/t1pro_listen" android:layout_marginStart="45.0dip" />
+                        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="Voice mode - Toggle" android:layout_marginStart="15.0dip" android:layout_toEndOf="@id/custom_iamgeV3_breeze" />
+                        <FrameLayout android:id="@id/custom_circle3_breeze_fl" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+                            <ImageView android:id="@id/custom_circle3_breeze" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                        </FrameLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="-1.0dip" android:layout_marginRight="10.0dip">
+                <TextView android:textSize="@dimen/content_text_14sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/custom_left_ear" android:background="@drawable/ccpro_headset_select" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="Left ear" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/content_text_14sp" android:textColor="#ff888888" android:gravity="center" android:id="@id/custom_right_ear" android:background="@drawable/ccpro_headset_unselect" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="Right ear" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/xs_home_bg" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                <RelativeLayout android:id="@id/voice" android:layout_height="44.0dip" style="@style/RelativeLayout_MusicSetting_home">
+                    <ImageView android:id="@id/voice_imageView" android:background="@drawable/voice" style="@style/fragment_set_img" />
+                    <TextView android:text="Activate voice assistant" android:layout_toEndOf="@id/voice_imageView" style="@style/TextView_MoreSetting_Little" />
+                    <FrameLayout android:id="@id/voice_frameLayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+                        <ImageView android:id="@id/siwtch_imageView" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                    </FrameLayout>
+                </RelativeLayout>
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="After turning on, tap the headset 4 times to wake up the voice assistant function supported by the system." android:layout_marginStart="18.0dip" android:layout_marginEnd="10.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/xs_home_bg" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                <RelativeLayout android:id="@id/device" android:layout_height="44.0dip" style="@style/RelativeLayout_MusicSetting_home">
+                    <ImageView android:id="@id/device_imageView" android:background="@drawable/ccpro_bluetooth_switch" style="@style/fragment_set_img" />
+                    <TextView android:text="Bluetooth device switching" android:layout_toEndOf="@id/device_imageView" style="@style/TextView_MoreSetting_Little" />
+                    <FrameLayout android:id="@id/device_frameLayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+                        <ImageView android:id="@id/deviceSiwtch_imageView" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                    </FrameLayout>
+                </RelativeLayout>
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="After turning on, press and hold for 4 seconds until the second beep (single beep) and then release, the headset will switch to the last connected device." android:layout_marginStart="18.0dip" android:layout_marginEnd="10.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/style_back6" android:background="@drawable/xs_home_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+                <RelativeLayout android:id="@id/rl_moreset_four" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                    <ImageView android:id="@id/iv_moreset_four" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/setting_fiil_update" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                    <TextView android:textColor="#ff565656" android:id="@id/tv_update_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/moreset_updte" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/iv_moreset_four" />
+                    <TextView android:id="@id/tv_moreset_four" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/moreset_arrow" android:layout_centerVertical="true" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/style_back7" android:background="@drawable/xs_home_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <RelativeLayout android:id="@id/rl_moreset_five" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                    <ImageView android:id="@id/iv_moreset_five" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/setting_fiil_set" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+                    <TextView android:textColor="#ff565656" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/moreset_setting" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/iv_moreset_five" />
+                    <ImageView android:id="@id/iv_moreset_five_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/moreset_arrow" android:layout_centerVertical="true" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:twopoint="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/include_tittle" layout="@layout/activity_head_black" />
+    <View android:id="@id/blue_line" android:background="@color/music_select_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/include_tittle" />
+    <RelativeLayout android:id="@id/rl_blun_conning" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/blue_line">
+        <ImageView android:id="@id/iv_constep1_lan1" style="@style/ImageView_Connect_constep1" />
+        <ImageView android:id="@id/iv_constep1_lan3" android:background="@drawable/iv_bluedriifter" style="@style/ImageView_Connect_constep1" />
+        <ImageView android:id="@id/iv_constep1_lan2" style="@style/ImageView_Connect_constep1" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/time_color" android:id="@id/tv_count_down" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/iv_constep1_la" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:layout_weight="3.0" />
+            <RelativeLayout android:id="@id/rl_bluecon_mesage" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="50.0dip" android:layout_weight="2.0">
+                <cn.feng.skin.manager.view.TwoPointLinkView android:id="@id/iv_bluecon_poit" android:layout_width="11.0dip" android:layout_height="90.0dip" android:layout_marginLeft="40.0dip" twopoint:progressColor="@color/colorPrimary" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/blue_connect_text" android:id="@id/tv_bluecon_intro1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/bluepoit1" android:layout_toRightOf="@id/iv_bluecon_poit" android:layout_alignTop="@id/iv_bluecon_poit" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/blue_connect_text" android:id="@id/tv_bluecon_intro2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="@string/bluepoit2" android:layout_toRightOf="@id/iv_bluecon_poit" android:layout_alignBottom="@id/iv_bluecon_poit" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:id="@id/tv_connecting_mode" android:layout_width="wrap_content" android:layout_height="41.0dip" android:text="@string/connect_seach_mode" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_blun_conned" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/blue_line">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_bluecon" android:background="@mipmap/iv_blconed_ear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="22.0sp" android:textColor="@color/blue_connect_text" android:layout_gravity="center_horizontal" android:id="@id/tv_bluecon_complete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="60.0dip" android:text="@string/blueconned" android:layout_below="@id/iv_bluecon" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <Button android:textSize="15.0sp" android:textColor="@color/colorPrimary" android:id="@id/btn_bluecon_register" android:background="@mipmap/button3_line_blue" android:layout_width="260.0dip" android:layout_height="41.0dip" android:layout_marginBottom="20.0dip" android:text="@string/bluebound" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+    </RelativeLayout>
+</RelativeLayout>

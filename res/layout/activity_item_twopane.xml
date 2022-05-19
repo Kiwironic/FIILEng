@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:baselineAligned="false" android:divider="?android:dividerHorizontal" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.umeng.fb.example.ConversationListFragment" android:id="@id/item_list" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/item_detail_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" />
+</LinearLayout>

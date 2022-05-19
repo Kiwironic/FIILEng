@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="FatigueTest">
+        <item>Fatigue has recovered</item>
+        <item>Fatigue has not recovered</item>
+    </string-array>
+    <string-array name="RestingRate">
+        <item>Excellent</item>
+        <item>Excellent</item>
+        <item>General</item>
+        <item>Poor</item>
+        <item>Very poor</item>
+    </string-array>
+    <string-array name="broadcast_interval">
+        <item>Warm up</item>
+        <item>Burning Fat</item>
+        <item>Cardio Workout</item>
+        <item>Anaerobic endurance exercise</item>
+        <item>Strong burst workout</item>
+    </string-array>
+    <string-array name="broadcast_text">
+        <item>moved</item>
+        <item>Current heart rate %s</item>
+        <item>Average heart rate %s</item>
+        <item>Current heart rate zone</item>
+        <item>distance%s kilometer</item>
+        <item>Pace %s per kilometer</item>
+        <item>Step rate %s steps per minute</item>
+        <item>Speed ​​%s kilometer per hour</item>
+        <item>calorie consumption %s kcal</item>
+        <item>calorie consumption rate %s kcal per hour</item>
+        <item>Current oxygen uptake %s</item>
+    </string-array>
+    <string-array name="burnremind">
+        <item>Don\'t listen to music loudly in the initial stage, it may permanently damage the hurt headphones! </item>
+        <item>A good thing takes a lot of work, and the slow cooker makes a good sound! </item>
+        <item>You can listen to some music at a lower volume when the machine is turned off! </item>
+        <item> is almost done, do you feel refreshed? </item>
+        <item> is almost done, do you feel refreshed? </item>
+    </string-array>
+    <string-array name="burnstart">
+        <item>"For best results and to avoid damage to the headset,
+Please do not adjust the volume during the middle of the burn-in process"</item>
+        <item>Every 75 minutes, the machine will automatically stop for 5 minutes</item>
+        <item>If you choose to execute 3 times automatically, it will take about 8 hours</item>
+        <item>"The complete burn-in schedule needs to be played for 3000 minutes.
+Divided into 4 stages, the volume increases with the stage"</item>
+        <item>The software can run in the background when the machine is powered down</item>
+        <item>Disconnect the headset and stop immediately, without worrying about making noise to other people</item>
+        <item>"Pink noise for burn-in, yes
+The most common full-band noise in nature"</item>
+        <item>"Pink noise compared to other commonly used burn-in
+The sound efficiency is slightly higher, and the three frequencies are more uniform"</item>
+    </string-array>
+    <string-array name="burntime_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="condetail_title">
+        <item>Details</item>
+        <item>Other chapters</item>
+    </string-array>
+    <string-array name="down_quality">
+        <item>memory card 1</item>
+        <item>Memory Card 2</item>
+        <item>Memory Card 3</item>
+    </string-array>
+    <string-array name="search_assistant">
+        <item>Voice search song</item>
+        <item>Follow the system</item>
+    </string-array>
+    <string-array name="search_duer">
+        <item>Smart Voice assistant</item>
+        <item>Follow the system</item>
+    </string-array>
+    <string-array name="search_language">
+        <item>Priority middle text</item>
+        <item>English is preferred</item>
+    </string-array>
+    <string-array name="search_online">
+        <item>Available under mobile network</item>
+        <item>Only Wi-Fi available</item>
+    </string-array>
+    <string-array name="search_quality">
+        <item>Normal</item>
+        <item>HD</item>
+        <item>Lossless</item>
+    </string-array>
+    <string-array name="search_stop">
+        <item>Continue Play in local mode</item>
+        <item>stop</item>
+    </string-array>
+    <string-array name="select_professional_option">
+        <item>Sales/Customer Service/Marketing/PR</item>
+        <item>Finance/Human Resources/Administration</item>
+        <item>IT/Internet/Communication</item>
+        <item>Property/Building</item>
+        <item>Trade/Transportation/Tourism/Logistics</item>
+        <item>Production/Manufacturing</item>
+        <item>Media/Entertainment</item>
+        <item>Education</item>
+        <item>Student</item>
+        <item>Legal/Translator/Consultant</item>
+        <item>Government/Public Service</item>
+        <item>Agriculture/Environmental Protection/Scientific Research</item>
+        <item>Service/Catering/Medical/Housekeeping</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="share_axis">
+        <item>Heart rate (beats/min)</item>
+        <item>distance(kilometer)</item>
+        <item>time/second</item>
+        <item>Average heart rate (beats/min)</item>
+        <item>Heart Rate Zone</item>
+        <item>Oxygen uptake (ml/kg/min)</item>
+        <item>Pace (min)</item>
+        <item>Average pace (per kilometer)</item>
+        <item>Speed ​​(kilometer/hour)</item>
+        <item>Average speed (kilometer/hour)</item>
+        <item>cadence (step/min)</item>
+        <item>Calorie consumption (Kcal)</item>
+        <item>mileage (kilometer)</item>
+    </string-array>
+    <string-array name="sport_display_bicycle_mode">
+        <item>Current heart rate (bpm)</item>
+        <item>distance(kilometer)</item>
+        <item>Exercise time</item>
+        <item>Heart Rate Zone</item>
+        <item>Oxygen uptake (ml/kg/min)</item>
+        <item>Pace (per kilometer)</item>
+        <item>Average pace (per kilometer)</item>
+        <item>Speed ​​(kilometer/hour)</item>
+        <item>Average speed (kilometer/hour)</item>
+        <item>Calorie consumption (kcal)</item>
+    </string-array>
+    <string-array name="sport_display_hickey_mode">
+        <item>Current heart rate (bpm)</item>
+        <item>Exercise time</item>
+        <item>Heart Rate Zone</item>
+        <item>Oxygen uptake (ml/kg/min)</item>
+        <item>Calorie consumption (kcal)</item>
+    </string-array>
+    <string-array name="sport_display_indoor_mode">
+        <item>Current heart rate (bpm)</item>
+        <item>distance(kilometer)</item>
+        <item>Exercise time</item>
+        <item>Heart Rate Zone</item>
+        <item>Oxygen uptake (ml/kg/min)</item>
+        <item>Pace (per kilometer)</item>
+        <item>Speed ​​(kilometer/hour)</item>
+        <item>cadence (times/min)</item>
+        <item>Calorie consumption (kcal)</item>
+    </string-array>
+    <string-array name="sport_display_step_mode">
+        <item>Current heart rate (bpm)</item>
+        <item>distance(kilometer)</item>
+        <item>Exercise time</item>
+        <item>Heart Rate Zone</item>
+        <item>Oxygen uptake (ml/kg/min)</item>
+        <item>Pace (per kilometer)</item>
+        <item>Average pace (per kilometer)</item>
+        <item>Speed ​​(kilometer/hour)</item>
+        <item>Average speed (kilometer/hour)</item>
+        <item>cadence (times/min)</item>
+        <item>Calorie consumption (kcal)</item>
+    </string-array>
+    <string-array name="timing">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>Unlimited</item>
+    </string-array>
+   <string-array name="timingF008">
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>4 hours</item>
+        <item>Unlimited</item>
+    </string-array>
+    <string-array name="umeng_fb_tabs_title">
+        <item>User Feedback</item>
+        <item>FAQ</item>
+    </string-array>
+    <string-array name="voice_frequency">
+        <item>press distance</item>
+        <item>By time</item>
+    </string-array>
+    <string-array name="voice_frequency_not">
+        <item>Press distance* (not available in current mode)</item>
+        <item>By time</item>
+    </string-array>
+    <string-array name="voice_sport_distances">
+        <item>per 1 kilometer</item>
+        <item>every 2 kilometer</item>
+        <item>every 3 kilometer</item>
+        <item>every 5 kilometer</item>
+    </string-array>
+    <string-array name="voice_sport_time">
+        <item>every 3 minutes</item>
+        <item>every 5 minutes</item>
+        <item>Every 10 minutes</item>
+    </string-array>
+    <string-array name="jiangzao_array">
+        <item>ANC</item>
+        <item>Normal</item>
+        <item>Voice</item>
+    </string-array>
+    <string-array name="jie_shao_text">
+        <item>Set Up Headphones Q&amp;A</item>
+        <item>Boiler Headphones Q&amp;A</item>
+        <item>Use Agreement</item>
+    </string-array>
+    <string-array name="playLights">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="playSound">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="playVibrate">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="repeatingUnit">
+        <item>year</item>
+        <item>month</item>
+        <item>Day</item>
+        <item>hours</item>
+        <item>minutes</item>
+        <item>seconds</item>
+    </string-array>
+    <string-array name="screenOn">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="specialDay">
+        <item></item>
+        <item>New Year\'s Day</item>
+        <item>New Year\'s Eve</item>
+        <item>Spring Festival</item>
+        <item>Lantern Festival</item>
+        <item>Qingming Festival</item>
+        <item>Labor Day</item>
+        <item>Dragon Boat Festival</item>
+        <item>Qixi Festival</item>
+        <item>middle Autumn Festival</item>
+        <item>National Day</item>
+        <item>Chongyang Festival</item>
+        <item>Laba Festival</item>
+    </string-array>
+    <string-array name="style_array">
+        <item>Bass shock</item>
+        <item>Natural Original sound</item>
+        <item>Treble transparent</item>
+    </string-array>
+    <string-array name="voide_array">
+        <item>Close</item>
+        <item>Grand Theater</item>
+        <item>Small Theater</item>
+        <item>Living room</item>
+    </string-array>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/include2" layout="@layout/activity_head_black" />
+    <View android:id="@id/view" android:background="@color/color_line_dede" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/include2" />
+    <ScrollView android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/view">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/back_linearLayout_xs" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/include2">
+            <LinearLayout android:paddingLeft="20.0dip" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@mipmap/t1_xs_wear_sensitivity" />
+                <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Set wear sensor" android:fontFamily="PingFangSC-Medium" />
+            </LinearLayout>
+            <LinearLayout android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0sp" android:gravity="center" android:background="@drawable/xs_wear_senso_error_bg" android:layout_width="16.0dip" android:layout_height="16.0dip" android:text="1" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="FIIL T1 XSUse biocapacitive sensing to detect whether the headset is worn. As shown below, the sensing position is located at the bottom of the underside of the earbuds. Please first make sure to choose the appropriate size earplugs/ear wings, and then slightly rotate them toward the inside to fit them in place." android:lineSpacingExtra="9.0dip" android:fontFamily="PingFangSC-Regular" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="135.0dip" android:layout_height="200.0dip" android:src="@mipmap/t1_xs_wear_error" />
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@mipmap/t1_xs_wear_error1" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Size and wearing error" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip">
+                    <ImageView android:layout_width="135.0dip" android:layout_height="200.0dip" android:src="@mipmap/t1_xs_wear_success" />
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                        <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@mipmap/t1_xs_wear_success1" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Correct size and wear" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:paddingLeft="15.0dip" android:paddingTop="14.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0sp" android:gravity="center" android:background="@drawable/xs_wear_senso_error_bg" android:layout_width="16.0dip" android:layout_height="16.0dip" android:text="2" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Please try to adjust the induction sensitivity level by level from low to high, until it displays [Worn], that is, the wearing induction adjustment is completed." android:lineSpacingExtra="9.0dip" android:fontFamily="PingFangSC-Regular" />
+            </LinearLayout>
+            <LinearLayout android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0sp" android:gravity="center" android:background="@drawable/xs_wear_senso_error_bg" android:layout_width="16.0dip" android:layout_height="16.0dip" android:text="3" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Wrong sensitivity settings may cause confusion in the ear detection function, or cause some unnecessary misoperations, you can restore the default settings." android:lineSpacingExtra="9.0dip" android:fontFamily="PingFangSC-Regular" />
+            </LinearLayout>
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/go_adjust_textview" android:background="@drawable/xs_wear_sensor_bg" android:layout_width="165.0dip" android:layout_height="40.0dip" android:layout_marginTop="30.0dip" android:text="Go to adjustment" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

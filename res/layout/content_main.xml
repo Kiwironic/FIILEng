@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fengeek.view.MyLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/main_top" />
+    <include layout="@layout/view_line" />
+    <LinearLayout android:orientation="vertical" android:id="@id/vm_music_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.fengeek.view.MyFrameLayout android:id="@id/contain_fragment" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.fengeek.view.MyLinearLayout>

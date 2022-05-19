@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/in_healthy_title" layout="@layout/activity_head_button" />
+    <View android:id="@id/view_healthy_top" android:background="@color/music_select_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/in_healthy_title" />
+    <ViewFlipper android:id="@id/viewFlipper" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/view_healthy_top">
+        <RelativeLayout android:id="@id/rl_health_one" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/tv_healthy_sex" android:layout_marginTop="30.0dip" android:text="@string/hearlthy_sex" style="@style/TextView_Healthy" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_below="@id/tv_healthy_sex">
+                <View android:id="@id/view_healthy" android:layout_width="2.0dip" android:layout_height="20.0dip" android:layout_centerHorizontal="true" />
+                <RelativeLayout android:id="@id/rl_health_man" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/view_healthy">
+                    <ImageView android:id="@id/iv_healthy_man" android:background="@mipmap/iv_hearth_man" android:layout_width="43.0dip" android:layout_height="67.0dip" android:layout_alignRight="@id/tv_healthy_man" android:layout_alignParentTop="true" android:layout_alignEnd="@id/tv_healthy_man" />
+                    <TextView android:textSize="23.0sp" android:textColor="@color/time_color" android:id="@id/tv_healthy_man" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/hearlthy_man" android:layout_below="@id/iv_healthy_man" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/rl_health_wm" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_toRightOf="@id/view_healthy">
+                    <ImageView android:id="@id/iv_healthy_wm" android:background="@mipmap/iv_hearth_woman" android:layout_width="43.0dip" android:layout_height="67.0dip" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="23.0sp" android:textColor="@color/time_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/hearlthy_woman" android:layout_below="@id/iv_healthy_wm" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:id="@id/view_healthy1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+            <TextView android:id="@id/tv_year" android:text="@string/hearlthy_burn" android:layout_above="@id/view_healthy1" style="@style/TextView_Healthy" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/view_healthy1">
+                <com.fengeek.view.RollView android:id="@id/pv_year" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <com.fengeek.view.RollView android:id="@id/pv_day" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+            <Button android:id="@id/btn_heart_next1" android:text="@string/next" style="@style/Button_Healthy_Bottom" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_health_two" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="20.0sp" android:textColor="@color/time_color" android:id="@id/tv_healthy_height" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/hearlthy_height" android:layout_centerHorizontal="true" style="@style/TextView_Healthy" />
+            <TextView android:textSize="40.0sp" android:textColor="@color/time_color" android:id="@id/tv_healthy_hei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text=" 165cm" android:layout_below="@id/tv_healthy_height" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/tv_healthy_hei">
+                <ImageView android:background="@mipmap/iv_hearth_pointer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+                <com.fengeek.view.HorizontalScaleScrollView android:id="@id/hssv_height" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" app:scale_view_height="8.0dip" app:scale_view_margin="20.0dip" app:scale_view_max="220" app:scale_view_min="50" />
+            </RelativeLayout>
+            <View android:id="@id/view_healthy2" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+            <TextView android:textSize="20.0sp" android:textColor="@color/time_color" android:id="@id/tv_weight" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hearlthy_weight" android:layout_above="@id/view_healthy2" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="40.0sp" android:textColor="@color/time_color" android:id="@id/tv_healthy_wei" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="   50 kg" android:layout_below="@id/view_healthy2" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/tv_healthy_wei">
+                <ImageView android:background="@mipmap/iv_hearth_pointer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+                <com.fengeek.view.HorizontalScaleScrollView android:id="@id/hssv_weight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" app:scale_view_height="8.0dip" app:scale_view_margin="20.0dip" app:scale_view_max="220" app:scale_view_min="20" />
+            </RelativeLayout>
+            <Button android:id="@id/btn_heart_next2" android:text="@string/next" style="@style/Button_Healthy_Bottom" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_health_three" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.fengeek.view.RollView android:id="@id/rv_pace" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_weight="1.0" android:layout_centerInParent="true" />
+            <TextView android:textSize="20.0sp" android:textColor="@color/time_color" android:id="@id/tv_healthy_target" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/hearlthy_target" android:layout_above="@id/rv_pace" android:layout_centerHorizontal="true" style="@style/TextView_Healthy" />
+            <Button android:id="@id/btn_heart_next3" android:text="@string/ok" style="@style/Button_Healthy_Bottom" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_carat" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/rl_carat_conning" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/blue_line">
+                <ImageView android:id="@id/iv_carat_lan1" style="@style/ImageView_Connect_constep1" />
+                <ImageView android:id="@id/iv_carat_lan2" style="@style/ImageView_Connect_constep1" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:layout_weight="3.0" />
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="50.0dip" android:layout_weight="2.0">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/blue_connect_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/healthy_carat_connection" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="19.0sp" android:textColor="@color/blue_connect_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/healthy_carat_connecting" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_carat_conned" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@mipmap/iv_blconed_carat" />
+                    <TextView android:textSize="17.0sp" android:textColor="@color/blue_connect_text" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/heartConnedF007" />
+                </LinearLayout>
+                <Button android:id="@id/btn_carat_connection" android:text="@string/next" style="@style/Button_Healthy_Bottom" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ViewFlipper>
+</RelativeLayout>

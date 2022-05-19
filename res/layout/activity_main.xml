@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fengeek.view.SlidingMenu android:id="@id/slideMenu" android:background="#fff4f4f4" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/menu" layout="@layout/left_menu" />
+    <include android:id="@id/content" layout="@layout/content_main" />
+    <FrameLayout android:id="@id/fl_link_tishi" android:background="#ff888888" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include layout="@layout/layout_heatset_update" />
+</com.fengeek.view.SlidingMenu>

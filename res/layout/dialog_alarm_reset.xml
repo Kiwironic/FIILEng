@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <TextView android:textSize="18.0sp" android:textColor="@color/heatset_textcolor" android:layout_gravity="center_horizontal" android:id="@id/tv_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/warm" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/gray" android:gravity="center" android:id="@id/tv_info" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/heatset_reset" />
+    <View android:background="#ffe9e9e9" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textColor="@color/gray" android:id="@id/btn_reset_cancel" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" android:textAllCaps="false" />
+        <View android:background="@color/burn_top_name_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:textColor="@color/colorPrimary" android:id="@id/btn_reset_ok" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" android:textAllCaps="false" skin:enable="true" />
+    </LinearLayout>
+</LinearLayout>

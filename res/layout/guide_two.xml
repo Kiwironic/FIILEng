@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_guide_two" android:layout_width="300.0dip" android:layout_height="450.0dip" android:layout_centerHorizontal="true" />
+    <LinearLayout android:id="@id/ll_guide_allow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/iv_guide_two" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/rl_guide_check" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@mipmap/iv_wel_frame" />
+            <ImageView android:id="@id/iv_guide_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/iv_wel_check" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:id="@id/tv_guide_xieyi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+    </LinearLayout>
+    <ImageButton android:id="@id/ib_guide_start" android:background="@mipmap/btn_wel_start1" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/ll_guide_allow" android:layout_centerHorizontal="true" />
+</RelativeLayout>

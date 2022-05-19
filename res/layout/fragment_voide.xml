@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fengeek.view.FractionTranslateLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="420.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_void_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <TextView android:textColor="#ff565656" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/void_not_local" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/rl_void_Provides" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_void_zh" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <TextView android:textColor="#ffb5b5b5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3D sound technology is created by" />
+                    <ImageView android:background="@mipmap/info_3d" android:layout_width="32.0dip" android:layout_height="16.0dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" />
+                    <TextView android:textColor="#ffb5b5b5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Offer" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_void_en" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerVertical="true">
+                    <TextView android:textColor="#ffb5b5b5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3D sound effect is provided by" />
+                    <ImageView android:background="@mipmap/info_3d" android:layout_width="32.0dip" android:layout_height="16.0dip" android:layout_marginLeft="3.0dip" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/rl_normol" android:layout_width="fill_parent" android:layout_height="250.0dip">
+                <FrameLayout android:id="@id/fl_voide_big" android:layout_width="250.0dip" android:layout_height="250.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_btn_big" android:layout_width="250.0dip" android:layout_height="250.0dip" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_btn_big_press" android:layout_width="250.0dip" android:layout_height="250.0dip" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_btn_big_pressBg" android:visibility="invisible" android:layout_width="250.0dip" android:layout_height="250.0dip" />
+                    <TextView android:textSize="@dimen/small_text_size" android:textColor="#ffbbbbbb" android:layout_gravity="center_horizontal" android:id="@id/tv_info_voide_big" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/big" />
+                    <TextView android:textSize="@dimen/small_text_size" android:textColor="@color/info_voide_text_big_text_color" android:layout_gravity="center_horizontal" android:id="@id/tv_info_voide_big_press" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/big" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/fl_voide_small" android:layout_width="190.0dip" android:layout_height="190.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_btn_small" android:layout_width="190.0dip" android:layout_height="190.0dip" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_btn_small_press" android:layout_width="190.0dip" android:layout_height="190.0dip" />
+                    <TextView android:textSize="@dimen/small_text_size" android:textColor="#ffbbbbbb" android:layout_gravity="center_horizontal" android:id="@id/tv_info_voide_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/small" />
+                    <TextView android:textSize="@dimen/small_text_size" android:textColor="@color/info_voide_text_small_text_color" android:layout_gravity="center_horizontal" android:id="@id/tv_info_voide_small_press" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/small" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/fl_voide_living" android:layout_width="130.0dip" android:layout_height="130.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_btn_keting" android:layout_width="130.0dip" android:layout_height="130.0dip" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_btn_keting_press" android:layout_width="130.0dip" android:layout_height="130.0dip" />
+                    <TextView android:textSize="@dimen/small_text_size" android:textColor="#ffbbbbbb" android:layout_gravity="center_horizontal" android:id="@id/tv_info_voide_living" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/keting" />
+                    <TextView android:textSize="@dimen/small_text_size" android:textColor="@color/info_voide_text_living_text_color" android:layout_gravity="center_horizontal" android:id="@id/tv_info_voide_living_press" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/keting" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/fl_voide_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_btn_close" android:layout_width="70.0dip" android:layout_height="70.0dip" />
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_btn_close_press" android:layout_width="70.0dip" android:layout_height="70.0dip" />
+                    <TextView android:textSize="@dimen/small_text_size" android:textColor="#ffbbbbbb" android:layout_gravity="center" android:id="@id/tv_info_voide_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close" />
+                    <TextView android:textSize="@dimen/small_text_size" android:textColor="@color/info_voide_text_colse_text_color" android:layout_gravity="center" android:id="@id/tv_info_voide_close_press" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/close" />
+                </FrameLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.fengeek.view.FractionTranslateLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_music_list" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="#ffededed" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_music_down_top" android:layout_width="fill_parent" android:layout_height="35.0dip">
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/fl_music_down" android:layout_width="35.0dip" android:layout_height="fill_parent">
+                <CheckBox android:layout_gravity="center" android:id="@id/cb_music_down" android:background="@drawable/selector_music_options" android:layout_width="20.0dip" android:layout_height="20.0dip" android:button="@null" />
+            </FrameLayout>
+            <TextView android:textSize="13.0sp" android:textColor="@color/popup_door_store_text_press" android:layout_gravity="center_vertical" android:id="@id/tv_music_down_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/alread_select_music_number" />
+            <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_music_down_start" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="Start all" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip">
+                <ImageView android:id="@id/iv_music_down_manager" android:padding="3.0dip" android:layout_width="25.0dip" android:layout_height="20.0dip" android:src="@mipmap/music_list_manager" />
+                <TextView android:id="@id/tv_music_down_cancel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" />
+            </FrameLayout>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:id="@id/view_music_down" android:background="@color/music_select_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <android.support.v7.widget.RecyclerView android:id="@id/rv_music_house" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/fl_transport_option" android:background="#fff4f4f4" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+            <View android:background="#ffcfcfcf" android:layout_width="fill_parent" android:layout_height="2.0px" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_musiclist_option1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@mipmap/music_transport_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="17.0sp" android:textColor="@color/gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/music_all_transport" android:textAllCaps="false" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:background="#ffcfcfcf" android:layout_width="1.0px" android:layout_height="16.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_musiclist_option2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@mipmap/music_transport_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="17.0sp" android:textColor="@color/gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/music_all_transport" android:textAllCaps="false" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:background="#ffcfcfcf" android:layout_width="1.0px" android:layout_height="16.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_musiclist_option3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:background="@mipmap/music_transport_tab" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="17.0sp" android:textColor="@color/gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/music_all_transport" android:textAllCaps="false" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_music_list_empty" />
+</FrameLayout>

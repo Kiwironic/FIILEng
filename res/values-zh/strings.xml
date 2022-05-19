@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="CC_Setting_LowLatencyMode">Low Latency Mode</string>
+	<string name="CC_Setting_LowLatencyModeDetail">Enable ultra-fast low-latency mode will greatly reduce the latency of video and games, but may increase compatibility risks. Please try to avoid turning this mode on and off while playing. </string>
+	<string name="CC_Setting_PowerSaving">MorpheusSTB power saving optimization</string>
+	<string name="CC_Setting_PowerSavingDetail">Turn on power saving optimization to help extend call time, but may slightly lose call quality. </string>
+	<string name="CC_Setting_Quanchaozuo">Almighty control mode</string>
+	<string name="CC_Setting_QuanchaozuoDetail">The default is standard mode (double tap to play/pause, answer/hang up). After the full operation mode is turned on, the left and right earphones can control the volume and head up and down respectively. </string>
+	<string name="CC_Setting_dsp">DSP sound quality enhancement</string>
+	<string name="CC_Setting_dspDetail">When enabled, it can help improve music resolution and improve listening experience, but may slightly amplify the noise floor of the audio source. </string>
+	<string name="CC_Setting_eq">Custom EQ sound</string>
+	<string name="T1X_Home_ClickSearch">Click Search</string>
+	<string name="T1X_Home_Distance">Distance</string>
+	<string name="T1X_Home_Searching">Searching...</string>
+	<string name="T1X_Home_SelectHeadset">Please select a headset to connect</string>
+	<string name="T1X_MoreSetting_ResumeSynchronization">Resume synchronization</string>
+	<string name="T1X_MoreSetting_ResumeSynchronizationPrompt">Resume synchronization will restart the headset, you may need to synchronize further manually</string>
+	<string name="T1X_MoreSetting_cancel">Cancel</string>
+	<string name="T1X_MoreSetting_confirm">OK</string>
+	<string name="T1X_MoreSetting_remind">Reminder</string>
+	<string name="T1X_MoreSetting_remind_detail">Headset settings will be restored to default, and mobile phone connection information will not be cleared</string>
+	<string name="T1X_Setting_EasyMode">Easy Mode</string>
+	<string name="T1X_Setting_EasyModeDetail">Easy Mode will limit touch operation to double tap (play/pause, answer/hang up) and middle press to call up the voice assistant</string>
+	<string name="T1X_Setting_HighlySensitiveTouchDetail">High touch sensitivity will respond more quickly to touch operations, but may increase misuse</string>
+	<string name="T1X_Setting_HighlySensitiveTouchLeftEar">Highly sensitive touch (left ear)</string>
+	<string name="T1X_Setting_HighlySensitiveTouchRightEar">Highly sensitive touch (right ear)</string>
+	<string name="T1X_Setting_LatestVersion">Updated to latest version</string>
+	<string name="T1X_Setting_LowLatencyMode">Low Latency Mode</string>
+	<string name="T1X_Setting_LowLatencyModeDetail">Low Latency Mode will reduce video playback and game latency, but may increase compatibility risks (do not set while playing audio)</string>
+	<string name="T1X_Setting_unconnect">Unconnected</string>
+	<string name="T1X_Style_MoreSoundEffects">More Sound Effects</string>
+	<string name="T1X_Style_SoundEffect1">Classic</string>
+	<string name="T1X_Style_SoundEffect10">Electronic</string>
+	<string name="T1X_Style_SoundEffect11">Heavy Low</string>
+	<string name="T1X_Style_SoundEffect12">Rhythm</string>
+	<string name="T1X_Style_SoundEffect2">Sir</string>
+	<string name="T1X_Style_SoundEffect3">Gentle</string>
+	<string name="T1X_Style_SoundEffect4">Cinema</string>
+	<string name="T1X_Style_SoundEffect5">Metal</string>
+	<string name="T1X_Style_SoundEffect6">Popular</string>
+	<string name="T1X_Style_SoundEffect7">R&amp;B</string>
+	<string name="T1X_Style_SoundEffect8">Dancing</string>
+	<string name="T1X_Style_SoundEffect9">Rock</string>
+	<string name="T1X_Toast1">Check if bluetooth is on</string>
+	<string name="T1X_Toast2">Auto connect failed</string>
+	<string name="T1X_Toast3">Left ear connection disconnected</string>
+	<string name="T1X_Toast4">Right ear connection disconnected</string>
+	<string name="T1X_Toast5">Auto connecting</string>
+	<string name="UMAppUpdate">App Update</string>
+	<string name="UMBreak_Network">Unconnected</string>
+	<string name="UMDialog_InstallAPK">The latest version has been downloaded, do you want to install it? </string>
+	<string name="UMGprsCondition"> (hint: non-WIFI environment)</string>
+	<string name="UMIgnore">Ignore this version</string>
+	<string name="UMNewVersion">Latest version:</string>
+	<string name="UMNotNow">More later</string>
+	<string name="UMTargetSize">New version size:</string>
+	<string name="UMToast_IsUpdating">Updating....</string>
+	<string name="UMUpdateCheck">2.6.0.1.20150312</string>
+	<string name="UMUpdateContent">Update Content</string>
+	<string name="UMUpdateNow">Update Now</string>
+	<string name="UMUpdateSize">Download only:</string>
+	<string name="UMUpdateTitle">Found new version</string>
+	<string name="XS_Setting_WearSensor">Headphone wearing induction</string>
+	<string name="XS_Setting_WearSensorDetail">After the wearing sensor is turned on, the playback will be paused when the earbuds are removed, and the music playback will be resumed when the earbuds are put on. </string>
+	<string name="about">about</string>
+	<string name="about_agreement_title">fiil+ Software License Agreement</string>
+	<string name="about_duer_notsupport">Voice assistant is not currently supported</string>
+	<string name="about_duer_title">Voice Assistant Settings</string>
+	<string name="about_fill">About fiil+</string>
+	<string name="about_search_language">Identify language</string>
+	<string name="about_search_online">Search songs online</string>
+	<string name="about_search_quality">Search song quality online</string>
+	<string name="about_search_quea">Online playback quality</string>
+	<string name="about_search_stop">Play ends</string>
+	<string name="about_search_tittle">Voice search song setting</string>
+	<string name="about_use_liuliang_linstenr">Use 2G/3G/4G data to play</string>
+	<string name="about_voice_assistant">Voice Assistant</string>
+	<string name="access_page_location">Location information</string>
+	<string name="access_page_need">In order to use FIIL+ normally, the following permissions are required</string>
+	<string name="access_page_phone">Phone information</string>
+	<string name="access_page_storage">Storage information</string>
+	<string name="access_page_use">Get started with FIIL+</string>
+	<string name="action_feedback">Feedback</string>
+	<string name="action_new_conversation">New Conversation</string>
+	<string name="action_settings">Settings</string>
+	<string name="action_shouming">Function FAQ</string>
+	<string name="actionbar_activity_not_found">Failed to open intent...</string>
+	<string name="add_enjoy_by_look">Browsing status cannot use "favorite" function</string>
+	<string name="add_enjoy_promit">Login</string>
+	<string name="add_local_notification">New</string>
+	<string name="add_music">Local Music</string>
+	<string name="after_music">Next</string>
+	<string name="after_sales_service_details">After-sales service details, please read</string>
+	<string name="after_sales_service_policy">"Fiil Headphones After-sales Service Policy"</string>
+	<string name="age">age</string>
+	<string name="aims_step">goal %1$d step</string>
+	<string name="all_list_music">All music</string>
+	<string name="all_music">All music</string>
+	<string name="all_pause">Pause all</string>
+	<string name="all_start">Start all</string>
+	<string name="all_the_search">Everyone is searching</string>
+	<string name="allow_agreement">I have read and agree to the Software License Agreement</string>
+	<string name="alread_bind_headset">Binding Headset</string>
+	<string name="alread_select_music_number">Selected (%1$d first)</string>
+	<string name="already_burn_time">burned in</string>
+	<string name="anc_button">ANC</string>
+	<string name="anc_switch">Switch ANC</string>
+	<string name="app_name">fiil+</string>
+	<string name="audiition_and_download">Audition and download</string>
+	<string name="audiition_and_lrc">Cover image and lyrics</string>
+	<string name="auto_clean">Auto Clean</string>
+	<string name="auto_match_lrc_and_pic">Auto-match cover art and lyrics</string>
+	<string name="avg_speed">Average speed (kph)</string>
+	<string name="back">back</string>
+	<string name="back_download">Background download</string>
+	<string name="befour_music">Previous</string>
+	<string name="begin">Begin</string>
+	<string name="best_enjoy">My Favorite</string>
+	<string name="big">Grand Theatre</string>
+	<string name="bind_new_headset">Bind new headset</string>
+	<string name="blueNext">Skip</string>
+	<string name="blue_to_set">Enter phone settings</string>
+	<string name="bluebound">Bind new headset</string>
+	<string name="bluecomplete">complete</string>
+	<string name="blueconned">FIIL Wireless connected</string>
+	<string name="blueconnedF005">FIIL Diva Pro connected</string>
+	<string name="blueconnedF006">FIIL Carat connected</string>
+	<string name="blueconnedF007">FIIL Carat M connected</string>
+	<string name="blueconnedF008">FIIL Diva connected</string>
+	<string name="blueconnedF009">FIIL Vox connected</string>
+	<string name="blueconnedF011">FIIL Driifter Pro connected</string>
+	<string name="blueconning">Pairing</string>
+	<string name="bluef006poit1">"Long press the multi-function button in the off state until the headset Say match"</string>
+	<string name="bluef006poit2">Blue indicator flashes frequently</string>
+	<string name="blueloading">loading...</string>
+	<string name="bluepoit1">"Long press the button on the bottom right of the headset when the headset is turned off, until the headset Say match"</string>
+	<string name="bluepoit2">FIIL light flashes frequently</string>
+	<string name="bluesearch">Search headset</string>
+	<string name="bluetooth_dis">Your bluetooth headset is disconnected</string>
+	<string name="bound_ear_success">Serial number bound successfully</string>
+	<string name="broadcast_heart_interval2">Current heart rate zone: fat burning</string>
+	<string name="broadcast_heart_interval3">Current heart rate zone: aerobic exercise</string>
+	<string name="broadcast_heart_interval4">Current heart rate zone: anaerobic endurance exercise</string>
+	<string name="broadcast_heart_interval5">Current heart rate zone: intense burst exercise</string>
+	<string name="btn_enter">Enter</string>
+	<string name="btn_start">Start burn-in</string>
+	<string name="builderSetting">Notification style setting</string>
+	<string name="burn_compleat">The burn-in has been completed</string>
+	<string name="burn_heatset_burning">In progress</string>
+	<string name="burn_heatset_pause">Pause</string>
+	<string name="burn_heatset_total_time">Total 3000 minutes</string>
+	<string name="burn_name">burn headphones</string>
+	<string name="burn_toast_tixing">reminder</string>
+	<string name="burn_update_name">Please modify the project name</string>
+	<string name="burncreate_bestie">My FIIL Bestie Headphones</string>
+	<string name="burncreate_blue">Bluetooth Mode</string>
+	<string name="burncreate_cancel">Cancel</string>
+	<string name="burncreate_carat">My FIIL Carat headset</string>
+	<string name="burncreate_cc">My FIIL CC headset</string>
+	<string name="burncreate_cg">My FIIL CG headset</string>
+	<string name="burncreate_conning">Please connect your FIIL Wireless headset! </string>
+	<string name="burncreate_dialog_tittle">Name the new progress</string>
+	<string name="burncreate_diva">My FIIL Diva headset</string>
+	<string name="burncreate_driifter">My FIIL Drifter Headphones</string>
+	<string name="burncreate_exist">The burn-in progress of this FIIL Wireless already exists. If you need to start from scratch, delete the progress first</string>
+	<string name="burncreate_exist_carat">The burn-in progress of this FIIL Carat already exists. If you need to start from scratch, delete the progress first</string>
+	<string name="burncreate_exist_diva">The burn-in progress of this FIIL Diva already exists. If you need to start from scratch, delete the progress first</string>
+	<string name="burncreate_exist_driifter">The burn-in progress of this FIIL Driifter already exists. If you need to start from scratch, delete the progress first</string>
+	<string name="burncreate_f004">My FIIL Diva headset</string>
+	<string name="burncreate_fiil">My FIIL headset</string>
+	<string name="burncreate_huo">Series Headphones</string>
+	<string name="burncreate_line">Wired Mode</string>
+	<string name="burncreate_other">Other headset</string>
+	<string name="burncreate_runner">My FIIL Runner headset</string>
+	<string name="burncreate_setting">settings</string>
+	<string name="burncreate_t">My FIIL T Headphones</string>
+	<string name="burncreate_t2">My FIIL T2 headset</string>
+	<string name="burncreate_tittle">Select headset type</string>
+	<string name="burncreate_wireless">My FIIL Headphones</string>
+	<string name="burning_unclick">burning in, please stop and try again</string>
+	<string name="burnpager_add">Click "+" to create</string>
+	<string name="burnpager_empty">List is empty</string>
+	<string name="burnre_noear">Headphone not connected</string>
+	<string name="burnre_one">This is for you</string>
+	<string name="burnre_two">burned in</string>
+	<string name="burnstart_fourtage">Stage Four</string>
+	<string name="burnstart_okbtn">Stop and exit</string>
+	<string name="burnstart_onestage">First stage</string>
+	<string name="burnstart_onetime">First time</string>
+	<string name="burnstart_stopmes">This burn-in has not been completed, but the burn-in that has been carried out will be saved</string>
+	<string name="burnstart_stoptittle">Stop this burn-in? </string>
+	<string name="burnstart_threestage">third stage</string>
+	<string name="burnstart_threetime">third time</string>
+	<string name="burnstart_twostage">second stage</string>
+	<string name="burnstart_twotime">Second time</string>
+	<string name="burnstart_volume">Volume</string>
+	<string name="burntime_fri">Five</string>
+	<string name="burntime_mon">one</string>
+	<string name="burntime_sat">Six</string>
+	<string name="burntime_save">save</string>
+	<string name="burntime_setday">Set reminder date</string>
+	<string name="burntime_settime">Set reminder time</string>
+	<string name="burntime_sun">day</string>
+	<string name="burntime_thu">four</string>
+	<string name="burntime_tittle">Set reminder</string>
+	<string name="burntime_tue">Two</string>
+	<string name="burntime_wed">Three</string>
+	<string name="calibration_day">%s days ago</string>
+	<string name="calibration_month">%s months ago</string>
+	<string name="calibration_run_text1">Calibrating the running sensor allows you to calculate running distance and speed more accurately when you are running indoors or without fiil+. </string>
+	<string name="calibration_run_text2">You can use recorded data from outdoor runs to calibrate the headset\'s running sensor. </string>
+	<string name="calibration_today">today</string>
+	<string name="calibration_walk_day">Last calibration: %s days ago</string>
+	<string name="calibration_walk_month">Last calibration: %s months ago</string>
+	<string name="calibration_walk_text1">Calibrating the walking sensor allows you to calculate the walking distance and speed more accurately when you are walking indoors or without fiil+. </string>
+	<string name="calibration_walk_text2">You can use recorded data from outdoor walks to calibrate the headset\'s walk sensor. </string>
+	<string name="calibration_walk_today">Last calibration: today</string>
+	<string name="calibration_walk_use">Calibrate with motion recording</string>
+	<string name="calibration_walk_week">Last calibration: %s weeks ago</string>
+	<string name="calibration_walk_year">Last calibration: %s years ago</string>
+	<string name="calibration_week">%s weeks ago</string>
+	<string name="calibration_year">%s years ago</string>
+	<string name="cancel">Cancel</string>
+	<string name="cancel_collection_fail">Cancel collection failed</string>
+	<string name="cancelled">Cancelled</string>
+	<string name="capture_error">Please enter the correct serial number</string>
+	<string name="changeSkin_exist">Please confirm if the skin pack exists</string>
+	<string name="changeSkin_fail">Switch failed</string>
+	<string name="changeSkin_inspect">Please check</string>
+	<string name="changeSkin_success">Switch successfully</string>
+	<string name="change_black">Deep Black</string>
+	<string name="change_blue">Ice Blue</string>
+	<string name="change_color">Change theme</string>
+	<string name="change_red">Brilliant red</string>
+	<string name="channel_critical">Critical events</string>
+	<string name="channel_default">Default events</string>
+	<string name="channel_importance">Importance events</string>
+	<string name="channel_low">Low events</string>
+	<string name="channel_media">Media events</string>
+	<string name="charging">charging</string>
+	<string name="charging_finish">%1$s minutes charged</string>
+	<string name="check_ele">Check battery</string>
+	<string name="check_state">Check status</string>
+	<string name="checking">Checking...</string>
+	<string name="checking_rhythm">Checking heart rate...</string>
+	<string name="choose_ear_introduce">This version is not available yet, please wait</string>
+	<string name="choose_ear_look">Just take a look</string>
+	<string name="choose_ear_shop">Visit fiil online shop</string>
+	<string name="choose_ear_tittle">Choose earphone model</string>
+	<string name="choose_no_control">The function control of %1$s is not supported, it will go to the "Music" page by default. </string>
+	<string name="choose_no_control_and_nosupport">The function control of %1$s is not supported, take you to the "Services" page</string>
+	<string name="choose_not_stand">Current fiil+ version not supported</string>
+	<string name="choosef001">FIIL</string>
+	<string name="choosef001_09">FIIL</string>
+	<string name="choosef002">FIIL</string>
+	<string name="choosef003">Bestie</string>
+	<string name="choosef004">Diva Wired</string>
+	<string name="choosef005">Diva</string>
+	<string name="choosef006">Carat</string>
+	<string name="choosef008">Diva</string>
+	<string name="choosef009">FIIL</string>
+	<string name="choosef020">Runner</string>
+	<string name="choosef17">T1</string>
+	<string name="clean">clean</string>
+	<string name="clean_all_item">Clear All</string>
+	<string name="clean_history">Clear History</string>
+	<string name="clear_local_notification">clear</string>
+	<string name="click_link">Click to link</string>
+	<string name="click_refresh">Click to refresh</string>
+	<string name="click_requet">Click to retry</string>
+	<string name="close">close</string>
+	<string name="close_manage">Close</string>
+	<string name="collection">Collection</string>
+	<string name="collection_fail">Collection failed</string>
+	<string name="collection_success">Collection success</string>
+	<string name="collectioned">Collected</string>
+	<string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+	<string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+	<string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+	<string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+	<string name="com_facebook_like_button_liked">Liked</string>
+	<string name="com_facebook_like_button_not_liked">Like</string>
+	<string name="com_facebook_loading">Loading...</string>
+	<string name="com_facebook_loginview_cancel_action">Cancel</string>
+	<string name="com_facebook_loginview_log_in_button">Login</string>
+	<string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+	<string name="com_facebook_loginview_log_out_action">Sign out</string>
+	<string name="com_facebook_loginview_log_out_button">Sign out</string>
+	<string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+	<string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+	<string name="com_facebook_requesterror_password_changed">Your Facebook password has changed.</string>
+	<string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+	<string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+	<string name="com_facebook_send_button_text">Send</string>
+	<string name="com_facebook_share_button_text">Share</string>
+	<string name="com_facebook_tooltip_default">"New! You\'re in control - choose what info you want to share with apps."</string>
+	<string name="common">CommonActivity</string>
+	<string name="connect_seach_mode">Searching for nearby %1$s</string>
+	<string name="consulting">Consulting</string>
+	<string name="content">Content</string>
+	<string name="continue_keep">Keep Keeping</string>
+	<string name="correct_value_error">This exercise headset is not worn throughout the whole process, and some exercise data is missing, so the headset sensor cannot be calibrated using this data. </string>
+	<string name="create_local_notification">Add</string>
+	<string name="custom_activity">Custom UI</string>
+	<string name="custom_platform_share">Custom Platform Share</string>
+	<string name="day">Day</string>
+	<string name="default_run_jiaozhun">Run sensor reset to default</string>
+	<string name="default_walk_jiaozhun">Walk sensor reset to default</string>
+	<string name="defaults">Defaults</string>
+	<string name="delete">Delete</string>
+	<string name="delete_burn_top">Delete this burn-in progress? </string>
+	<string name="delete_butn_info">The burn-in progress cannot be recovered after deletion</string>
+	<string name="delete_error">Delete data failed</string>
+	<string name="delete_faile">Delete failed %1$d first</string>
+	<string name="delete_hint">Delete selected %1$d music? </string>
+	<string name="delete_record">Delete this data</string>
+	<string name="delete_share_data">Delete this data</string>
+	<string name="deleting">Deleting file, please wait</string>
+	<string name="detail_info">Basic information</string>
+	<string name="dialog_connected_cancle">Stop Search</string>
+	<string name="dialog_connected_ok">Connected after disconnect</string>
+	<string name="dialog_connected_scan">enter</string>
+	<string name="dialog_conneted_f002">FIIL Wireless is connected, enter this model page? </string>
+	<string name="dialog_conneted_f005">FIIL Diva Pro is already connected, enter this model page? </string>
+	<string name="dialog_conneted_f005_2">FIIL Diva2 Pro is connected, enter this model page? </string>
+	<string name="dialog_conneted_f006">FIIL Carat is connected, enter this model page? </string>
+	<string name="dialog_conneted_f007">FIIL Carat M is already connected to this model page? </string>
+	<string name="dialog_conneted_f008">FIIL Diva is already connected, enter this model page? </string>
+	<string name="dialog_conneted_f008_2">FIIL Diva2 is already connected, enter this model page? </string>
+	<string name="dialog_conneted_f009">FIIL Vox is connected, enter this model page? </string>
+	<string name="dialog_conneted_f011">FIIL Driifter Pro is connected, enter this model page? </string>
+	<string name="dialog_conneted_f020">FIIL Runner is already connected, enter this model page? </string>
+	<string name="dialog_conneted_f021">FIIL CC is connected, enter this model page? </string>
+	<string name="dialog_connected_f022">FIIL T1 X is already connected, enter this model page? </string>
+	<string name="dialog_connected_f026">FIIL T1 XS is already connected, enter this model page? </string>
+	<string name="dialog_conneted_f027">FIIL T1 Pro is connected, enter this model page? </string>
+	<string name="dialog_conneted_f028">FIIL CC Pro is already connected, enter this model page? </string>
+	<string name="dialog_connected_f029">FIIL T1 Lite is already connected, enter this model page? </string>
+	<string name="dialog_conneted_f030">FIIL CC2 is connected, enter this model page? </string>
+	<string name="dialog_connected_f031">FIIL CG is connected, enter this model page? </string>
+	<string name="dialog_conneted_f033">FIIL CG Pro is connected, enter this model page? </string>
+	<string name="dialog_conneted_f035">FIIL T2 Pro is connected, enter this model page? </string>
+	<string name="dialog_conneted_f037">FIIL CC nano is connected, enter this model page? </string>
+	<string name="dialog_conneted_other"> Your headset does not support FIIL+ connection and will take you to the Services page . </string>
+	<string name="dialog_conneted_scan"> enter </string>
+	<string name="dialog_conneting_f002">" Find a FIIL Wireless , Go to this model page? "</string>
+	<string name="dialog_conneting_f005">" Find a FIIL Diva Pro , Go to this model page? "</string>
+	<string name="dialog_conneting_f005_2">" Find a FIIL Diva2 Pro , Go to this model page? "</string>
+	<string name="dialog_conneting_f006">" Find a FIIL Carat , Go to this model page? "</string>
+	<string name="dialog_conneting_f007">" Find a FIIL Carat M , Go to this model page? "</string>
+	<string name="dialog_conneting_f008">" Find a FIIL Diva ,  Go to this model page? "</string>
+	<string name="dialog_conneting_f008_2">" Find a FIIL Diva2 , Go to this model page? "</string>
+	<string name="dialog_conneting_f009">" Find a FIIL Vox , Go to this model page? "</string>
+	<string name="dialog_conneting_other">" Search for a new headset, But this version does not support your headset model! "</string>
+	<string name="dialog_connetted_f002">"To connect FIIL Wireless , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f005">"To connect FIIL Diva Pro , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f005_2">"To connect FIIL Diva2 Pro , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f006">"To connect FIIL Carat , the current headset must be disconnected first. Music playback may be paused, continue ? "</string>
+	<string name="dialog_connetted_f007">"To connect FIIL Carat M , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f008">"To connect FIIL Diva , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f008_2">"To connect FIIL Diva2 , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f009">"To connect FIIL Vox , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f011">"To connect FIIL Driifter pro , you must disconnect the current headset first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f020">"To connect FIIL Runner , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f021">"To connect FIIL CC , the current headset must be disconnected first . Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f022">"To connect FIIL T1 X , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f026">"To connect FIIL T1 XS , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f027">"To connect FIIL T1 Pro , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f029">"To connect FIIL T1 Lite , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f030">"To connect FIIL CC2 , the current headset must be disconnected first. Music playback may be paused, continue? "</string>
+	<string name="dialog_connetted_f031">"The current headset must be disconnected to connect %s . Music playback may be paused, continue? "</string>
+	<string name="dialog_maximum_message"> Modifying your maximum heart rate will affect the accuracy of your data while exercising . Non- experts recommend using the default value: %1$d</string>
+	<string name="dialog_maximum_tittle"> Manually set maximum heart rate </string>
+	<string name="dialog_maximum_tittle_warn"> Your manual maximum heart rate is not within a reasonable range. Using this value will seriously affect the accuracy of the motion data, are you sure? </string>
+	<string name="dialog_resting_message"> Modifying your resting heart rate can affect the accuracy of your data while exercising . Non- experts recommend using the default value: %1$d</string>
+	<string name="dialog_resting_tittle"> Manually set resting heart rate </string>
+	<string name="dialog_resting_tittle_warn"> The resting heart rate you set manually is not within a reasonable range. Using this value will seriously affect the accuracy of the motion data, are you sure? </string>
+	<string name="dialog_tittle_cancel"> Return to modify </string>
+	<string name="dialog_tittle_ok"> Confirm settings </string>
+	<string name="disconnect_bluetooth"> Please disconnect other bluetooth devices </string>
+	<string name="diva_maf_control"> On / Off MAF</string>
+	<string name="diva_moni_mode"> Monitor Mode </string>
+	<string name="diva_nc_mode"> ANC mode </string>
+	<string name="diva_open_mode"> Ambient Mode </string>
+	<string name="diva_power_control"> On / Off </string>
+	<string name="diva_pro">FIIL Diva Pro</string>
+	<string name="diva_pro1_2">FIIL Diva1/2 Pro</string>
+	<string name="diva_pro2">FIIL Diva2 Pro</string>
+	<string name="diva_wind_mode">Wind Mode</string>
+	<string name="diva_wired">FIIL Diva Wired</string>
+	<string name="divapro_all_love"> all / favorites list </string>
+	<string name="divapro_ear_phone"> Local / Bluetooth switch </string>
+	<string name="divapro_nc_mode"> Open / Listen / Noise </string>
+	<string name="divapro_order_random"> order / random switch </string>
+	<string name="dont_use_voide"> local mode unavailable </string>
+	<string name="double_click"> double click </string>
+	<string name="double_exit"> Click the return key again to exit !</string>
+	<string name="download"> download </string>
+	<string name="download_cancle"> Cancel download </string>
+	<string name="download_completed"> download complete </string>
+	<string name="download_data_fail"> Failed to load data </string>
+	<string name="download_fail"> Download failed </string>
+	<string name="download_fiil"> Downloading fiil+</string>
+	<string name="download_manager"> Download Manager </string>
+	<string name="download_music_hint"> The song %d will be downloaded , are you sure to download it </string>
+	<string name="download_now"> download now </string>
+	<string name="download_path"> download path </string>
+	<string name="download_quea"> download quality </string>
+	<string name="download_set"> download settings </string>
+	<string name="downloaded"> downloaded </string>
+	<string name="downloading"> Downloading </string>
+	<string name="dummy_button">Dummy Button</string>
+	<string name="dummy_content">"DUMMYCONTENT"</string>
+	<string name="ear_status_on_time"> Real-time broadcast of sports status </string>
+	<string name="ele_low_10">Less than 10% battery</string>
+	<string name="ele_music">Listen to the song </string>
+	<string name="ele_set"> Battery </string>
+	<string name="end_one_way"> End one-way exercise </string>
+	<string name="error">Error</string>
+	<string name="evernote_share">Evernote Share </string>
+	<string name="every"> every </string>
+	<string name="everyday_step"> Daily exercise goal </string>
+	<string name="exclusive_content"> Exclusive content </string>
+	<string name="f001_QA" formatted="false">"1. When the ANC is turned on , the battery indicator on the lower left side is always on, and the color indicates the remaining battery power:
+ Green light: >80% battery
+ Yellow light: 10%~80% battery
+ Red light: &lt;10% battery
+
+2. Working time when the battery is fully charged:
+ ANC off , medium volume, fiil light off : about 50 hours
+ ANC on, medium volume, fiil light always on: about 32 hours
+
+3. After the battery is fully charged, the indicator light goes out;
+
+4. When the battery is exhausted, the ANC function is unavailable, and the headphones can still listen to music. "</string>
+	<string name="f002_QA" formatted="false">"1. Click the button on the lower right when powering on, and the color of the battery indicator on the lower left indicates the remaining battery power:
+ Green light: >80% battery
+ Yellow light: 20%~80% battery
+ Red light: 10%~20% battery
+ Blinking red: &lt;10% battery
+
+2. After the battery is fully charged, the indicator light goes out;
+
+3. When the battery is exhausted, Bluetooth, ANC and other functions are not available, you can still listen to music by plugging in the headphone audio cable.
+
+The Bluetooth of FIIL Wireless can connect up to 2 mobile phones / computers / Bluetooth devices at the same time, but can only receive music or calls from one of them at the same time;
+
+5. " Also listening " mode means that when FIIL Wireless is not playing sound , you can clearly hear the surrounding sounds without removing the headphones;
+
+6. Any sound from the connected device (music, phone, ringtone, prompt tone) will temporarily interrupt the " listen " mode; it will resume automatically after the sound stops ;
+
+7. " HD Voice " can significantly improve call quality when using network voice chat (for example: WeChat voice chat, QQ phone, Skype call , etc.), mobile phone and carrier network support VoLTE call. "</string>
+	<string name="f005_QA" formatted="false">"1. Click the button when powering on, the power indicator on the right shows the power;
+ Green light: >80% battery
+ Yellow light: 20 %～ 80% battery
+ Red light: 10 %～ 20% battery
+ Blinking red: &lt;10% battery
+
+2. After the battery is fully charged, the indicator light goes out;
+
+3. When the battery is exhausted, functions such as Bluetooth and MAF* are unavailable, and you can still listen to music by plugging in the headphone audio cable.
+
+The Bluetooth of FIIL Diva Pro can connect up to 2 mobile phones / computers / Bluetooth devices at the same time, but can only receive music or calls from 1 of them at the same time;
+
+5. " HD Voice " can significantly improve call quality when using network voice chat (such as WeChat voice chat, QQ phone, Skype calls , etc.), mobile phones and carrier networks support VoLTE calls.
+
+*MAF is the abbreviation of My AudioFiilter and is a registered trademark ( TM ) of Fengfan (Beijing) Technology Co., Ltd. "</string>
+	<string name="f006_QA" formatted="false">"1. Click the wire-controlled multi-function key when powering on, and the indicator light will display the power;
+ Green light: >80% battery
+ Yellow light: 20 %～ 80% battery
+ Red light: 10 %～ 20% battery
+ Blinking red: &lt;10% battery
+
+2. After the battery is fully charged, the indicator light goes out;
+
+The Bluetooth of FIIL Carat can connect up to 2 mobile phones / computers / Bluetooth devices at the same time, but can only receive music or calls from 1 of them at the same time;
+
+4. FIIL SDS* intelligent equalizer technology , which dynamically matches the sound effects based on your pace during exercise.
+
+5. The distance and metabolic calorie consumption of one-way exercise are calculated from the data in the FIIL Carat sensor. In order to ensure the accuracy of the data, please keep the headset properly worn during exercise;
+
+*FIIL SDS is the abbreviation of " FIIL Speed-Dependent-Sound" and is a registered trademark ( TM ) of Fengfan (Beijing) Technology Co., Ltd. "</string>
+	<string name="f008_QA" formatted="false">"1. Click the button when power on, the power indicator on the right shows the power;
+ Green light: >80% battery
+ Yellow light: 20 %～ 80% battery
+ Red light: 10 %～ 20% battery
+ Blinking red: &lt;10% battery
+
+2. After the battery is fully charged, the indicator light goes out;
+
+3. When the battery is exhausted, functions such as Bluetooth and MAF* are unavailable, and you can still listen to music by plugging in the headphone audio cable.
+
+The Bluetooth of FIIL Diva can connect up to 2 mobile phones / computers / Bluetooth devices at the same time, but can only receive music or calls from 1 of them at the same time;
+
+5. " HD Voice " can significantly improve call quality when using network voice chat (such as WeChat voice chat, QQ phone, Skype calls , etc.), mobile phones and carrier networks support VoLTE calls.
+
+*MAF is the abbreviation of My AudioFiilter and is a registered trademark ( TM ) of Fengfan (Beijing) Technology Co., Ltd. "</string>
+	<string name="f009_QA" formatted="false">"1. Click the button on the lower right when powering on, and the color of the battery indicator on the lower left indicates the remaining battery power:
+ Green light: >80% battery
+ Yellow light: 20%~80% battery
+ Red light: 10%~20% battery
+ Blinking red: &lt;10% battery
+
+2. After the battery is fully charged, the indicator light goes out;
+
+3. When the battery is exhausted and the Bluetooth function is unavailable, you can still listen to music by plugging in the headphone audio cable.
+
+The Bluetooth of FIIL Vox can connect up to 2 mobile phones / computers / Bluetooth devices at the same time, but can only receive music or calls from 1 of them at the same time;
+
+5. " HD Voice " can significantly improve call quality when using network voice chat (for example: WeChat voice chat, QQ phone, Skype calls , etc.), mobile phones and carrier networks support VoLTE calls. "</string>
+	<string name="facebook_app_id">1062184643852957</string>
+	<string name="fast"> fastest :</string>
+	<string name="fast_forward"> fast forward </string>
+	<string name="fast_rewind"> fast rewind </string>
+	<string name="fatigue_heart1"> Heart rate is the easiest indicator to assess exercise-induced fatigue. </string>
+	<string name="fatigue_heart2"> When the body function is normal , the heart rate of waking up in the morning and lying down before getting up is relatively stable, close to the resting heart rate. If you have exercised , after a night of rest, the heart rate in the next morning is significantly higher than usual, and it may be accompanied by muscle and joint pain, which is considered to be fatigue accumulation. If the increase continues for several consecutive days, it is recommended to adjust the exercise intensity and reduce the physical load. </string>
+	<string name="fatigue_heart3"> Please measure within 5 minutes of waking up in the morning and lying still before waking up . </string>
+	<string name="fb_app_id">567261760019884</string>
+	<string name="fb_fragment_activity"> Use SDK Fragment</string>
+	<string name="fb_login">Facebook login </string>
+	<string name="fb_logout">Facebook logout </string>
+	<string name="fb_share">Facebook Share </string>
+	<string name="feedback_contact_info"> Contact information </string>
+	<string name="feedback_contact_title"> Contact information (mobile phone number / email /QQ , etc. optional) </string>
+	<string name="feedback_please_photo"> Photo </string>
+	<string name="feedback_please_select_picture"> select from album </string>
+	<string name="feedback_press_speech"> press to speak </string>
+	<string name="feedback_release_cancel"> Release finger to cancel sending </string>
+	<string name="feedback_send"> Send </string>
+	<string name="feedback_slide_up_cancel"> Swipe up to cancel sending </string>
+	<string name="feedback_title"> User Feedback </string>
+	<string name="feekback_for_voide"> Feedback message </string>
+	<string name="fiil06_line"> play / pause / answer / hang up / active connection </string>
+	<string name="fiil_carat">FIIL Carat</string>
+	<string name="fiil_carat_lite">FIIL Carat Lite</string>
+	<string name="fiil_carat_lite_music"> Music </string>
+	<string name="fiil_carat_m">FIIL Carat M</string>
+	<string name="fiil_cc">FIIL CC</string>
+	<string name="fiil_cc2">FIIL CC2</string>
+	<string name="fiil_cc_pro">FIIL CC Pro</string>
+	<string name="fiil_cg">FIIL CG</string>
+	<string name="fiil_cg_pro">FIIL CG Pro</string>
+	<string name="fiil_diva">FIIL Diva</string>
+	<string name="fiil_diva1_2">FIIL Diva1/2</string>
+	<string name="fiil_diva2">FIIL Diva2</string>
+	<string name="fiil_driifter">FIIL Driifter</string>
+	<string name="fiil_driifter_dnc">FIIL Driifter DNC</string>
+	<string name="fiil_driifter_dnc_plus">FIIL Driifter DNC Plus</string>
+	<string name="fiil_driifter_nc">FIIL Driifter Nc</string>
+	<string name="fiil_driifter_pro">FIIL Driifter Pro</string>
+	<string name="fiil_lamp">FIIL灯</string>
+	<string name="fiil_panel">FIIL灯面板</string>
+	<string name="fiil_runner">FIIL Runner</string>
+	<string name="fiil_smart">让 f i i l 耳 机 更 智 能</string>
+	<string name="fiil_t1">FIIL T1</string>
+	<string name="fiil_t1_lite">FIIL T1 Lite</string>
+	<string name="fiil_t1_pro">FIIL T1 Pro</string>
+	<string name="fiil_t1_x">FIIL T1 X</string>
+	<string name="fiil_t1_xs">FIIL T1 XS</string>
+	<string name="fiil_temp_color">FIIL灯颜色</string>
+	<string name="fiil_temp_set">FIIL灯设置</string>
+	<string name="fiil_vox">FIIL VOX</string>
+	<string name="file_no_exist"> File does not exist, please download again </string>
+	<string name="file_no_qualifed"> Upgrade package verification failed ( click to download again )</string>
+	<string name="fill">FIIL</string>
+	<string name="fill_bestie">FIIL Bestie</string>
+	<string name="fill_bestie_music"> Music </string>
+	<string name="fill_common_operation"> Common operation </string>
+	<string name="fill_error_impact"> Incorrect information may affect the service content </string>
+	<string name="fill_line"> Headphone line control </string>
+	<string name="fill_music"> Music </string>
+	<string name="fill_wireless">FIIL Wireless</string>
+	<string name="find"> find </string>
+	<string name="finish"> finish </string>
+	<string name="flags">Flags</string>
+	<string name="flickr_content">Flickr only supports image sharing </string>
+	<string name="flickr_no_client"> Flickr client is not installed </string>
+	<string name="flickr_no_content"> Please set share content </string>
+	<string name="flickr_share">flickr share </string>
+	<string name="flickr_showword">Flickr</string>
+	<string name="floatingwindow_permision_not_obtained"> Your phone is not authorized Fiil+ to obtain floating window permission </string>
+	<string name="flow_audiition"> Use 2G/3G/4G traffic to audition? </string>
+	<string name="flow_audiition_ok"> Flow audition </string>
+	<string name="flow_down"> Flow download </string>
+	<string name="flow_down_music"> Download using 2G/3G/4G traffic ? </string>
+	<string name="flow_down_music_ok"> Flow download </string>
+	<string name="flow_listener"> Flow audition </string>
+	<string name="follow_hr">Follow Heart Rate </string>
+	<string name="follow_music">Follow Music </string>
+	<string name="followsystem"> Follow system </string>
+	<string name="foursquare_content">Foursquare only supports pure image sharing </string>
+	<string name="foursquare_no_client"> Foursquare client is not installed </string>
+	<string name="foursquare_share">FourSquare Share </string>
+	<string name="foursquare_showword">Foursquare</string>
+	<string name="fragment_sport_Date"> Switch the current display data </string>
+	<string name="framwork_download_success"> Update firmware has been downloaded </string>
+	<string name="free_flow"> Free flow </string>
+	<string name="friday"> Friday </string>
+	<string name="fuhao_star">*</string>
+	<string name="game">GameActivity</string>
+	<string name="go_server"> go server </string>
+	<string name="goto_common"> Common Activity</string>
+	<string name="goto_facebook"> Add Facebook Share </string>
+	<string name="goto_game"> Game Activity</string>
+	<string name="goto_video"> Shake video screenshot Activity</string>
+	<string name="gps_sign_weak"> Poor GPS signal, motion data will be inaccurate </string>
+	<string name="have_updata"> Have an update </string>
+	<string name="headphones_not_wear"> Headphones are not well worn, please check them </string>
+	<string name="healthy_carat_connecting"> Connecting FIIL Carat M</string>
+	<string name="healthy_carat_connection"> Please connect FIIL Carat M for more settings </string>
+	<string name="hearlthy_burn"> Your date of birth? </string>
+	<string name="hearlthy_height"> Your height? </string>
+	<string name="hearlthy_man"> Male </string>
+	<string name="hearlthy_sex"> Your gender ? </string>
+	<string name="hearlthy_skip_reminder"> Completing the profile can make the data results more accurate, skip ?</string>
+	<string name="hearlthy_target"> Your daily goal ? </string>
+	<string name="hearlthy_tittle"> My Body Information </string>
+	<string name="hearlthy_weight"> Your weight? </string>
+	<string name="hearlthy_woman"> female </string>
+	<string name="heartConnedF007"> Next, it will guide you to adjust the wearing of FIIL Carat M way to prevent the sports earphones from falling off. </string>
+	<string name="heart_eara_persent"> heart rate zone </string>
+	<string name="heart_fatigue_test"> Fatigue Test </string>
+	<string name="heart_maximum_rate"> Measure maximum heart rate </string>
+	<string name="heart_rate_area"> heart rate zone </string>
+	<string name="heart_rate_tittle"> Body Detection </string>
+	<string name="heart_record_tittle"> Test record </string>
+	<string name="heart_resting_rate"> Measure resting heart rate </string>
+	<string name="heart_run_tittle"> Calibrate walk sensor </string>
+	<string name="heart_sensor_run"> Sensor calibration run </string>
+	<string name="heart_sensor_walk"> Sensor Calibration Walk </string>
+	<string name="heart_share_info"> Exercise Details </string>
+	<string name="heart_vo2_average"> General </string>
+	<string name="heart_vo2_excellent"> Excellent </string>
+	<string name="heart_vo2_fair"> Poor </string>
+	<string name="heart_vo2_good"> good </string>
+	<string name="heart_vo2_poor"> Very poor </string>
+	<string name="heart_walk_tittle"> Calibrate running sensor </string>
+	<string name="heart_wear_four"> Coming soon to determine if the headset can detect your heart rate </string>
+	<string name="heart_wear_move"> Please turn your head left and right to see if the wear is firm and the heart rate detection is stable. </string>
+	<string name="heart_wear_now"> Current heart rate </string>
+	<string name="heart_wear_one"> In order to ensure that your heart rate and other sports data can be accurately recorded during exercise, and to obtain the best music and wearing experience, please wear FIIL Carat M correctly and comfortably</string>
+	<string name="heart_wear_progress"> Please wear headphones and keep still during heart rate monitoring. If the heart rate is not displayed for a long time, please adjust the wearing again. </string>
+	<string name="heart_wear_progressed"> Heart rate detected </string>
+	<string name="heart_wear_three">2. Please choose the appropriate size of ear tips and ear wings, and install the ear hooks according to your habit. You can rotate the earphones properly for a better fit. </string>
+	<string name="heart_wear_tittle"> Adjust wear </string>
+	<string name="heart_wear_two">1. Please pay attention to identify the left and right earbuds when wearing : the wire control is on the right side, and the heart rate sensor is on the left side. The earphone cable should be wrapped around the back of the neck when worn. </string>
+	<string name="heartrate"> heart rate </string>
+	<string name="heat_regist"> Register now </string>
+	<string name="heatset_alread_regist"> registered </string>
+	<string name="heatset_and_phone_ele_low"> Your headset and phone are running low </string>
+	<string name="heatset_ele_low"> Your headset is running low </string>
+	<string name="heatset_link_chong">The upgrade is successful, please reconnect the headset! </string>
+	<string name="heatset_no_regist"> Not registered </string>
+	<string name="heatset_pi_burn"> Burning , please stop and try again </string>
+	<string name="heatset_pi_case"> The current headset does not match the progress </string>
+	<string name="heatset_playlist"> Music management </string>
+	<string name="heatset_repair_data"> Warranty Period </string>
+	<string name="heatset_reset"> Headset settings will be restored to default values , and mobile phone connection information will not be cleared </string>
+	<string name="heatset_setting_default"> Set as default </string>
+	<string name="heatset_unbind_and_delete"> unbind and delete </string>
+	<string name="hello_world">Hello world!</string>
+	<string name="high"> High tone </string>
+	<string name="high_energy_saving"> High energy saving </string>
+	<string name="horstorl_data"> Historical data </string>
+	<string name="hour"> hours </string>
+	<string name="hours"> hours </string>
+	<string name="hs_all_music"> All </string>
+	<string name="hs_enjoy_music"> Favorites </string>
+	<string name="i_dont_konw"> Not connected </string>
+	<string name="id_card"> ID number </string>
+	<string name="id_card_corrly"> Please enter the correct ID number </string>
+	<string name="instagram_share">Instagram Share </string>
+	<string name="install_facebook"> facebook not installed </string>
+	<string name="install_now"> Install now</string>
+	<string name="install_weixin"> WeChat is not installed </string>
+	<string name="invoice_code"> invoice number </string>
+	<string name="invoice_code_profit"> According to the purchase method, the number on the invoice is slightly different </string>
+	<string name="invoice_data"> Invoice Date </string>
+	<string name="invoice_show"> year / month / day </string>
+	<string name="invoice_top"> Invoice header </string>
+	<string name="jiangzao"> ANC </string>
+	<string name="jiangzao_open"> ANC on: high power consumption </string>
+	<string name="jianting">Also listen </string>
+	<string name="jianting_open">Also listening open: medium power consumption </string>
+	<string name="kakao_content">Kakao Talk only supports image and text sharing </string>
+	<string name="kakao_no_client"> Kakao Talk client is not installed </string>
+	<string name="kakao_no_content"> Please set sharing content </string>
+	<string name="kakao_share">Kakao Talk Share </string>
+	<string name="kakao_showword">Kakao Talk</string>
+	<string name="kalories">Kalories </string>
+	<string name="keep"> Keep </string>
+	<string name="keting"> Living room </string>
+	<string name="kilometer"> km </string>
+	<string name="laiwang_share"> Share with each other </string>
+	<string name="lanager_en">English</string>
+	<string name="lanager_yue"> Cantonese </string>
+	<string name="lanager_zh"> Mandarin </string>
+	<string name="largeIconDrawable"> Large Icon </string>
+	<string name="later_measure"> later </string>
+	<string name="layoutContentId"> Custom Content </string>
+	<string name="layoutIconDrawableId"> Custom large icon </string>
+	<string name="layoutIconId"> custom small icon </string>
+	<string name="layoutId"> custom style </string>
+	<string name="layoutTitleId"> custom title </string>
+	<string name="line_char_time">MMMdd</string>
+	<string name="line_content">Line only supports text, pictures </string>
+	<string name="line_no_client"> Line client is not installed </string>
+	<string name="line_no_content"> Please set sharing content </string>
+	<string name="line_share">line share </string>
+	<string name="line_showword">LINE</string>
+	<string name="line_total"> Today </string>
+	<string name="link_fail"> Network failed </string>
+	<string name="link_net"> Reconnect </string>
+	<string name="linkedin_content">linked only supports plain text sharing </string>
+	<string name="linkedin_no_client"> No LinkedIn client installed </string>
+	<string name="linkedin_share">LinkedIn share </string>
+	<string name="linkedin_showword">LinkedIn</string>
+	<string name="linstener_quea"> Online playback quality </string>
+	<string name="listener_music"> Music </string>
+	<string name="local_notification"> local notification </string>
+	<string name="local_notification_content"> Content </string>
+	<string name="local_notification_datetime"> time </string>
+	<string name="local_notification_repeatinginterval"> repeating interval </string>
+	<string name="local_notification_repeatingnum"> Number of repetitions </string>
+	<string name="local_notification_repeatingunit"> repeating unit </string>
+	<string name="local_notification_specialday"> Festival </string>
+	<string name="local_notification_ticker"> Tips </string>
+	<string name="local_notification_title"> Title </string>
+	<string name="location_fail"> Location failed </string>
+	<string name="log_out"> Logout </string>
+	<string name="log_out_ok_or_cancel"> Are you sure you want to log out? </string>
+	<string name="login_WeChat"> WeChat </string>
+	<string name="login_aggrement"> Agree to <u> fiil+ Software License Agreement </u>
+	</string>
+	<string name="login_aggrement_privacy"> and Privacy Policy </string>
+	<string name="login_capacity"> Let    fiil ear     machine     Even     wisdom     Can </string>
+	<string name="login_for_body">To view and modify my body information, you need to log in to your account. </string>
+	<string name="login_for_down"> Please login first </string>
+	<string name="login_login"> Login to FIIL member </string>
+	<string name="login_micro_blog"> Micro blog </string>
+	<string name="login_name"> Third-party login </string>
+	<string name="login_qq"> Login ( QQ ) </string>
+	<string name="login_qzone"> Login ( QQ Zone ) </string>
+	<string name="login_sina"> Login (Sina Weibo) </string>
+	<string name="login_toast"> Please read and agree to the " fiil+ Software License Agreement" </string>
+	<string name="login_tourists"> Visitors enter </string>
+	<string name="logout_qq"> Logout ( QQ ) </string>
+	<string name="logout_qzone"> Logout ( QQ Zone ) </string>
+	<string name="logout_sina"> Logout (Sina Weibo) </string>
+	<string name="long_click"> Long click </string>
+	<string name="long_click_befour_after"> Press and hold before and after </string>
+	<string name="long_click_up_down"> Press up and down </string>
+	<string name="long_touch2s"> Reject call / voice song / boot </string>
+	<string name="long_touch4s"> Shutdown </string>
+	<string name="look_all_set"> Headset selection </string>
+	<string name="low"> Bass </string>
+	<string name="low_ele"> Low battery </string>
+	<string name="lrc_and_pic_clean"> Clean cover art , lyrics cache </string>
+	<string name="lrc_and_pic_space"> Cover image, lyrics occupy </string>
+	<string name="lunarDay"> Day ( Lunar Calendar )</string>
+	<string name="lunarMonth"> month ( lunar calendar )</string>
+	<string name="lunarYear"> Year ( Lunar Calendar )</string>
+	<string name="map_biyckey"> ride </string>
+	<string name="map_run"> run </string>
+	<string name="map_walk"> Walk </string>
+	<string name="max_enjoy"> Maximum of 1000 favorite songs </string>
+	<string name="maximum_heart1"> Maximum heart rate is the highest level of heart rate when the oxygen consumption and heart rate cannot continue to increase when the exercise load reaches the maximum intensity. </string>
+	<string name="maximum_heart2"> Maximum heart rate can be used to determine heart rate zones and measure exercise intensity. By observing the body\'s response to high-load exercise, some hidden dangers of cardiovascular disease can be exposed as early as possible. The maximum heart rate is related to factors such as age , gender, and genetics. </string>
+	<string name="maximum_heart3"> It is best to warm up with a 15 -minute exercise before the test . During the test, perform high leg raises in situ, as high as possible, and the frequency is as fast as possible. </string>
+	<string name="maximum_heart4"> Please ensure that the venue is spacious and flat when exercising , preferably accompanied by someone. Avoid injury while exercising. After the measurement, it is recommended to rest for at least 10 minutes . </string>
+	<string name="me_login"> Please login </string>
+	<string name="me_verify"> Voice search song setting </string>
+	<string name="measuring_fail"> Unable to measure %1$s during exercise , please end exercise and try again </string>
+	<string name="message_image_desc">Message Image</string>
+	<string name="messenger_send_button_text">Send</string>
+	<string name="min"> minutes </string>
+	<string name="minute"> minutes </string>
+	<string name="mkdir_fail"> Card cannot create file </string>
+	<string name="moblie_play_music_fail"> Cannot play under mobile network </string>
+	<string name="mode_ear"> local mode </string>
+	<string name="mode_phone"> Bluetooth Mode </string>
+	<string name="model"> Headphone model </string>
+	<string name="modify_local_notification"> Modify local notification </string>
+	<string name="monday"> Monday </string>
+	<string name="month"> month </string>
+	<string name="moreset_aptx">aptX audio </string>
+	<string name="moreset_auto"> Auto shutdown time </string>
+	<string name="moreset_guide"> Function FAQ</string>
+	<string name="moreset_heartwear"> Wearing Adjustment Wizard </string>
+	<string name="moreset_hint"> Touch Hint </string>
+	<string name="moreset_information"> Modify my profile </string>
+	<string name="moreset_language"> Voice prompt </string>
+	<string name="moreset_light">FIIL light is always on </string>
+	<string name="moreset_maf"> Intelligent sensing </string>
+	<string name="moreset_product_regist"> Product registration </string>
+	<string name="moreset_records"> Necklace mode exercise records </string>
+	<string name="moreset_reset"> Restore default settings </string>
+	<string name="moreset_search"> Voice wakeup </string>
+	<string name="moreset_searchset"> Voice search song setting </string>
+	<string name="moreset_setting"> More settings </string>
+	<string name="moreset_updte"> Firmware version </string>
+	<string name="moreset_use_seach"> Voice Assistant </string>
+	<string name="moreset_voice"> HD voice </string>
+	<string name="msf_close"> Close </string>
+	<string name="msf_moni">Also listen </string>
+	<string name="msf_nc"> ANC </string>
+	<string name="msf_open"> Open </string>
+	<string name="msf_set">MAF</string>
+	<string name="msf_wind"> wind in the wind </string>
+	<string name="multi_conversation_activity"> Multi- session mode </string>
+	<string name="music"> Music </string>
+	<string name="music_all"> All music (%1$d)</string>
+	<string name="music_all_pause"> Pause all </string>
+	<string name="music_audiition">Auditing </string>
+	<string name="music_cache"> Music cache </string>
+	<string name="music_cache_clean"> Clean music cache </string>
+	<string name="music_cache_limit"> Music cache limit </string>
+	<string name="music_cache_space"> music cache occupancy </string>
+	<string name="music_chage"> Previous / Next</string>
+	<string name="music_come"> Song from Cool Music </string>
+	<string name="music_delete"> Delete </string>
+	<string name="music_down_task_add"> Successfully added to the download queue </string>
+	<string name="music_down_task_exists"> already in download queue </string>
+	<string name="music_downed_delete_all">Are you sure you want to delete the selected songs? </string>
+	<string name="music_downed_delete_record"> Are you sure you want to delete? </string>
+	<string name="music_downed_play_all"> Play all </string>
+	<string name="music_downing1"> Downloading </string>
+	<string name="music_downing_choose"> Total %1$s first </string>
+	<string name="music_downing_delete_record"> Are you sure not to download anymore? </string>
+	<string name="music_downing_no_change"> Wait for Wifi to continue downloading </string>
+	<string name="music_downing_no_net"> Current network unavailable </string>
+	<string name="music_downing_no_storage"> Not enough storage </string>
+	<string name="music_downing_no_url">The download address is invalid, temporarily unable to download </string>
+	<string name="music_downing_pause_all"> Pause all </string>
+	<string name="music_downing_ready"> Calculating file size </string>
+	<string name="music_downing_start_all"> Start all </string>
+	<string name="music_downing_wait"> Waiting </string>
+	<string name="music_error"> Music file cannot be played, automatically skipped for you </string>
+	<string name="music_for_hestset"> Headset Music </string>
+	<string name="music_for_phone"> Mobile Music </string>
+	<string name="music_home_down"> download </string>
+	<string name="music_home_list"> List </string>
+	<string name="music_home_media"> Phone Storage </string>
+	<string name="music_home_more"> more </string>
+	<string name="music_home_no_network"> The current network is unavailable, please check the network settings </string>
+	<string name="music_home_storage"> Headphone storage </string>
+	<string name="music_home_tittle"> Music Home </string>
+	<string name="music_manager"> Music Manager </string>
+	<string name="music_pause"> Pause </string>
+	<string name="music_play_all"> Play all </string>
+	<string name="music_play_boole_ear"> Switch to local playback mode? The music in the memory of the headset is about to be played , and the music and beeps from the phone will not be heard. But there will still be reminders for phone calls </string>
+	<string name="music_scan_whole"> full scan </string>
+	<string name="music_temp"> Music indicator </string>
+	<string name="music_time"> Music time </string>
+	<string name="music_zone"> Music </string>
+	<string name="must_keep_one"> Keep at least one </string>
+	<string name="must_select_one"> must select one </string>
+	<string name="my"> my </string>
+	<string name="my_fiil_name"> my fiil headset </string>
+	<string name="my_fill_heatset_name_default"> My FIIL headset </string>
+	<string name="my_start">Get started </string>
+	<string name="name"> Name </string>
+	<string name="needed"> Required </string>
+	<string name="net_search"> Network search song </string>
+	<string name="new_local_notification"> New local notification </string>
+	<string name="new_step"> Today\'s steps </string>
+	<string name="next"> Agree to enable permissions </string>
+	<string name="nihao"> Hello </string>
+	<string name="no_bing_heatset"> No headphones are bound </string>
+	<string name="no_conn"> Not connected </string>
+	<string name="no_data"> No results were found for your search </string>
+	<string name="no_lanager_profit"> No prompt </string>
+	<string name="no_lrc"> No lyrics yet </string>
+	<string name="no_match_content"> Sorry, no matching content </string>
+	<string name="no_more"> No more content </string>
+	<string name="no_more_content"> No more content </string>
+	<string name="no_music_portif"> Current list has no music to sort </string>
+	<string name="no_net_profit"> Sorry, unable to connect to the network, some features will not be available </string>
+	<string name="no_null"> Please enter </string>
+	<string name="no_open_blue"> Bluetooth not turned on </string>
+	<string name="no_profit"> Reminder later </string>
+	<string name="no_singer_download"> No songs to download yet </string>
+	<string name="no_storger"> No memory card </string>
+	<string name="no_support"> Currently unavailable </string>
+	<string name="no_support_down"> The current model does not support download </string>
+	<string name="no_support_play"> The current model does not support playback </string>
+	<string name="not_indoor_outdoor"> Cannot switch during exercise </string>
+	<string name="not_switch_pattern"> The current sport mode cannot be switched </string>
+	<string name="not_sync"> Not synced </string>
+	<string name="notificationSetting"> Notification Settings </string>
+	<string name="now_bind"> Bind now </string>
+	<string name="now_login"> Login now </string>
+	<string name="now_measure"> Measure now </string>
+	<string name="now_regist"> Register now </string>
+	<string name="now_updateing"> Updating </string>
+	<string name="number"> Mobile number </string>
+	<string name="offline_write"> Fill in offline stores </string>
+	<string name="ok"> OK </string>
+	<string name="one_way_sport"> Start / end one-way sport </string>
+	<string name="one_waying_hint"> Please end the one-way exercise before making any changes </string>
+	<string name="online_store_name">Offline store </string>
+	<string name="opean_now"> On now </string>
+	<string name="open"> Open </string>
+	<string name="open_anc_button"> Open the ANC button at the bottom right of the headset </string>
+	<string name="open_gps"> Cannot use the mobile phone positioning function, it will not be able to record your exercise route normally. Please open your phone\'s settings to allow fiil+ to use location services . </string>
+	<string name="other"> Other </string>
+	<string name="pagerme_about"> About </string>
+	<string name="pagerme_add"> Bind new headset </string>
+	<string name="pagerme_doorstore"> Query fiil offline store </string>
+	<string name="pagerme_feedback"> Feedback </string>
+	<string name="pagerme_shopping"> Visit fiil online store </string>
+	<string name="pagerme_verify"> Authenticity verification </string>
+	<string name="pagermef001">FIIL</string>
+	<string name="pagermef002">FIIL Wireless</string>
+	<string name="pagermef003">FIIL Bestie</string>
+	<string name="pause"> Pause </string>
+	<string name="pedometer"> step counter </string>
+	<string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+	<string name="phone_corrly"> Please enter the correct phone number </string>
+	<string name="phone_ele_low"> Your phone is running out of battery </string>
+	<string name="phone_music_opera"> play / pause / answer </string>
+	<string name="photo_post">Photo Post</string>
+	<string name="pinterest_share">Pinterest Share </string>
+	<string name="play"> Play </string>
+	<string name="playLights"> Flashes </string>
+	<string name="playSound"> Sound </string>
+	<string name="playVibrate"> Vibrate </string>
+	<string name="play_all"> Play All (%1$d)</string>
+	<string name="play_enjoy"> Play Favorites (%1$d)</string>
+	<string name="play_error"> Unable to play temporarily: </string>
+	<string name="play_mode"> Play mode </string>
+	<string name="play_one"> Single loop </string>
+	<string name="play_pause_listener"> play / pause / answer / hang up </string>
+	<string name="play_random"> Play randomly </string>
+	<string name="play_sort"> Play in sequence </string>
+	<string name="playing"> Playing </string>
+	<string name="please_charging"> Please charge </string>
+	<string name="please_conn_bluetooth_heatset"> Please connect the bluetooth headset first </string>
+	<string name="please_conn_carat"> Please connect the FIIL Carat Bluetooth headset first </string>
+	<string name="please_conn_carat_pro"> Please connect the FIIL Carat M Bluetooth headset first </string>
+	<string name="please_conn_diva"> Please connect the FIIL Diva Bluetooth headset first </string>
+	<string name="please_conn_diva_pro"> Please connect the FIIL Diva pro Bluetooth headset first </string>
+	<string name="please_conn_driifter_pro"> Please connect the FIIL Driifrter Pro Bluetooth headset first </string>
+	<string name="please_conn_heatset"> Headset not connected </string>
+	<string name="please_conn_runner"> Please connect the FIIL Runner Bluetooth headset first </string>
+	<string name="please_conn_vox"> Please connect the FIIL Vox Bluetooth headset first </string>
+	<string name="please_conn_wireless"> Please connect the FIIL Wireless Bluetooth headset first </string>
+	<string name="please_conn_xx_mode"> Please connect the %1$s Bluetooth headset first </string>
+	<string name="please_connect_net_request"> Please try again after connecting to the network </string>
+	<string name="please_do_not_pull_out_the_charger_in_the_update"> Do not pull out the charger during the upgrade </string>
+	<string name="please_login"> Please login </string>
+	<string name="please_replace_id"> Please replace the account number </string>
+	<string name="please_select_date"> Please select a date </string>
+	<string name="please_speak_command"> Please speak your command </string>
+	<string name="please_wait_for_update"> Syncing music information, please wait </string>
+	<string name="pocket_content">pocket only supports web link sharing </string>
+	<string name="pocket_no_client"> no pocket client installed </string>
+	<string name="pocket_share">Pocket Share </string>
+	<string name="pocket_showword">Pocket</string>
+	<string name="product_bind">The product has not been bound and registered yet. Successful registration can enjoy one-year warranty service and the qualification to receive other rights and interests. </string>
+	<string name="product_profit">The product has not been registered yet, successfully registered to enjoy one-year warranty service </string>
+	<string name="product_regist"> Product registration </string>
+	<string name="product_registration"> Product registration enjoys high-quality after-sales service such as one-year free warranty service (non-artificial damage only) and priority maintenance. </string>
+	<string name="product_registration_button_01"> If you cannot register normally, or encounter problems during the product registration process , you can use the WeChat public account "fiil headset " , or call the fiil headset customer service number </string>
+	<string name="product_registration_button_02">" Product registration is limited to earphone products legally sold by Fengfan (Beijing) Technology Co., Ltd. in mainland China: the specific category and model can be found on the website. 
+
+by the above terms , changes in service content may be adjusted due to the company\'s operating conditions and business strategies, please refer to the information updated and provided by fiil official website and " fiil earphone " official account from time to time . "</string>
+	<string name="professional"> Please select a profession </string>
+	<string name="pull_to_refresh_pull_label"> pull down to refresh </string>
+	<string name="pull_to_refresh_refreshing_label"> Loading ... </string>
+	<string name="pull_to_refresh_release_label"> Pull to refresh </string>
+	<string name="pull_to_refresh_tap_label"> Tap to refresh </string>
+	<string name="putong"> Normal </string>
+	<string name="quit"> Quit </string>
+	<string name="recommended_code"> Sales Consultant </string>
+	<string name="record_heart_compare"> Measurement completed </string>
+	<string name="record_heart_hint"> Based on your resting heart rate: %s</string>
+	<string name="record_heart_lei_compare"> Fatigue measurement completed </string>
+	<string name="record_heart_lei_start"> Exercise fatigue measurement start </string>
+	<string name="record_heart_lie"> Please lie flat and make sure the headset is properly fitted. This measurement process will last for 1 minute </string>
+	<string name="record_heart_lie_fatigue"> Please sit still and make sure the headset is properly fitted. This measurement process will last for 1 minute . </string>
+	<string name="record_heart_lie_max"> Start leg raises in place and make sure the headset is properly fitted. This measurement process will last for 120 seconds. Please be safe when exercising . </string>
+	<string name="record_heart_max_compare"> Maximum heart rate measurement completed </string>
+	<string name="record_heart_max_start"> Maximum heart rate measurement start </string>
+	<string name="record_heart_measuring"> Measuring </string>
+	<string name="record_heart_rate"> Test record </string>
+	<string name="record_heart_results"> Results of this measurement </string>
+	<string name="record_heart_start"> Start measurement </string>
+	<string name="record_heart_static_compare"> resting heart rate measurement completed </string>
+	<string name="record_heart_static_start"> resting heart rate measurement starts, please stay relaxed </string>
+	<string name="record_sport"> Sport record </string>
+	<string name="refused_f005"> Rejected / voice song request </string>
+	<string name="refused_help"> Refused </string>
+	<string name="refused_long"> Hang up / reject </string>
+	<string name="regesit_fail"> Registration failed , please try again later </string>
+	<string name="regist_extended_warranties"> Register the product to enjoy a one-year warranty </string>
+	<string name="regist_product"> You don\'t need to save your registration results. When you need to repair or participate in preferential activities , please inform the staff of the product model and serial number when you registered. After verification , you can enjoy the rights and interests of registered members </string>
+	<string name="regist_success"> Registration succeeded </string>
+	<string name="remind_to_fill_in_information"> Please fill in the following information carefully and make sure the information is true and valid </string>
+	<string name="remove_enjoy"> Remove favorite </string>
+	<string name="remove_enjoy_count"> Remove %1$d music from favorites? </string>
+	<string name="repeatingInterval"> repeating interval </string>
+	<string name="repeatingNum"> repeating number </string>
+	<string name="repeatingNumHint">-1 means repeating all the time </string>
+	<string name="repeatingUnit"> repeating unit </string>
+	<string name="replace"> Replace favorite song </string>
+	<string name="replace_sport"> replace </string>
+	<string name="resting_attention"> Attention </string>
+	<string name="resting_heart1"> Resting heart rate is the number of heartbeats per minute in a resting, awake, inactive state. </string>
+	<string name="resting_heart2"> From medical and clinical observations, the stronger the heart, the lower the resting heart rate; people whose resting heart rate is often too fast are more likely to suffer from cardiovascular risk events such as coronary heart disease, hypertension, and sudden cardiac death. than those with a slow heart rate. Observing long-term changes in resting heart rate can be used to measure the effect of exercise. </string>
+	<string name="resting_heart3">" Please start the measurement after a good rest and without ingesting drugs, alcohol or coffee.
+best measurement time is within 5 minutes of waking up in the morning and lying still before getting up . "</string>
+	<string name="resting_text"> Measurement suggestion </string>
+	<string name="restore_default_success"> Restore default success </string>
+	<string name="run_calories"> kcal </string>
+	<string name="run_km"> km </string>
+	<string name="run_pace"> Current pace </string>
+	<string name="run_steps"> steps </string>
+	<string name="run_stop"> end </string>
+	<string name="run_time_all"> time </string>
+	<string name="run_tips"> Long press to end </string>
+	<string name="sales_default"> company name + store name + clerk name </string>
+	<string name="san_click"> Triple Click </string>
+	<string name="saturday"> Saturday </string>
+	<string name="scan_tip"> Please align the scan box with the serial number at the bottom of the box to scan the barcode </string>
+	<string name="scan_tips1"> Please align the scan frame </string>
+	<string name="scan_tips2"> Serial number at the bottom of the box </string>
+	<string name="scan_tips3"> QR code </string>
+	<string name="scan_title"> Scan QR code </string>
+	<string name="scan_use_camer"> Allow fiil+ to use camera </string>
+	<string name="scan_use_location"> Allow fiil+ location permission </string>
+	<string name="scan_whole"> full scan </string>
+	<string name="screenOn"> On screen </string>
+	<string name="sdk_fb_activity"> Use SDK Activity</string>
+	<string name="sds_close">FIIL SDS close </string>
+	<string name="sds_mean"> Smart equalizer technology </string>
+	<string name="sds_open">FIIL SDS open </string>
+	<string name="search"> Search </string>
+	<string name="search_history"> History </string>
+	<string name="search_text"> Search by notification ID or title content ...</string>
+	<string name="searing"> Searching </string>
+	<string name="second"> seconds </string>
+	<string name="select_heat_option"> Please select </string>
+	<string name="select_playlist"> Selected Playlist </string>
+	<string name="select_professional"> Please select a profession </string>
+	<string name="sensor_success"> Calibration successful </string>
+	<string name="serial_number"> Serial Number </string>
+	<string name="serve_name"> Serve </string>
+	<string name="serve_name_burn">Burn headphones </string>
+	<string name="serve_name_buy"> Buy online </string>
+	<string name="serve_name_feed"> Feedback </string>
+	<string name="serve_name_operation"> Operation method description </string>
+	<string name="serve_name_phone"> Customer Service Phone </string>
+	<string name="serve_name_quality"> Authenticity verification </string>
+	<string name="serve_name_register"> Product Registration </string>
+	<string name="serve_name_store">Offline store query </string>
+	<string name="server_phone">400-850-7997</string>
+	<string name="set_default_fail"> Set default failed, please try again later </string>
+	<string name="set_default_success"> Set successfully </string>
+	<string name="setting_name"> Settings </string>
+	<string name="shake_openshare"> Register Shake (Open Share Panel) </string>
+	<string name="shake_scrshot"> Registration Shake (screenshot) </string>
+	<string name="shake_share"> Register Shake Screenshot (Share) </string>
+	<string name="share_by_qq">QQ share </string>
+	<string name="share_by_weixin"> WeChat Share </string>
+	<string name="share_by_yixin"> Share by Yixin </string>
+	<string name="share_calr"> Calories consumed ( kcal )</string>
+	<string name="share_distance"> distance ( km )</string>
+	<string name="share_fat_burning"> Fat burning </string>
+	<string name="share_having_oxygen"> Aerobic </string>
+	<string name="share_heartrate"> Average heart rate ( beats / min )</string>
+	<string name="share_hotbody"> warm up </string>
+	<string name="share_maxvo2"> Average Oxygen Uptake </string>
+	<string name="share_no_oxygen"> anaerobic </string>
+	<string name="share_record"> Average records </string>
+	<string name="share_rhythm"> cadence ( step / min ) </string>
+	<string name="share_severe"> violent </string>
+	<string name="share_speedrate"> Average pace ( per km )</string>
+	<string name="share_time"> Exercise time </string>
+	<string name="short_music"> Block short music </string>
+	<string name="sing_click"> click </string>
+	<string name="singer"> Singer </string>
+	<string name="single_people"> persons </string>
+	<string name="slide_befour_after">slide before and after </string>
+	<string name="slide_up_down">slide up and down </string>
+	<string name="small"> Small Theater </string>
+	<string name="smallIconDrawable"> Small Icon </string>
+	<string name="soc"> battery remaining </string>
+	<string name="song"> song name </string>
+	<string name="sort_download_time"> Sort by download time </string>
+	<string name="sort_name"> sort by name </string>
+	<string name="soundDrawable"> Sound </string>
+	<string name="specialDay"> Festival </string>
+	<string name="speed"> speed </string>
+	<string name="sport_asterisk"> When fiil+ is not connected , FIIL Carat M can broadcast items with * enabled </string>
+	<string name="sport_data_result_success"> Successful synchronization </string>
+	<string name="sport_detection"> body detection </string>
+	<string name="sport_dis"> mileage ( km )</string>
+	<string name="sport_empty_hint"> You can view the history from here after the exercise is completed </string>
+	<string name="sport_indicator"> Sport indicator </string>
+	<string name="sport_indoor"> Indoor sports </string>
+	<string name="sport_menu_bike">Bike </string>
+	<string name="sport_menu_equipment"> Fitness Equipment </string>
+	<string name="sport_menu_hike"> walking </string>
+	<string name="sport_menu_run"> run </string>
+	<string name="sport_menu_yoga"> Aerobics and yoga </string>
+	<string name="sport_move"> Sporting </string>
+	<string name="sport_one_way"> Sport one way </string>
+	<string name="sport_outdoor"> Outdoor sports </string>
+	<string name="sport_recde_empty"> No sports records yet </string>
+	<string name="sport_record"> Sport record </string>
+	<string name="sport_set"> step count </string>
+	<string name="sport_start"> Start sport </string>
+	<string name="sport_time_little"> Exercise too little </string>
+	<string name="sport_tooshort"> Sport too short to save </string>
+	<string name="sport_voice_close"> Auto- voice close </string>
+	<string name="sport_voice_open"> Auto- voice open </string>
+	<string name="sport_voice_setting">sport settings </string>
+	<string name="sport_zone"> My Sport </string>
+	<string name="sportadjust_adjustbutton"> Calibrate with sports record </string>
+	<string name="sportprobencixiaozhun"> Calibrate the sensor with this record </string>
+	<string name="sportprodelete_left"> I think again </string>
+	<string name="sportprodelete_title"> Delete this sport record? Once deleted, it cannot be recovered! </string>
+	<string name="sprot_data_result_error"> Sync failed , please check network </string>
+	<string name="sprot_energy"> Consumption ( Kcal )</string>
+	<string name="sprot_temp"> Motion Indicator </string>
+	<string name="standby"> Standby </string>
+	<string name="standby_time"> Standby time </string>
+	<string name="start_burn_heatset"> Start burn-in </string>
+	<string name="start_end_sport_mode"> Start / end sport mode </string>
+	<string name="start_now"> Start now </string>
+	<string name="start_play"> Start playing </string>
+	<string name="status_update">Updating Facebook status at</string>
+	<string name="step"> step </string>
+	<string name="step_frequency"> With pace </string>
+	<string name="stop"> stop </string>
+	<string name="stop_scan"> Stop scanning </string>
+	<string name="storage_card1"> memory card1 </string>
+	<string name="storage_card2"> memory card2 </string>
+	<string name="storage_external_path">/Android/data/com.fengeek.f002/fiil/music</string>
+	<string name="storage_external_path_43">/fiil/music</string>
+	<string name="storage_external_size">%1$s可用，共%2$s</string>
+	<string name="style_music">存储</string>
+	<string name="style_set">风格</string>
+	<string name="style_sport">运动</string>
+	<string name="success">Success</string>
+	<string name="successfully_posted_post">"Successfully posted '%1$s'.
+Post ID: %2$s"</string>
+	<string name="sunday">周日</string>
+	<string name="take_scrshot"> Direct screenshot </string>
+	<string name="talk_later">Talk later </string>
+	<string name="tb_munion_tip_download_prefix"> Downloading :</string>
+	<string name="test_introduce"> "Breaking the Sky" is an ancient costume fantasy novel serialized on Qidian Chinese website. The author is Qidian platinum writer Tian Can Tudou (Li Hu), which has ended. This is the world of Dou Qi, there is no fancy magic, some are just Dou Qi that has grown to the peak .</string>
+	<string name="test_static_hr_dialog">" Measuring resting heart rate is one way to detect heart health risks. Long-term monitoring records can reveal the effects of exercise.
+well-rested state are more accurate. "</string>
+	<string name="this_not_support"> The current playback content does not support setting the playback mode </string>
+	<string name="thursday"> Thursday </string>
+	<string name="ticker"> Tips </string>
+	<string name="timer_sport">MMMdd</string>
+	<string name="title"> Title </string>
+	<string name="title_activity_burn_text">BurnTextActivity</string>
+	<string name="title_item_list"> Feedback List </string>
+	<string name="today_selection"> Today\'s Selection </string>
+	<string name="total_calr_qixie"> Total equipment consumption ( kcal )</string>
+	<string name="total_calr_wojia"> Total consumption of aerobics and yoga ( kcal )</string>
+	<string name="total_distance_bicycle"> Total mileage ( km )</string>
+	<string name="total_distance_run"> Total distance run (km) </string>
+	<string name="total_distance_walk"> Total distance walked (km) </string>
+	<string name="tour_sport_hint"> Tourists cannot view sports records </string>
+	<string name="touris_come_in"> Cannot view daily details in tourist mode </string>
+	<string name="touris_log_in"> Please log in to view historical data </string>
+	<string name="tourists_acces"> Tourists enter </string>
+	<string name="trial_empty_hint"> After the measurement is completed, the history can be viewed from here </string>
+	<string name="trial_error"> Measurement disconnected, please measure again </string>
+	<string name="trial_error_because"> The heart rate could not be measured because the headset was not properly worn, and the measurement was interrupted </string>
+	<string name="trial_recode_empty"> There is no measurement record yet </string>
+	<string name="try_again_after_charging"> Please try again after charging </string>
+	<string name="try_again_later"> try again later </string>
+	<string name="try_whole_scan">The list is empty, try " full scan " </string>
+	<string name="tuesday"> Tuesday </string>
+	<string name="tumblr_content">Tumblr only supports text, image, graphic sharing </string>
+	<string name="tumblr_no_client"> Tumblr client is not installed </string>
+	<string name="tumblr_no_content"> Please set sharing content </string>
+	<string name="tumblr_share">tumblr share </string>
+	<string name="tumblr_showword">Tumblr</string>
+	<string name="umeng_addfriend"> Add friend </string>
+	<string name="umeng_auth"> Authorization </string>
+	<string name="umeng_comment"> Comment related </string>
+	<string name="umeng_comment1"> User information </string>
+	<string name="umeng_comment2"> Login locally </string>
+	<string name="umeng_comment3"> Local authorization </string>
+	<string name="umeng_comment4"> Friend function </string>
+	<string name="umeng_comment5"> Comment function </string>
+	<string name="umeng_comment6"> Logout </string>
+	<string name="umeng_comment7"> Resolve case </string>
+	<string name="umeng_commentmodular"> comment module </string>
+	<string name="umeng_common_action_cancel"> Cancel </string>
+	<string name="umeng_common_action_continue"> Continue </string>
+	<string name="umeng_common_action_info_exist"> Downloading .</string>
+	<string name="umeng_common_action_pause"> Pause </string>
+	<string name="umeng_common_download_failed"> download failed </string>
+	<string name="umeng_common_download_finish"> Download completed, please click to install </string>
+	<string name="umeng_common_download_notification_prefix"> Downloading :</string>
+	<string name="umeng_common_icon">icon</string>
+	<string name="umeng_common_info_interrupt"> Download error, please check the network and continue. </string>
+	<string name="umeng_common_network_break_alert"> Download error, please try again </string>
+	<string name="umeng_common_patch_finish">The update is complete, please click to install </string>
+	<string name="umeng_common_pause_notification_prefix"> Pause :</string>
+	<string name="umeng_common_silent_download_finish"> The new version is ready, please click to install </string>
+	<string name="umeng_common_start_download_notification"> Downloading app </string>
+	<string name="umeng_common_start_patch_notification"> Updating installation package </string>
+	<string name="umeng_customlogin"> custom login </string>
+	<string name="umeng_deleauth"> Clear the corresponding authorization </string>
+	<string name="umeng_example_home_btn_plus"> social sharing </string>
+	<string name="umeng_fb_back"> back </string>
+	<string name="umeng_fb_change_contact_title"> Contact information (mobile phone number / email /QQ , etc. optional) </string>
+	<string name="umeng_fb_contact_email"> Email </string>
+	<string name="umeng_fb_contact_info"> Contact information </string>
+	<string name="umeng_fb_contact_info_hint">QQ, phone and other contact information where we can contact you </string>
+	<string name="umeng_fb_contact_key_email">email</string>
+	<string name="umeng_fb_contact_key_other">plain</string>
+	<string name="umeng_fb_contact_key_phone">phone</string>
+	<string name="umeng_fb_contact_key_qq">qq</string>
+	<string name="umeng_fb_contact_other">其他</string>
+	<string name="umeng_fb_contact_phone">手机</string>
+	<string name="umeng_fb_contact_qq">QQ</string>
+	<string name="umeng_fb_contact_save">保存</string>
+	<string name="umeng_fb_count_down">限时倒数</string>
+	<string name="umeng_fb_feedback"> Feedback </string>
+	<string name="umeng_fb_no_record_permission"> No recording permission </string>
+	<string name="umeng_fb_notification_content_formatter_multiple_msg"> Received %d replies from developers. </string>
+	<string name="umeng_fb_notification_content_formatter_single_msg"> New reply : %s</string>
+	<string name="umeng_fb_notification_ticker_text"> New reply </string>
+	<string name="umeng_fb_please_photo"> Photo </string>
+	<string name="umeng_fb_please_select_picture"> Select from album </string>
+	<string name="umeng_fb_press_speech"> Press and speak </string>
+	<string name="umeng_fb_record_fail"> Recording failed </string>
+	<string name="umeng_fb_record_time_short"> Recording time is too short </string>
+	<string name="umeng_fb_release_cancel"> Release your finger to cancel sending </string>
+	<string name="umeng_fb_release_send"> release send </string>
+	<string name="umeng_fb_reply_content_default"> Hello, I am the product manager, welcome your feedback and suggestions on using the product </string>
+	<string name="umeng_fb_send"> Send </string>
+	<string name="umeng_fb_send_fail"> Send failed </string>
+	<string name="umeng_fb_sending"> Sending ... </string>
+	<string name="umeng_fb_slide_up_cancel">Swipe up to cancel sending </string>
+	<string name="umeng_fb_time_minutes_ago">%d minutes ago </string>
+	<string name="umeng_fb_time_pre_year_format">yy/MM/dd HH:mm:ss</string>
+	<string name="umeng_fb_time_right_now"> just now </string>
+	<string name="umeng_fb_time_this_year_format">MM/dd HH:mm:ss</string>
+	<string name="umeng_fb_title"> User Feedback </string>
+	<string name="umeng_fb_write_contact_title"> Fill out contact information </string>
+	<string name="umeng_getcommentlist"> Get comment list </string>
+	<string name="umeng_getfriendlist"> Get friend list </string>
+	<string name="umeng_loginqq"> Login QQ</string>
+	<string name="umeng_loginqzone"> Login Qzone </string>
+	<string name="umeng_loginsina"> Login to Sina </string>
+	<string name="umeng_logoutqq"> Logout QQ</string>
+	<string name="umeng_logoutsina">logoutsina </string>
+	<string name="umeng_logoutzone"> Logout QQ Zone </string>
+	<string name="umeng_nativequery"> Local login information query </string>
+	<string name="umeng_openshare"> Open share panel </string>
+	<string name="umeng_registershake"> Registration Shake </string>
+	<string name="umeng_sendcomment"> Send a comment </string>
+	<string name="umeng_shake"> Shake </string>
+	<string name="umeng_shakeshare">Shakeshare </string>
+	<string name="umeng_shakeshotscreen"> Shake the screenshot </string>
+	<string name="umeng_share"> Share </string>
+	<string name="umeng_share1"> Default share panel editable share page </string>
+	<string name="umeng_share2"> Custom share panel to edit share page </string>
+	<string name="umeng_share3"> Share directly on a single platform </string>
+	<string name="umeng_share4"> Multi-platform direct sharing </string>
+	<string name="umeng_share5">The default sharing panel can edit the sharing page for multiple platforms </string>
+	<string name="umeng_socialize_back"> back </string>
+	<string name="umeng_socialize_cancel_btn_str"> Cancel </string>
+	<string name="umeng_socialize_comment"> Comment </string>
+	<string name="umeng_socialize_comment_detail"> comment details </string>
+	<string name="umeng_socialize_content_hint"> Say something ... </string>
+	<string name="umeng_socialize_friends">Following friends </string>
+	<string name="umeng_socialize_img_des">aaa</string>
+	<string name="umeng_socialize_laiwang_default_content">Umeng socialization component ( SDK ) allows mobile applications to quickly integrate social sharing functions </string>
+	<string name="umeng_socialize_login"> Login </string>
+	<string name="umeng_socialize_login_qq">QQ space </string>
+	<string name="umeng_socialize_mail"> Mail </string>
+	<string name="umeng_socialize_msg_hor"> hours ago </string>
+	<string name="umeng_socialize_msg_min"> minutes ago </string>
+	<string name="umeng_socialize_msg_sec"> secs ago </string>
+	<string name="umeng_socialize_near_At"> nearest @friend </string>
+	<string name="umeng_socialize_network_break_alert"> Please connect to a network and try again! </string>
+	<string name="umeng_socialize_send">发布</string>
+	<string name="umeng_socialize_send_btn_str">发送</string>
+	<string name="umeng_socialize_share">分享</string>
+	<string name="umeng_socialize_share_content">Umeng Socialize Component ( SDK ) enables mobile applications to quickly integrate social sharing functions. We simplify access to social platforms and provide developers with solid basic services. (1) Support major mainstream social platforms, (2) Support pictures, text, gif , audio, video; @friends , follow official Weibo and other functions. (3) Provide detailed background user social behavior analysis. www.umeng.com/social</string>
+	<string name="umeng_socialize_sina"> Sina </string>
+	<string name="umeng_socialize_sms"> SMS </string>
+	<string name="umeng_socialize_text_add_custom_platform"> Please configure user platform </string>
+	<string name="umeng_socialize_text_alipay_key"> Alipay </string>
+	<string name="umeng_socialize_text_authorize"> authorize </string>
+	<string name="umeng_socialize_text_choose_account"> Choose an existing account to log in </string>
+	<string name="umeng_socialize_text_comment_hint">Say something ... </string>
+	<string name="umeng_socialize_text_douban_key">豆瓣网</string>
+	<string name="umeng_socialize_text_evernote_key">印象笔记</string>
+	<string name="umeng_socialize_text_facebook_key">facebook</string>
+	<string name="umeng_socialize_text_flickr_key">Flickr</string>
+	<string name="umeng_socialize_text_foursquare_key">Foursquare</string>
+	<string name="umeng_socialize_text_friend_list">好友列表</string>
+	<string name="umeng_socialize_text_googleplus_key">GooglePlus</string>
+	<string name="umeng_socialize_text_instagram_key">instagram</string>
+	<string name="umeng_socialize_text_kakao_key">Kakao Talk</string>
+	<string name="umeng_socialize_text_laiwang_dynamic_key">来往动态</string>
+	<string name="umeng_socialize_text_laiwang_key">来往</string>
+	<string name="umeng_socialize_text_laiwangdynamic_key">来往动态</string>
+	<string name="umeng_socialize_text_line_key">LINE</string>
+	<string name="umeng_socialize_text_linkedin_key">Linkedin</string>
+	<string name="umeng_socialize_text_loading_message"> Loading , please wait ...</string>
+	<string name="umeng_socialize_text_login_fail"> Login failed, please try again </string>
+	<string name="umeng_socialize_text_pinterest_key">pinterest</string>
+	<string name="umeng_socialize_text_pocket_key">pocket</string>
+	<string name="umeng_socialize_text_qq_key">QQ</string>
+	<string name="umeng_socialize_text_qq_zone_key">QQ Zone </string>
+	<string name="umeng_socialize_text_renren_key"> renren </string>
+	<string name="umeng_socialize_text_sina_key"> Weibo </string>
+	<string name="umeng_socialize_text_tencent_key"> Tencent Weibo </string>
+	<string name="umeng_socialize_text_tencent_no_connection"> Unable to connect to Tencent Weibo client </string>
+	<string name="umeng_socialize_text_tencent_no_install"> Tencent Weibo client is not installed </string>
+	<string name="umeng_socialize_text_tencent_oauth_login_fail"> Authorization login failed </string>
+	<string name="umeng_socialize_text_tencent_version_no_match">The version does not match, SSO only supports Weibo client V3.8.1 and above </string>
+	<string name="umeng_socialize_text_tumblr_key">Tumblr</string>
+	<string name="umeng_socialize_text_twitter_key">twitter</string>
+	<string name="umeng_socialize_text_ucenter"> Personal Center </string>
+	<string name="umeng_socialize_text_unauthorize"> Unauthorized </string>
+	<string name="umeng_socialize_text_visitor"> Visitor </string>
+	<string name="umeng_socialize_text_waitting"> Please wait ...</string>
+	<string name="umeng_socialize_text_waitting_message">, please wait ...</string>
+	<string name="umeng_socialize_text_waitting_qq"> Jump to QQ , please wait ...</string>
+	<string name="umeng_socialize_text_waitting_qzone"> Jump to QZone , please wait ...</string>
+	<string name="umeng_socialize_text_waitting_redirect"> Jump </string>
+	<string name="umeng_socialize_text_waitting_share"> Sharing ... </string>
+	<string name="umeng_socialize_text_waitting_weixin"> Jump to WeChat, please wait ...</string>
+	<string name="umeng_socialize_text_waitting_weixin_circle">Join the circle of friends, please wait ...</string>
+	<string name="umeng_socialize_text_waitting_yixin"> Jump to Yixin, please wait ...</string>
+	<string name="umeng_socialize_text_waitting_yixin_circle"> Jump to Yixin Moments, please wait ...</string>
+	<string name="umeng_socialize_text_weixin_circle_key">WeChat Moments </string>
+	<string name="umeng_socialize_text_weixin_key"> WeChat </string>
+	<string name="umeng_socialize_text_whatsapp_key">WhatsApp</string>
+	<string name="umeng_socialize_text_ydnote_key"> Youdao Cloud Notes </string>
+	<string name="umeng_socialize_text_yixin_key"> Yixin </string>
+	<string name="umeng_socialize_text_yixincircle_key">Yixin Moments </string>
+	<string name="umeng_socialize_tip_blacklist"> Sorry, you have been banned for violating the User Agreement .</string>
+	<string name="umeng_socialize_tip_loginfailed"> Sorry, you have been banned for violating the User Agreement .</string>
+	<string name="umeng_socialize_ucenter_login_title_guide">Login as guset</string>
+	<string name="umeng_socialize_ucenter_login_title_platform">Login</string>
+	<string name="unbing_profit">Are you sure to unbind this headset? After unbinding, some functions cannot be used normally, you may need to re-enter the serial number for binding </string>
+	<string name="unbound_fail"> Unbound failed, please try again later </string>
+	<string name="unbound_success">unbound successful </string>
+	<string name="uniform_speed"> Uniform speed </string>
+	<string name="up_to_last_version"> Updated to latest version </string>
+	<string name="updata_download_success"> Download complete ( click to update )</string>
+	<string name="updata_fail"> Upgrade failed </string>
+	<string name="updata_success"> Upgrade succeeded </string>
+	<string name="updataing"> Updating ...</string>
+	<string name="update_fail"> Update data failed </string>
+	<string name="update_local_notification"> Modify </string>
+	<string name="update_tanstant_success">" Upgrade firmware transfer completed and updating
+headset will automatically restart later , please be patient "</string>
+	<string name="updateing_text">" Please keep the headset close to the phone during the update process
+Do not disconnect bluetooth, turn off the headset or exit the program "</string>
+	<string name="uptate_enjoy_profit"> The current login account is inconsistent with the account last used by the headset. To use the Favorites feature , replace the current favorite song on the headset. (Log in with the last account and connect the headset to restore the replaced favorite song) </string>
+	<string name="uptate_sport_profit"> The current login account is inconsistent with the account last used by the headset. To view or save exercise history, the account profile must be replaced. (This operation will synchronize the offline exercise data on the headset to the current account) </string>
+	<string name="use_liuliang_download"> Use 2G/3G/4G traffic to download </string>
+	<string name="use_liuliang_linstenr"> Use 2G/3G/4G data to play </string>
+	<string name="use_liuliang_pic"> Use 2G/3G/4G traffic to download cover image </string>
+	<string name="user_agreement"> Read " Fiil + Software License Agreement" </string>
+	<string name="user_xieyi"> use protocol </string>
+	<string name="verify_bound_bound"> Serial number is bound, please unbind and try again </string>
+	<string name="verify_bound_fail"> Serial number binding failed </string>
+	<string name="verify_bound_succ"> Serial number bound successfully </string>
+	<string name="verify_bounds">" Enter your headset serial number to become a verified user,
+Enjoy more membership features and benefits "</string>
+	<string name="verify_btn_bound"> bound </string>
+	<string name="verify_btn_regis"> Register now </string>
+	<string name="verify_btn_scan"> Scan QR code </string>
+	<string name="verify_btn_submit"> Submit </string>
+	<string name="verify_btn_write"> Manual input </string>
+	<string name="verify_code_meet"> Serial number does not meet the conditions! </string>
+	<string name="verify_code_null"> Serial number cannot be empty! </string>
+	<string name="verify_error">"The verification code is incorrect and cannot be verified
+Please check and try again "</string>
+	<string name="verify_ethint"> Enter serial number </string>
+	<string name="verify_first"> First verification time :</string>
+	<string name="verify_format_error">"The serial number is incorrect, please confirm the serial number
+number and headphone model and try again "</string>
+	<string name="verify_goods"> The serial number you verified is genuine </string>
+	<string name="verify_net_no"> There may be a problem with your network </string>
+	<string name="verify_regis"> Register products and enjoy more membership benefits </string>
+	<string name="verify_title"> Authenticity verification </string>
+	<string name="verify_title2"> Bind the headset </string>
+	<string name="verify_warn">" Please pay attention to the first verification time, if you do not do it yourself,
+May be risky "</string>
+	<string name="version_diffenert"> The current version of fiil+ does not support this model </string>
+	<string name="video">VideoActivity</string>
+	<string name="video_start_time">00:00</string>
+	<string name="voice_average_heart"> Average heart rate *</string>
+	<string name="voice_cadence"> cadence * </string>
+	<string name="voice_cadence_not"> cadence * (not available in current sport mode) </string>
+	<string name="voice_current_heart"> Current heart rate *</string>
+	<string name="voice_distance"> distance *</string>
+	<string name="voice_distance_not"> distance * (not available in current sport mode) </string>
+	<string name="voice_frequency">voice frequency </string>
+	<string name="voice_heart_consumption"> Calories consumption *</string>
+	<string name="voice_heart_interval"> heart rate interval </string>
+	<string name="voice_heart_speed"> calorie burn rate *</string>
+	<string name="voice_oxygen_uptake"> Current oxygen uptake </string>
+	<string name="voice_pace"> pace *</string>
+	<string name="voice_pace_not"> pace * (current sport mode not available) </string>
+	<string name="voice_sensor"> Sensor Status </string>
+	<string name="voice_speed"> speed *</string>
+	<string name="voice_speed_not"> speed * (not available in current sport mode) </string>
+	<string name="voice_sport_distances"> Broadcast by distance </string>
+	<string name="voice_sport_distances_not">Voice by distance * (not available in current mode) </string>
+	<string name="voice_sport_time">Sport by time </string>
+	<string name="voice_start_stop"> start, pause, stop </string>
+	<string name="voice_summary"> Summary </string>
+	<string name="voice_target_reach"> Target reached </string>
+	<string name="voice_time"> Exercise time </string>
+	<string name="voice_tittle">Voice settings </string>
+	<string name="voice_with_distance"> By distance </string>
+	<string name="voice_with_time"> by time </string>
+	<string name="voicesearch"> Voice Search </string>
+	<string name="void_not_local">" local mode " cannot set sound field </string>
+	<string name="voide_close"> Auto broadcast close </string>
+	<string name="voide_hint_no_net"> No internet connection, voice announcement may be missing or incorrect. For normal use, please keep the network unblocked </string>
+	<string name="voide_ontime"> Live broadcast </string>
+	<string name="voide_open"> Auto broadcast open </string>
+	<string name="voide_set"> Sound Field </string>
+	<string name="voide_support"> Voice technology provided by % 1$s </string>
+	<string name="voide_supportname1"> Baidu Voice </string>
+	<string name="voide_supportname2"> Microsoft Voice </string>
+	<string name="voide_supportname3">IFLYTEK Voice </string>
+	<string name="voide_supportname4"> Google Voice </string>
+	<string name="volume_change"> Increase / decrease volume </string>
+	<string name="volum_change_continu"> Increase / decrease volume continuously </string>
+	<string name="wait_heatset_restart"> Wait for the headset to restart </string>
+	<string name="wait_wifi"> Waiting for Wifi</string>
+	<string name="warm"> Reminder </string>
+	<string name="web_tittle_name"> Battery details </string>
+	<string name="webshop_diamesage"> No network available , please check your network settings </string>
+	<string name="webshop_diatittle"> hint </string>
+	<string name="webshop_title">fiil Online Shop </string>
+	<string name="wednesday"> Wednesday </string>
+	<string name="week_sport"> Week Sports </string>
+	<string name="welcom_closevoice"> Close voice </string>
+	<string name="welcom_openvoice"> Open voice </string>
+	<string name="welcom_skip"> skip </string>
+	<string name="welcome_get_permission">" Because fiil+ cannot obtain the permission of device information, it cannot run normally, please enable the permission before using fiil+ .
+
+"</string>
+	<string name="welcome_get_tittle"> Please allow to get device information </string>
+	<string name="whatsapp_content"> Youdao Cloud Notes only supports text and pictures </string>
+	<string name="whatsapp_no_client"> No WhatsApp client installed </string>
+	<string name="whatsapp_no_content"> Please set share content </string>
+	<string name="whatsapp_share">whatsapp share </string>
+	<string name="whatsapp_showword">WhatsApp</string>
+	<string name="widget_soc"> Battery </string>
+	<string name="xieyi_content">" " fiil+ Software License Agreement"
+
+        Please be sure to carefully read and understand all rights and restrictions set forth in this Software License Agreement (hereinafter referred to as the "Agreement"). Unless you accept the terms of this Agreement, you have no right to download, install or use the Software and its related services . Once you install, copy, download, access or otherwise use this software product, you will be deemed to have accepted this Agreement, which means that you agree to be bound by the terms of this Agreement. IF YOU DO NOT AGREE TO THE TERMS OF THIS AGREEMENT, DO NOT INSTALL, COPY OR USE THE SOFTWARE.
+
+        This " Agreement" is the agreement between the user and Fengfan (Beijing) Technology Co., Ltd. (hereinafter referred to as " Fengfan " ) regarding the user\'s downloading, installation, use, and copying of the fiil+ software (hereinafter referred to as " software " or " fiil+" ) legal agreement.
+
+    1. Statement of Rights
+
+        All intellectual property rights of this " software " , and all information content related to the " software " , including but not limited to: text expressions and their combinations, icons, graphics, images, charts, colors, interface design, layout framework, related Data, additional programs, printed materials or electronic documents are owned by Fengfan and are protected by copyright law, international copyright treaties and other intellectual property laws and regulations.
+
+    2. Scope of License
+
+        2.1 Download , installation and use: This software is free software, and users can download, install and use this software for non-commercial and unlimited quantities.
+
+        2.2 Reproduction, distribution and dissemination: Users may reproduce, distribute and disseminate this software product in non-commercial, unlimited quantities. However, you must ensure that every reproduction, distribution and transmission is complete and true , including all software, electronic documentation , copyrights and trademarks related to this software product , including this agreement.
+
+    3. Restriction of Rights
+
+        3.1 Reverse engineering, decompilation and disassembly are prohibited: the user shall not reverse engineer, decompile or disassemble this software product , and shall not alter the compiled program files. any resource inside. Except for the above-mentioned activities that are expressly stipulated by laws and regulations, users must abide by the restrictions of this agreement.
+
+        3.2 Component division: This software product is licensed as a single product , and the user shall not separate each part for any purpose.
+
+        3.3 Individual authorization: For commercial sales, reproduction and distribution, including but not limited to software sales, pre-installation, bundling, etc., the written authorization and permission of Fengfan must be obtained.
+
+        3.4 Reserved rights: All other rights not expressly authorized in this agreement are still owned by Fengfan. Users must obtain Fengfan\'s written consent when using other rights.
+
+    4. User Instructions
+
+        4.1 Software functions: This software provides the product introduction of fiil brand earphones, the function of burning earphones, the connection and control functions of fiil brand bluetooth earphones, the genuine inquiry of fiil brand earphones , product registration and other functions.
+
+        4.2 This software is only applicable to the operating systems announced and supported by its official website. If the user wants to abandon the use of the software for any reason after installing the software, the software can be deleted using the deletion method provided by each operating system.
+
+        4.3 This software is supported by Fengfan.
+
+        4.4 Software modification and upgrade: Fengfan reserves the right to provide users with modified and upgraded versions of this software at any time. Software upgrades will generate corresponding data traffic charges, which will be charged by the operator.
+
+        4.5 This software does not contain any malicious code designed to destroy user data and obtain user privacy information, nor does it contain any function code for monitoring and monitoring users\' mobile phones and computers, and will not collect user personal files, documents and other information, and will not leak user privacy. .
+
+        4.6 Users should use this software under the premise of abiding by the law and this agreement. The user has no right to perform actions including but not limited to the following:
+
+            4.6.1 Delete or change all rights management electronic information on this software;
+
+            4.6.2 Deliberately avoid or destroy the technical measures taken by the copyright owner to protect the copyright of the software;
+
+            4.6.3 Use this software to mislead or deceive others;
+
+            4.6.4 In violation of state regulations, delete, modify, add, or interfere with the functions of the computer information system, causing the computer information system to fail to operate normally;
+
+            4.6.5 Entering computer information network or using computer information network resources without permission;
+
+            4.6.6 Deletion, modification or addition of computer information network functions without permission;
+
+            4.6.7 Delete, modify or add data and applications stored, processed or transmitted in the computer information network without permission;
+
+            4.6.8 Destroy the normal operation of the software system or website, and deliberately spread destructive programs such as computer viruses;
+
+            4.6.9 Any other acts that endanger the security of computer information network;
+
+        4.7 For the software product downloaded from the designated site of Feifengfan and the software product obtained from the medium issued by Feifengfan, Fengfan cannot guarantee whether the software is infected with computer or mobile phone virus , whether there is a camouflaged Trojan horse program or not. Hacking software, the use of such software may lead to unpredictable risks, users are advised not to download, install and use easily, and Fengfan does not assume any legal responsibility arising therefrom.
+
+        4.8 Privacy Protection
+
+            4.8.1 In order to better improve the product experience and continue to provide users with the best service. Under the premise of not involving the user\'s personal privacy, fiil+ will collect and use your device and other related information in the following ways:
+
+                4.8.1.1 fiil+ version upgrade : In order to make fiil+ upgrade smoothly, when the user opens fiil+ , fiil+ will report the current version and brand model of fiil+ used by the user to the Fengfan server ( to avoid incompatibility ) , so as to be compatible with Fengfan. Compare the versions on the server and query the corresponding upgrade package. If an upgrade package is detected, Fengfan will prompt the user, and the user can decide whether to upgrade. For very important upgrades ( such as repairing serious bugs) , users will not be able to continue to use the original version if they do not upgrade. Fengfan will not store the reported information, or match it with any other personal information of the user, nor use it for other commercial purposes.
+
+                4.8.1.2 Headphone system firmware upgrade: In order to detect whether the user\'s headphone firmware version is updated, the version information of the user\'s headphone firmware needs to be sent to the Fengfan server from time to time for comparison to check whether the firmware is updated. When there is a higher version of the firmware in the Fengfan server, Fengfan will prompt the user, and the user can decide whether to upgrade. Fengfan will not match any data with any other personal information of users, nor will it be used for other commercial purposes.
+
+                4.8.1.3 Fengfan has formulated strict user upload information processing rules and security protection measures to ensure that user information is not collected beyond the purpose and scope, to ensure the safety of user uploaded information, and to ensure that user uploaded information is not abused.
+
+            4.8.2 Fengfan has formulated the following four privacy protection principles to guide us how to deal with issues related to user privacy and user information in our products:
+
+               ( 1 ) Use the information we collect to provide users with valuable products and services.
+
+               ( 2 ) Develop products that comply with privacy standards and privacy practices.
+
+               ( 3 ) Make the collection of personal information transparent and supervised by an authoritative third party.
+
+               ( 4 ) Do our best to protect the information we hold.
+
+               You can view the details of our privacy protection through the Fengfan Technology website: http://www.fiil.com/privacy.html
+
+    5. Disclaimer and Limitation of Liability
+
+        5.1 The user confirms that he is aware of all the functions of the software and the necessary operations performed by Fengfan to realize the functions of the software, and he voluntarily chooses to use the software and related services according to his own needs, because of the risks of using the software and related services. And all consequences will be entirely borne by itself, Fengfan does not assume any responsibility.
+
+        5.2 This software has been tested in detail, but it cannot be guaranteed to be fully compatible with all software and hardware systems, and it cannot be guaranteed that the software is completely error-free. In the event of incompatibility and software errors, users can report the situation to Fengfan through the feedback function within the software to obtain technical support. If the compatibility problem cannot be resolved, the user can delete the software.
+
+        5.3 To the maximum extent permitted by applicable law , damages and risks arising from the use or inability to use the software, including but not limited to direct or indirect personal damage, loss of commercial profits, trade interruption, loss of business information or Fengfan is not responsible for any other economic losses.
+
+        5.4 Fengfan shall not be liable for any losses caused by telecommunication system or Internet network failure, computer failure or virus, information damage or loss, computer system problem or any other force majeure .
+
+        5.5 The user violates the provisions of this agreement and causes damage to Fengfan. Fengfan has the right to take measures including but not limited to interrupting the license, stopping the provision of services, restricting the use, and pursuing legal investigations.
+
+    6. Legal and Dispute Resolution
+
+        6.1 This Agreement shall be governed by the laws of the People's Republic of China.
+
+        6.2 Any dispute arising from or related to this Agreement shall be settled through friendly negotiation; if the negotiation fails, either party may submit the relevant dispute to the Beijing Arbitration Commission for arbitration in accordance with its then effective arbitration rules; the arbitral award It is final and binding on all parties.
+
+    7. Other terms
+
+        7.1 If any provision of this Agreement is for any reason wholly or partially invalid or unenforceable, or violates any applicable law, that provision shall be deemed deleted, but the remaining provisions of this Agreement shall remain valid and binding force.
+
+        7.2 Fengfan has the right to modify this agreement at any time in accordance with changes in relevant laws and regulations, as well as adjustments to the company\'s operating conditions and business strategies. The revised agreement will accompany the new version of the software. In the event of a relevant dispute, the latest agreement text shall prevail. If you do not agree with the modified content, the user can delete the software by himself. If the user continues to use the software, it is deemed that you accept the changes in this agreement.
+
+        7.3 Fengfan has the right to interpret and modify this agreement to the fullest extent permitted by law . "</string>
+	<string name="year"> year </string>
+	<string name="ynote_content"> Youdao cloud notes only support text, pictures, graphic sharing </string>
+	<string name="ynote_no_client"> Youdao Cloud Note Client is not installed </string>
+	<string name="ynote_no_content"> Please set sharing content </string>
+	<string name="ynote_share"> Youdao cloud note sharing </string>
+	<string name="ynote_showword"> Youdao Cloud Notes </string>
+	<string name="you"> your </string>
+	<string name="zao_set"> ANC </string>
+	<string name="ziran"> Original sound </string>
+</resources>

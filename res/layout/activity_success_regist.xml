@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/main_top" />
+    <ImageView android:id="@id/iv_regist_info" android:background="@mipmap/success_photo" android:layout_width="fill_parent" android:layout_height="230.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/regist_success_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_regist_success_number" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray" android:layout_gravity="center_horizontal" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/regist_product" />
+    <Button android:textSize="18.0sp" android:textColor="@color/after_sale_servier_policy_color" android:layout_gravity="center_horizontal" android:id="@id/btn_result_back" android:background="@drawable/shape_result_background" android:layout_width="240.0dip" android:layout_height="45.0dip" android:layout_marginTop="100.0dip" android:text="@string/back" />
+</LinearLayout>

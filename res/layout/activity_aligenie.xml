@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/activity_aligenie_rl" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/activity_aligenie_back" android:background="@drawable/btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/color_565656" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Voice assistant" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:id="@id/view_line" android:background="@color/music_select_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/activity_aligenie_rl" />
+    <android.support.v4.view.ViewPager android:id="@id/myViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" android:layout_below="@id/view_line" />
+</RelativeLayout>

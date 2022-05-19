@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_share_icon" android:layout_width="23.0dip" android:layout_height="25.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="25.0dip" android:src="@mipmap/share_pace" />
+    <TextView android:textSize="20.0sp" android:textColor="#ff2d2d2d" android:id="@id/tv_share_num" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginLeft="22.0dip" android:layout_marginTop="22.0dip" android:text="20.54" android:layout_toRightOf="@id/iv_share_icon" />
+    <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:id="@id/tv_share_unit" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="22.0dip" android:layout_marginTop="8.0dip" android:text="Distance (kilometer)" android:layout_toRightOf="@id/iv_share_icon" android:layout_below="@id/tv_share_num" />
+    <ImageView android:id="@id/share_assist" android:layout_width="14.0dip" android:layout_height="16.0dip" android:layout_marginLeft="25.0dip" android:layout_marginBottom="18.0dip" android:src="@mipmap/share_assist" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="12.0sp" android:textColor="#fff2c200" android:id="@id/tv_share_score" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginBottom="18.0dip" android:text="Average record18.56" android:layout_toRightOf="@id/iv_share_icon" android:layout_alignParentBottom="true" />
+</RelativeLayout>
