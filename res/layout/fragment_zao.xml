@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fengeek.view.FractionTranslateLayout android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="420.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <com.fengeek.view.BeatCircleColumnView android:id="@id/bcc" android:layout_width="250.0dip" android:layout_height="250.0dip" android:layout_marginTop="45.0dip" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/iv_zao_ear" android:background="@mipmap/zao_ear" android:layout_width="250.0dip" android:layout_height="250.0dip" android:layout_marginTop="49.0dip" android:layout_centerHorizontal="true" />
+    <LinearLayout android:id="@id/ll_zao" android:paddingLeft="70.0dip" android:paddingRight="70.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="45.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/small_text_size" android:textColor="@drawable/selector_zao_text" android:id="@id/btn_set_jiangzao" android:background="@drawable/selector_zao_text_button" android:layout_width="80.0dip" android:layout_height="60.0dip" android:layout_marginRight="3.0dip" android:text="@string/jiangzao" android:layout_weight="1.0" android:textAllCaps="false" skin:enable="true" />
+        <Button android:textSize="@dimen/small_text_size" android:textColor="@drawable/selector_zao_text" android:id="@id/btn_set_putong" android:background="@drawable/selector_zao_text_button" android:layout_width="80.0dip" android:layout_height="60.0dip" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:text="@string/putong" android:layout_weight="1.0" android:textAllCaps="false" skin:enable="true" />
+        <Button android:textSize="@dimen/small_text_size" android:textColor="@drawable/selector_zao_text" android:id="@id/btn_set_jigting" android:background="@drawable/selector_zao_text_button" android:layout_width="80.0dip" android:layout_height="60.0dip" android:layout_marginLeft="3.0dip" android:text="@string/jianting" android:layout_weight="1.0" android:textAllCaps="false" skin:enable="true" />
+    </LinearLayout>
+</com.fengeek.view.FractionTranslateLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <TextView android:textSize="15.0sp" android:textColor="@color/dialog_measege" android:gravity="center" android:id="@id/tv_connected_ele" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+    <View android:background="@color/left_menu_lint_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="24.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <View android:background="@color/left_menu_lint_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:textSize="17.0sp" android:textColor="@color/gray" android:id="@id/btn_connected_ele_cancel" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" android:textAllCaps="false" />
+        <Button android:textSize="17.0sp" android:textColor="@color/colorPrimary" android:id="@id/btn_connected_ele_ok" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dialog_connected_ok" android:layout_weight="1.0" android:textAllCaps="false" skin:enable="true" />
+    </LinearLayout>
+</LinearLayout>

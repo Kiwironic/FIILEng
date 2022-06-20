@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <View android:id="@id/view_music_home" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_music_home_storage" android:layout_toLeftOf="@id/ll_music_home_media" android:layout_alignParentTop="true" android:layout_toStartOf="@id/ll_music_home_media" style="@style/LinearLayout_music_home">
+            <ImageView android:background="@mipmap/iv_music_storage" style="@style/Button_music_home" />
+            <TextView android:text="@string/music_home_storage" style="@style/TextView_music_home" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_music_home_media" android:layout_toLeftOf="@id/view_music_home" android:layout_alignParentTop="true" android:layout_toStartOf="@id/view_music_home" style="@style/LinearLayout_music_home">
+            <ImageView android:id="@id/imageView2" android:background="@mipmap/iv_music_media" style="@style/Button_music_home" />
+            <TextView android:text="@string/music_home_media" style="@style/TextView_music_home" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_music_home_down" android:layout_toRightOf="@id/view_music_home" style="@style/LinearLayout_music_home">
+            <ImageView android:background="@mipmap/iv_music_down" style="@style/Button_music_home" />
+            <TextView android:text="@string/music_home_down" style="@style/TextView_music_home" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_music_home_list" android:layout_toRightOf="@id/ll_music_home_down" style="@style/LinearLayout_music_home">
+            <ImageView android:background="@mipmap/iv_music_list" style="@style/Button_music_home" />
+            <TextView android:text="@string/music_home_list" style="@style/TextView_music_home" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

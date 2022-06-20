@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/duer_toolbar" layout="@layout/main_top" />
+    <include layout="@layout/view_line" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/duer_chat_rv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.fengeek.duer.compont.SLoadingIndicatorView android:id="@id/siv" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

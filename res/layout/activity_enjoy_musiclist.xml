@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fengeek.view.MusicFrameLayout android:id="@id/enjoy_slide" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/main_top" />
+        <RelativeLayout android:id="@id/rl_musiclist" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/layout_music_list" />
+            <include layout="@layout/layout_music_list_empty" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/layout_heatset_update" />
+</com.fengeek.view.MusicFrameLayout>

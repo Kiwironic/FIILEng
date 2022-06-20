@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/avatar_left_iv" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:src="@mipmap/duer_avatar" android:layout_centerVertical="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff565656" android:id="@id/chat_tv" android:background="@drawable/shape_left_duer_chat_bg" android:padding="23.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="20.0dip" android:text="欢迎使用DuerOS智能语音交互" android:layout_toRightOf="@id/avatar_left_iv" />
+</RelativeLayout>

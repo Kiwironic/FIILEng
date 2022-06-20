@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fengeek.view.FractionTranslateLayout android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:circlecolor="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/rl_dsp_mode" android:visibility="gone" style="@style/RelativeLayout_MusicSetting_home">
+            <ImageView android:id="@id/iv_simple_mode_outside" android:background="@mipmap/dsp" android:layout_width="16.0dip" android:layout_height="16.0dip" style="@style/fragment_set_img" />
+            <TextView android:text="@string/CC_Setting_dsp" android:layout_toRightOf="@id/iv_simple_mode_outside" style="@style/TextView_MoreSetting_Little" />
+            <FrameLayout android:id="@id/fl_dsp_mode" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                <ImageView android:id="@id/iv_dsp_mode" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+            </FrameLayout>
+        </RelativeLayout>
+        <TextView android:id="@id/detailText1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="10.0dip" android:text="@string/CC_Setting_dspDetail" android:layout_below="@id/rl_dsp_mode" />
+        <RelativeLayout android:id="@id/rl_more_eq" android:visibility="gone" android:layout_marginTop="1.0dip" android:layout_below="@id/detailText1" style="@style/RelativeLayout_MoreSetting">
+            <ImageView android:id="@id/iv_moreset_five" android:background="@mipmap/zidingyi" android:layout_width="16.0dip" android:layout_height="16.0dip" style="@style/fragment_set_img" />
+            <TextView android:textColor="#ff565656" android:text="@string/CC_Setting_eq" android:layout_toRightOf="@id/iv_moreset_five" style="@style/TextView_MoreSetting_Little" />
+            <ImageView android:id="@id/iv_moreset_five_arrow" style="@style/ImageView_MoreFragment_Arrow" />
+        </RelativeLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="266.0dip" android:layout_height="wrap_content" android:layout_marginTop="-20.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/rl_more_eq" android:layout_centerHorizontal="true">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="180.0dip">
+                <com.fengeek.styleview.view.LineChartView android:layout_gravity="center_horizontal" android:id="@id/chart_01" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="180.0dip" />
+                <com.fengeek.styleview.view.LineChartView android:layout_gravity="center_horizontal" android:id="@id/chart_02" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="180.0dip" />
+                <com.fengeek.styleview.view.LineChartView android:layout_gravity="center_horizontal" android:id="@id/chart_03" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="180.0dip" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip">
+                <cn.feng.skin.manager.view.TranslationBallView android:id="@id/fragment_style_tbv" android:layout_width="fill_parent" android:layout_height="20.0dip" circlecolor:progressColor="@color/colorPrimary" skin:enable="true" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip">
+                    <Button android:textColor="@drawable/selector_heat_info_oper_text" android:id="@id/btn_low" android:background="@drawable/selector_zao_text_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/low" android:layout_weight="1.0" android:textAllCaps="false" />
+                    <Button android:textColor="@drawable/selector_heat_info_oper_text" android:id="@id/btn_medium" android:background="@drawable/selector_zao_text_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ziran" android:layout_weight="1.0" android:textAllCaps="false" />
+                    <Button android:textColor="@drawable/selector_heat_info_oper_text" android:id="@id/btn_high" android:background="@drawable/selector_zao_text_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/high" android:layout_weight="1.0" android:textAllCaps="false" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@id/fl_sds" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="60.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/iv_sds" android:background="@drawable/selector_fiil_sds" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@null" skin:enable="true" />
+                <TextView android:textSize="16.0sp" android:textColor="@drawable/selector_fiil_sds_textcolor" android:layout_gravity="center" android:id="@id/tv_sds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/sds_open" skin:enable="true" />
+                <TextView android:textSize="10.0dip" android:textColor="#ffb0afaf" android:layout_gravity="bottom|center" android:id="@id/tv_sds_mean" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/sds_mean" />
+            </FrameLayout>
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="130.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/rl_more_eq" android:layout_centerHorizontal="true" android:layout_marginEnd="30.0dip" android:layout_alignParentEnd="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_back_linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:id="@id/style_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/T1X_Style_MoreSoundEffects" />
+                <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/more_sound_effect" android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+            <ListView android:id="@id/style_listView" android:background="#ffebebeb" android:layout_width="120.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="60.0dip" android:divider="@null" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/voice_linearLayout" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:id="@id/voice_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:text="Headset volume:" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff2196f3" android:id="@id/voice_textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:text="Minimum volume" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="25.0dip">
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/cc_voice_left" android:layout_weight="1.0" />
+            <SeekBar android:id="@id/voice_seekbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="10.0dip" android:max="16" android:minHeight="10.0dip" android:thumb="@drawable/cc_yingliang" android:layout_weight="8.0" android:min="0" />
+            <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/cc_voice_right" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</com.fengeek.view.FractionTranslateLayout>

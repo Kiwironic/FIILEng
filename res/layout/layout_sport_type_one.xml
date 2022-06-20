@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/shape_sport_detail_line" android:layout_width="fill_parent" android:layout_height="230.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/shape_sport_detail_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_sport_type_one_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip">
+            <ImageView android:id="@id/iv_sport_week" android:background="@mipmap/sport_week" android:layout_width="22.0dip" android:layout_height="23.0dip" />
+            <TextView android:textSize="@dimen/small_text_size" android:textColor="@color/time_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/week_sport" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/rl_sport_type_one" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_below="@id/ll_sport_type_one_title" />
+    </RelativeLayout>
+</FrameLayout>

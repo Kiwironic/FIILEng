@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <include layout="@layout/activity_head_black" />
+    <include layout="@layout/view_line" />
+    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="280.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" app:cardCornerRadius="20.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/ll_time" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="20.0dip">
+                <com.fengeek.view.PickerView android:id="@id/pv_hour" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <com.fengeek.view.PickerView android:id="@id/pv_minute" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="18.0sp" android:textColor="#ff888888" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/burntime_settime" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" app:cardCornerRadius="20.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_centerHorizontal="true">
+                <Button android:id="@id/btn_burntime_sun" android:layout_marginLeft="0.0dip" android:text="@string/burntime_sun" style="@style/Button_BurnTime" />
+                <Button android:id="@id/btn_burntime_mon" android:text="@string/burntime_mon" style="@style/Button_BurnTime" />
+                <Button android:id="@id/btn_burntime_tue" android:text="@string/burntime_tue" style="@style/Button_BurnTime" />
+                <Button android:id="@id/btn_burntime_wed" android:text="@string/burntime_wed" style="@style/Button_BurnTime" />
+                <Button android:id="@id/btn_burntime_thu" android:text="@string/burntime_thu" style="@style/Button_BurnTime" />
+                <Button android:id="@id/btn_burntime_fri" android:text="@string/burntime_fri" style="@style/Button_BurnTime" />
+                <Button android:id="@id/btn_burntime_sat" android:text="@string/burntime_sat" style="@style/Button_BurnTime" />
+            </LinearLayout>
+            <TextView android:textSize="18.0sp" android:textColor="#ff888888" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/burntime_setday" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_burntime_save" android:background="@mipmap/product_regist_login" android:layout_width="320.0dip" android:layout_height="40.0dip" android:layout_marginBottom="20.0dip" android:text="@string/burntime_save" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" skin:enable="true" />
+    </RelativeLayout>
+</LinearLayout>

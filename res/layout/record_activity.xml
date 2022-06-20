@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title" android:background="@drawable/title_background" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ToggleButton android:gravity="center" android:orientation="vertical" android:id="@id/locationbtn" android:paddingLeft="5.0dip" android:descendantFocusability="beforeDescendants" android:layout_width="70.0dip" android:layout_height="fill_parent" android:textOn="Stop" android:textOff="Start" android:layout_alignParentLeft="true" android:paddingStart="5.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <TextView android:textSize="18.0dip" android:textStyle="bold" android:id="@id/title_center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/title_lly_right" android:paddingRight="5.0dip" android:descendantFocusability="beforeDescendants" android:layout_width="90.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:onClick="record">
+            <TextView android:enabled="true" android:textSize="18.0dip" android:id="@id/title_tv_option" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="record" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.amap.api.maps.MapView android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</RelativeLayout>

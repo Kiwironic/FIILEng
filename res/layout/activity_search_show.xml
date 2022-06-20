@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/search_show" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/heart_record_text" android:id="@id/tv_search_show_support" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="Speech recognition technology provided by iFlytek" android:layout_above="@id/tv_search_show" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/time_color" android:id="@id/tv_search_show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello, how can I help you?" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/iv_search_show" android:background="@mipmap/search_show_mike" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

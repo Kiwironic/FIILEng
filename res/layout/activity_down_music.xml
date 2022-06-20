@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/tittle_top_down" />
+    <View android:background="@color/music_select_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.downmusic.view.CustomDownViewPager android:id="@id/customViewPage" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

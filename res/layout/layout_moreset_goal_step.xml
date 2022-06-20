@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rl_health_three" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <TextView android:textSize="20.0sp" android:textColor="@color/time_color" android:layout_gravity="center_horizontal" android:id="@id/tv_healthy_target" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/hearlthy_target" style="@style/TextView_Healthy" />
+    <com.fengeek.view.RollView android:layout_gravity="center_horizontal" android:id="@id/rv_moreset_pace" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="10.0dip">
+        <Button android:textSize="17.0sp" android:textColor="#ff808080" android:id="@id/cancel" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" android:textAllCaps="false" />
+        <View android:background="@color/burn_top_name_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:textSize="17.0sp" android:textColor="@color/colorPrimary" android:id="@id/ok" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ok" android:layout_weight="1.0" android:textAllCaps="false" skin:enable="true" />
+    </LinearLayout>
+</LinearLayout>

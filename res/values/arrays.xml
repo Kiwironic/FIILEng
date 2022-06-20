@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="FatigueTest">
+        <item>Recovered</item>
+        <item>Not Recover</item>
+    </string-array>
+    <string-array name="RestingRate">
+        <item>Excellent</item>
+        <item>Good</item>
+        <item>Avg.</item>
+        <item>Fair</item>
+        <item>Poor</item>
+    </string-array>
+    <string-array name="broadcast_interval">
+        <item>Warm up</item>
+        <item>Fat burn</item>
+        <item>Cardio</item>
+        <item>Anaerobic</item>
+        <item>Max. intensity</item>
+    </string-array>
+    <string-array name="broadcast_text">
+        <item>you habe been exercised</item>
+        <item>Current Heart Rate%s</item>
+        <item>average Heart Rate%s</item>
+        <item>Current heart rate Zone</item>
+        <item>Distenace %s(kilometers)</item>
+        <item>Pace %s(per kilometer)</item>
+        <item>Step Rate %s(steps per minute)</item>
+        <item>average Pace %s(per kilometers)</item>
+        <item>Calories %s(kilocalories)</item>
+        <item>Calories Rate %s(kilocalories per hours)</item>
+        <item>Current oxygen uptake %s</item>
+    </string-array>
+    <string-array name="burnremind">
+        <item>Do not listen to music loudly in the beginning. It may cause permanent damage to headphones.</item>
+        <item>Extensive burn-in is required for good sound quality. After all, good things take time…</item>
+        <item>You may listen to music in low volume during burn-in process.</item>
+        <item>Almost completed! Are you excited?</item>
+        <item>Almost completed! Are you excited?</item>
+    </string-array>
+    <string-array name="burnstart">
+        <item>"For best results, prevent headphones from damage. 
+Please DONNOT adjust sound volume during 
+burn-in process"</item>
+        <item>"Automatically rests for 5min 
+after burning for 75min."</item>
+        <item>"About 8 hours are available if opted 
+for automatic execution for 3 times."</item>
+        <item>"Full burn-in process needs to play last for 3,000 minutes 
+ in four stages. Sound volume increases with stage."</item>
+        <item>"Software can run in background 
+during burn-in process."</item>
+        <item>"Disconnect headphones to stop it immediately. 
+Do not worry about disturbing others."</item>
+        <item>"Pink noise used in burn-in is the nature's 
+most common full-band noise."</item>
+        <item>"Pink noise has
+ slightly high efficiency as compared to other 
+commonly used sounds for burn-in."</item>
+    </string-array>
+    <string-array name="burntime_week">
+        <item>Su</item>
+        <item>Mo</item>
+        <item>Tu</item>
+        <item>We</item>
+        <item>Th</item>
+        <item>Fr</item>
+        <item>Sa</item>
+    </string-array>
+    <string-array name="cache_space_limit">
+        <item>500M</item>
+        <item>1G</item>
+        <item>2G</item>
+    </string-array>
+    <string-array name="condetail_title">
+        <item>详情</item>
+        <item>其他章节</item>
+    </string-array>
+    <string-array name="down_quality">
+        <item>Storage1</item>
+        <item>Storage2</item>
+        <item>Storage3</item>
+    </string-array>
+    <string-array name="heat_model_option">
+        <item>FIIL</item>
+        <item>FIIL Bestie</item>
+        <item>FIIL_Wireless</item>
+    </string-array>
+    <string-array name="month_name">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="search_assistant">
+        <item>Voice Search</item>
+        <item>Following System</item>
+    </string-array>
+    <string-array name="search_duer">
+        <item>DuerOS智能</item>
+        <item>Following System</item>
+    </string-array>
+    <string-array name="search_language">
+        <item>Chinese First</item>
+        <item>English First</item>
+    </string-array>
+    <string-array name="search_online">
+        <item>Available under data network</item>
+        <item>Only available under WLAN</item>
+    </string-array>
+    <string-array name="search_quality">
+        <item>Normal</item>
+        <item>High Quality</item>
+        <item>Source Quality</item>
+    </string-array>
+    <string-array name="search_stop">
+        <item>Resume playing under Local Mode</item>
+        <item>Stop</item>
+    </string-array>
+    <string-array name="select_professional_option">
+        <item>Sales / Customer Service / Marketing / PR</item>
+        <item>Finance / Human Resources / Administration</item>
+        <item>IT / Internet /Communication</item>
+        <item>House property / Construction</item>
+        <item>Trade / Transportation / Travel / Logistics</item>
+        <item>Production / Manufacture</item>
+        <item>Media / Entertainment</item>
+        <item>Education</item>
+        <item>Student</item>
+        <item>Legal / Translation / Consultant</item>
+        <item>Government / Public Service</item>
+        <item>Agriculture / Environmental Protection/ Scientific research</item>
+        <item>Services / Catering / Medical treatment / Home Economics</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="share_axis">
+        <item>HR(beats/min)</item>
+        <item>Distance(km)</item>
+        <item>Time(second)</item>
+        <item>Avg. HR(beats/min)</item>
+        <item>Avg. HR Zone</item>
+        <item>VO2(ml/kg/min)</item>
+        <item>Pace(min)</item>
+        <item>Avg. pace(per km)</item>
+        <item>Speed(km/h)</item>
+        <item>Avg. speed(km/h)</item>
+        <item>Step Rate(steps/min)</item>
+        <item>Calories(kcal)</item>
+        <item>Distance(km)</item>
+    </string-array>
+    <string-array name="sport_display_bicycle_mode">
+        <item>Current Heart Rate(bpm)</item>
+        <item>Distance(km)</item>
+        <item>Fitness Time</item>
+        <item>HR Zone</item>
+        <item>VO2(ml/kg/min)</item>
+        <item>Pace(per km)</item>
+        <item>Avg. Pace(per km)</item>
+        <item>Speed(km/h)</item>
+        <item>Avg. Speed(km/h)</item>
+        <item>Calories(kcal)</item>
+    </string-array>
+    <string-array name="sport_display_hickey_mode">
+        <item>Current Heart Rate(bpm)</item>
+        <item>Fitness Time</item>
+        <item>HR Zone</item>
+        <item>VO2(ml/kg/min)</item>
+        <item>Calories(kcal)</item>
+    </string-array>
+    <string-array name="sport_display_indoor_mode">
+        <item>Current Heart Rate(bpm)</item>
+        <item>Distance(km)</item>
+        <item>Fitness Time</item>
+        <item>HR Zone</item>
+        <item>VO2(ml/kg/min)</item>
+        <item>Pace(per km)</item>
+        <item>Speed(km/h)</item>
+        <item>Step Rate(steps/min)</item>
+        <item>Calories(kcal)</item>
+    </string-array>
+    <string-array name="sport_display_step_mode">
+        <item>Current Heart Rate(bpm)</item>
+        <item>Distance(km)</item>
+        <item>Fitness Time</item>
+        <item>HR Zone</item>
+        <item>VO2(ml/kg/min)</item>
+        <item>Pace(per km)</item>
+        <item>Avg. Pace(per km)</item>
+        <item>Speed(km/h)</item>
+        <item>Avg. Speed(km/h)</item>
+        <item>Step Rate(steps/min)</item>
+        <item>Calories(kcal)</item>
+    </string-array>
+    <string-array name="timing">
+        <item>15min</item>
+        <item>30min</item>
+        <item>1h</item>
+        <item>2h</item>
+        <item>4h</item>
+        <item>No limit</item>
+    </string-array>
+    <string-array name="timingF008">
+        <item>1h</item>
+        <item>2h</item>
+        <item>4h</item>
+        <item>No limit</item>
+    </string-array>
+    <string-array name="umeng_fb_tabs_title">
+        <item>用户反馈</item>
+        <item>常见问题</item>
+    </string-array>
+    <string-array name="voice_frequency">
+        <item>According to distance</item>
+        <item>According to time</item>
+    </string-array>
+    <string-array name="voice_frequency_not">
+        <item>According to distance *（Not available in this fitness mode）</item>
+        <item>According to time</item>
+    </string-array>
+    <string-array name="voice_sport_distances">
+        <item>Every 1 km</item>
+        <item>Every 2 km</item>
+        <item>Every 3 km</item>
+        <item>Every 5 km</item>
+    </string-array>
+    <string-array name="voice_sport_time">
+        <item>Every 3 minutes</item>
+        <item>Every 5 minutes</item>
+        <item>Every 10 minutes</item>
+    </string-array>
+    <string-array name="voicer_cloud_entries">
+        <item>小燕—女青、中英、普通话</item>
+        <item>小宇—男青、中英、普通话</item>
+        <item>凯瑟琳—女青、英</item>
+        <item>亨利—男青、英</item>
+        <item>玛丽—女青、英</item>
+        <item>小研—女青、中英、普通话</item>
+        <item>小琪—女青、中英、普通话</item>
+        <item>小峰—男青、中英、普通话</item>
+        <item>小梅—女青、中英、粤语</item>
+        <item>小莉—女青、中英、台湾普通话</item>
+        <item>小蓉—女青、中、四川话</item>
+        <item>小芸—女青、中、东北话</item>
+        <item>小坤—男青、中、河南话</item>
+        <item>小强—男青、中、湖南话</item>
+        <item>小莹—女青、中、陕西话</item>
+        <item>小新—男童、中、普通话</item>
+        <item>楠楠—女童、中、普通话</item>
+        <item>老孙—男老、中、普通话</item>
+    </string-array>
+    <string-array name="voicer_cloud_values">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>catherine</item>
+        <item>henry</item>
+        <item>vimary</item>
+        <item>vixy</item>
+        <item>xiaoqi</item>
+        <item>vixf</item>
+        <item>xiaomei</item>
+        <item>xiaolin</item>
+        <item>xiaorong</item>
+        <item>xiaoqian</item>
+        <item>xiaokun</item>
+        <item>xiaoqiang</item>
+        <item>vixying</item>
+        <item>xiaoxin</item>
+        <item>nannan</item>
+        <item>vils</item>
+    </string-array>
+</resources>

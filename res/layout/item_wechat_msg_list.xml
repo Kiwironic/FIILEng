@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_wechat_msg_layout_receiver" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+        <ImageView android:id="@id/item_wechat_msg_iv_receiver_profile" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/stranger" android:layout_marginEnd="10.0dip" />
+        <TextView android:textSize="@dimen/content_text_16sp" android:textColor="@color/colorBlack" android:gravity="center_vertical" android:id="@id/item_wechat_msg_tv_receiver_msg" android:background="@drawable/shape_left_duer_chat_bg" android:padding="23.0dip" android:paddingLeft="20.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="nullMsg" android:layout_marginStart="@dimen/margin" android:layout_marginEnd="60.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/item_wechat_msg_layout_sender" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+        <TextView android:textSize="@dimen/content_text_16sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/item_wechat_msg_tv_sender_msg" android:background="@drawable/shape_right_duer_chat_bg" android:padding="23.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="45.0dip" android:text="nullMsg" android:layout_alignParentTop="true" android:paddingEnd="13.0dip" android:layout_toStartOf="@id/item_wechat_msg_iv_sender_profile" />
+        <ImageView android:id="@id/item_wechat_msg_iv_sender_profile" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/stranger" android:layout_alignParentRight="true" android:layout_marginStart="10.0dip" />
+    </RelativeLayout>
+</LinearLayout>

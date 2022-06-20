@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fengeek.view.ShareItemView android:orientation="vertical" android:background="#fffdfdfe" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="125.0dip">
+        <RelativeLayout android:id="@id/share_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <include layout="@layout/layout_share_info_item" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/share_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <include layout="@layout/layout_share_info_item" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:background="#fff4f4f4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="375.0dip">
+        <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="#fff8f8f8" app:cardCornerRadius="5.0dip" app:cardElevation="8.0dip" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="true">
+            <TextView android:textColor="@color/colorPrimary" android:id="@id/tv_chart_y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="10.0dip" />
+            <TextView android:textColor="@color/colorPrimary" android:layout_gravity="bottom|center|right" android:id="@id/tv_chart_x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip" />
+            <com.fengeek.styleview.view.LineChartView android:id="@id/linechartview" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="22.0dip" android:layout_marginTop="35.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="30.0dip" />
+            <com.fengeek.styleview.view.PieChartView android:layout_gravity="center_horizontal" android:id="@id/piechartview" android:visibility="gone" android:layout_width="300.0dip" android:layout_height="300.0dip" android:layout_marginTop="20.0dip" />
+            <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_heartheart_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+                <ImageView android:background="@mipmap/hotfix_yellow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@id/tv_hotfix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/share_hotbody" />
+                <ImageView android:background="@mipmap/fat_buring_color" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@id/tv_fat_buring" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/share_fat_burning" />
+                <ImageView android:background="@mipmap/aerobic_color" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@id/tv_aerobic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/share_having_oxygen" />
+                <ImageView android:background="@mipmap/anaerobic_color" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@id/tv_anaerobic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/share_no_oxygen" />
+                <ImageView android:background="@mipmap/severe_color" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@id/tv_severe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/share_severe" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+    <View android:background="@color/heart_record_deal" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</com.fengeek.view.ShareItemView>

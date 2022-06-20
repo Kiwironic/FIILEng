@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <TextView android:textSize="17.0sp" android:textColor="@color/theme_bg" android:gravity="center" android:id="@id/tv_update_alert_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/heatset_ele_low" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_update_alert_icon" android:layout_width="145.0dip" android:layout_height="96.0dip" android:layout_marginTop="10.0dip" android:src="@mipmap/update_heatset_and_phone_charging" />
+    <TextView android:textSize="17.0sp" android:textColor="@color/gray" android:gravity="center" android:id="@id/tv_update_alert_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/try_again_after_charging" />
+    <View android:background="@color/left_menu_lint_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="24.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:textSize="17.0sp" android:textColor="@color/gray" android:id="@id/btn_update_alert_cancel" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" android:textAllCaps="false" />
+        <Button android:textSize="17.0sp" android:textColor="@color/colorPrimary" android:id="@id/btn_update_alert_ok" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ok" android:layout_weight="1.0" skin:enable="true" />
+    </LinearLayout>
+</LinearLayout>

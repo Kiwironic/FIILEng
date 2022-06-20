@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="FatigueTest">
+        <item>疲劳已恢复</item>
+        <item>疲劳未恢复</item>
+    </string-array>
+    <string-array name="RestingRate">
+        <item>卓越</item>
+        <item>优秀</item>
+        <item>一般</item>
+        <item>较差</item>
+        <item>非常差</item>
+    </string-array>
+    <string-array name="broadcast_interval">
+        <item>热身</item>
+        <item>燃脂</item>
+        <item>有氧锻炼</item>
+        <item>无氧耐力锻炼</item>
+        <item>剧烈爆发锻炼</item>
+    </string-array>
+    <string-array name="broadcast_text">
+        <item>已运动</item>
+        <item>当前心率%s</item>
+        <item>平均心率%s</item>
+        <item>当前心率区间</item>
+        <item>距离%s公里</item>
+        <item>配速%s每公里</item>
+        <item>步频%s步每分钟</item>
+        <item>速度%s公里每小时</item>
+        <item>热量消耗%s千卡</item>
+        <item>热量消耗速度%s千卡每小时</item>
+        <item>当前摄氧量%s</item>
+    </string-array>
+    <string-array name="burnremind">
+        <item>初期切忌大声听音乐，可能永久损伤耳机！</item>
+        <item>好事需多磨，慢煲出好声！</item>
+        <item>煲机之余可以较小音量听一些音乐了！</item>
+        <item>就快完成了，有没有焕然一新的感觉？</item>
+        <item>就快完成了，有没有焕然一新的感觉？</item>
+    </string-array>
+    <string-array name="burnstart">
+        <item>"为达到最佳效果、避免损坏耳机，
+煲机过程中请不要调节音量"</item>
+        <item>煲机进行每75分钟，自动休息5分钟</item>
+        <item>如选择自动执行3次，需大约8小时</item>
+        <item>"完整的煲机进度需播放3000分钟，
+分4个阶段，音量随阶段递增"</item>
+        <item>煲机时软件可以后台运行</item>
+        <item>断开耳机立刻停止，不必担心吵到其他人</item>
+        <item>"煲机使用的粉红噪声，是
+自然界最常见的全频段噪声"</item>
+        <item>"粉红噪声相比煲机常用的其他
+声音效率略高，三频更均匀"</item>
+    </string-array>
+    <string-array name="burntime_week">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string-array name="condetail_title">
+        <item>详情</item>
+        <item>其他章节</item>
+    </string-array>
+    <string-array name="down_quality">
+        <item>存储卡1</item>
+        <item>存储卡2</item>
+        <item>存储卡3</item>
+    </string-array>
+    <string-array name="search_assistant">
+        <item>语音搜歌</item>
+        <item>跟随系统</item>
+    </string-array>
+    <string-array name="search_duer">
+        <item>智能语音助手</item>
+        <item>跟随系统</item>
+    </string-array>
+    <string-array name="search_language">
+        <item>优先中文</item>
+        <item>优先英语</item>
+    </string-array>
+    <string-array name="search_online">
+        <item>移动网络下可用</item>
+        <item>仅Wi-Fi可用</item>
+    </string-array>
+    <string-array name="search_quality">
+        <item>普通</item>
+        <item>高清</item>
+        <item>无损</item>
+    </string-array>
+    <string-array name="search_stop">
+        <item>本地模式继续播放</item>
+        <item>停止</item>
+    </string-array>
+    <string-array name="select_professional_option">
+        <item>销售/客服/市场/公关</item>
+        <item>财务/人力资源/行政</item>
+        <item>IT/互联网/通信</item>
+        <item>房产/建筑</item>
+        <item>贸易/交通/旅游/物流</item>
+        <item>生产/制造</item>
+        <item>传媒/娱乐</item>
+        <item>教育</item>
+        <item>学生</item>
+        <item>法律/翻译/咨询顾问</item>
+        <item>政府/公共服务</item>
+        <item>农业/环保/科研</item>
+        <item>服务/餐饮/医疗/家政</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="share_axis">
+        <item>心率(次/分)</item>
+        <item>距离(公里)</item>
+        <item>时间/秒</item>
+        <item>平均心率(次/分)</item>
+        <item>心率区间</item>
+        <item>摄氧量(毫升/千克/分钟)</item>
+        <item>配速(分钟)</item>
+        <item>平均配速(每公里)</item>
+        <item>速度(公里/小时)</item>
+        <item>平均速度(公里/小时)</item>
+        <item>步频(步/分)</item>
+        <item>热量消耗(大卡)</item>
+        <item>里程(公里)</item>
+    </string-array>
+    <string-array name="sport_display_bicycle_mode">
+        <item>当前心率(bpm)</item>
+        <item>距离(公里)</item>
+        <item>运动时间</item>
+        <item>心率区间</item>
+        <item>摄氧量(毫升/千克/分钟)</item>
+        <item>配速(每公里)</item>
+        <item>平均配速(每公里)</item>
+        <item>速度(公里/小时)</item>
+        <item>平均速度(公里/小时)</item>
+        <item>热量消耗(千卡)</item>
+    </string-array>
+    <string-array name="sport_display_hickey_mode">
+        <item>当前心率(bpm)</item>
+        <item>运动时间</item>
+        <item>心率区间</item>
+        <item>摄氧量(毫升/千克/分钟)</item>
+        <item>热量消耗(千卡)</item>
+    </string-array>
+    <string-array name="sport_display_indoor_mode">
+        <item>当前心率(bpm)</item>
+        <item>距离(公里)</item>
+        <item>运动时间</item>
+        <item>心率区间</item>
+        <item>摄氧量(毫升/千克/分钟)</item>
+        <item>配速(每公里)</item>
+        <item>速度(公里/小时)</item>
+        <item>步频(次/分钟)</item>
+        <item>热量消耗(千卡)</item>
+    </string-array>
+    <string-array name="sport_display_step_mode">
+        <item>当前心率(bpm)</item>
+        <item>距离(公里)</item>
+        <item>运动时间</item>
+        <item>心率区间</item>
+        <item>摄氧量(毫升/千克/分钟)</item>
+        <item>配速(每公里)</item>
+        <item>平均配速(每公里)</item>
+        <item>速度(公里/小时)</item>
+        <item>平均速度(公里/小时)</item>
+        <item>步频(次/分钟)</item>
+        <item>热量消耗(千卡)</item>
+    </string-array>
+    <string-array name="timing">
+        <item>15分钟</item>
+        <item>30分钟</item>
+        <item>1小时</item>
+        <item>2小时</item>
+        <item>4小时</item>
+        <item>不限</item>
+    </string-array>
+    <string-array name="timingF008">
+        <item>1小时</item>
+        <item>2小时</item>
+        <item>4小时</item>
+        <item>不限</item>
+    </string-array>
+    <string-array name="umeng_fb_tabs_title">
+        <item>用户反馈</item>
+        <item>常见问题</item>
+    </string-array>
+    <string-array name="voice_frequency">
+        <item>按距离</item>
+        <item>按时间</item>
+    </string-array>
+    <string-array name="voice_frequency_not">
+        <item>按距离*（当前模式不可用）</item>
+        <item>按时间</item>
+    </string-array>
+    <string-array name="voice_sport_distances">
+        <item>每1公里</item>
+        <item>每2公里</item>
+        <item>每3公里</item>
+        <item>每5公里</item>
+    </string-array>
+    <string-array name="voice_sport_time">
+        <item>每3分钟</item>
+        <item>每5分钟</item>
+        <item>每10分钟</item>
+    </string-array>
+    <string-array name="jiangzao_array">
+        <item>降噪</item>
+        <item>普通</item>
+        <item>兼听</item>
+    </string-array>
+    <string-array name="jie_shao_text">
+        <item>设置耳机Q&amp;A</item>
+        <item>煲耳机Q&amp;A</item>
+        <item>使用协议</item>
+    </string-array>
+    <string-array name="playLights">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="playSound">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="playVibrate">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="repeatingUnit">
+        <item>年</item>
+        <item>月</item>
+        <item>日</item>
+        <item>小时</item>
+        <item>分钟</item>
+        <item>秒</item>
+    </string-array>
+    <string-array name="screenOn">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+    <string-array name="specialDay">
+        <item></item>
+        <item>元旦</item>
+        <item>除夕</item>
+        <item>春节</item>
+        <item>元宵节</item>
+        <item>清明节</item>
+        <item>劳动节</item>
+        <item>端午节</item>
+        <item>七夕节</item>
+        <item>中秋节</item>
+        <item>国庆节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+    </string-array>
+    <string-array name="style_array">
+        <item>低音震撼</item>
+        <item>自然原声</item>
+        <item>高音通透</item>
+    </string-array>
+    <string-array name="voide_array">
+        <item>关</item>
+        <item>大剧场</item>
+        <item>小剧院</item>
+        <item>客厅</item>
+    </string-array>
+</resources>

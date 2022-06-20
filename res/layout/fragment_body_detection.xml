@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/rl_resting_rate" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_resting_rate" android:background="@mipmap/heart_resting_rate" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout style="@style/LinearLayout_body_detection">
+                    <View style="@style/View_body_detection" />
+                    <TextView android:text="@string/heart_resting_rate" style="@style/TextView_body_detection" />
+                    <View style="@style/View_body_detection" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_maximum_rate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <ImageView android:id="@id/iv_maximum_rate" android:background="@mipmap/heart_maximum_rate" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout style="@style/LinearLayout_body_detection">
+                    <View style="@style/View_body_detection" />
+                    <TextView android:text="@string/heart_maximum_rate" style="@style/TextView_body_detection" />
+                    <View style="@style/View_body_detection" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_fatigue_test" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <ImageView android:id="@id/iv_fatigue_test" android:background="@mipmap/heart_fatigue_test" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout style="@style/LinearLayout_body_detection">
+                    <View style="@style/View_body_detection" />
+                    <TextView android:text="@string/heart_fatigue_test" style="@style/TextView_body_detection" />
+                    <View style="@style/View_body_detection" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_sensor_run" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <ImageView android:id="@id/iv_sensor_run" android:background="@mipmap/heart_sensor_run" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout style="@style/LinearLayout_body_detection">
+                    <View style="@style/View_body_detection" />
+                    <TextView android:text="@string/heart_sensor_run" style="@style/TextView_body_detection" />
+                    <View style="@style/View_body_detection" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_sensor_walk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+                <ImageView android:id="@id/iv_sensor_walk" android:background="@mipmap/heart_sensor_walk" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout style="@style/LinearLayout_body_detection">
+                    <View style="@style/View_body_detection" />
+                    <TextView android:text="@string/heart_sensor_walk" style="@style/TextView_body_detection" />
+                    <View style="@style/View_body_detection" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

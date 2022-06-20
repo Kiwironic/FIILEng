@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CC_Setting_LowLatencyMode">低延时模式</string>
+    <string name="CC_Setting_LowLatencyModeDetail">开启极速低延时模式会大幅降低视频和游戏的延时，但可能增加兼容性风险。请尽量避免在播放的同时启用和关闭此模式。</string>
+    <string name="CC_Setting_PowerSaving">MorpheusSTB省电优化</string>
+    <string name="CC_Setting_PowerSavingDetail">开启省电优化有助于延长通话时间，但可能稍微损失通话音质。</string>
+    <string name="CC_Setting_Quanchaozuo">全能操控模式</string>
+    <string name="CC_Setting_QuanchaozuoDetail">默认为标准模式(双击播放/暂停，接听/挂断)。打开全操作模式后，左右耳机可以分别控制音量和上下首。</string>
+    <string name="CC_Setting_dsp">DSP音质增强</string>
+    <string name="CC_Setting_dspDetail">开启后有助于提升音乐解析度和改善听感，但可能有些微放大音源的本底噪声。</string>
+    <string name="CC_Setting_eq">自定义EQ音效</string>
+    <string name="T1X_Home_ClickSearch">点击搜索</string>
+    <string name="T1X_Home_Distance">距离</string>
+    <string name="T1X_Home_Searching">搜索中…</string>
+    <string name="T1X_Home_SelectHeadset">请选择耳机连接</string>
+    <string name="T1X_MoreSetting_ResumeSynchronization">恢复同步</string>
+    <string name="T1X_MoreSetting_ResumeSynchronizationPrompt">恢复同步将会重启耳机，您有可能需要进一步手动同步</string>
+    <string name="T1X_MoreSetting_cancel">取消</string>
+    <string name="T1X_MoreSetting_confirm">确定</string>
+    <string name="T1X_MoreSetting_remind">提醒</string>
+    <string name="T1X_MoreSetting_remind_detail">耳机设置将恢复默认值，和手机连接信息不会被清除</string>
+    <string name="T1X_Setting_EasyMode">简易模式</string>
+    <string name="T1X_Setting_EasyModeDetail">简易模式会将触控操作限定为双击(播放/暂停, 接听/挂断)和中按调起语音助手</string>
+    <string name="T1X_Setting_HighlySensitiveTouchDetail">高触控灵敏度将更快速响应触控操作,但可能增加误操作</string>
+    <string name="T1X_Setting_HighlySensitiveTouchLeftEar">高灵敏触控(左耳)</string>
+    <string name="T1X_Setting_HighlySensitiveTouchRightEar">高灵敏触控(右耳)</string>
+    <string name="T1X_Setting_LatestVersion">已更新至最新版本</string>
+    <string name="T1X_Setting_LowLatencyMode">低延时模式</string>
+    <string name="T1X_Setting_LowLatencyModeDetail">低延时模式会降低视频播放和游戏的延时, 但可能增加兼容性风险(请勿播放音频时候设置)</string>
+    <string name="T1X_Setting_unconnect">未连接</string>
+    <string name="T1X_Style_MoreSoundEffects">更多音效</string>
+    <string name="T1X_Style_SoundEffect1">怀旧</string>
+    <string name="T1X_Style_SoundEffect10">电子</string>
+    <string name="T1X_Style_SoundEffect11">重低</string>
+    <string name="T1X_Style_SoundEffect12">律动</string>
+    <string name="T1X_Style_SoundEffect2">爵士</string>
+    <string name="T1X_Style_SoundEffect3">轻柔</string>
+    <string name="T1X_Style_SoundEffect4">影院</string>
+    <string name="T1X_Style_SoundEffect5">金属</string>
+    <string name="T1X_Style_SoundEffect6">流行</string>
+    <string name="T1X_Style_SoundEffect7">R&amp;B</string>
+    <string name="T1X_Style_SoundEffect8">舞曲</string>
+    <string name="T1X_Style_SoundEffect9">摇滚</string>
+    <string name="T1X_Toast1">检查蓝牙是否开启</string>
+    <string name="T1X_Toast2">自动连接失败</string>
+    <string name="T1X_Toast3">左耳连接断开</string>
+    <string name="T1X_Toast4">右耳连接断开</string>
+    <string name="T1X_Toast5">自动连接中</string>
+    <string name="UMAppUpdate">应用更新</string>
+    <string name="UMBreak_Network">未联网</string>
+    <string name="UMDialog_InstallAPK">最新版本已下载，是否安装？</string>
+    <string name="UMGprsCondition">（提示：非WIFI环境）</string>
+    <string name="UMIgnore">忽略该版</string>
+    <string name="UMNewVersion">最新版本:</string>
+    <string name="UMNotNow">以后再说</string>
+    <string name="UMTargetSize">新版本大小:</string>
+    <string name="UMToast_IsUpdating">正在更新中....</string>
+    <string name="UMUpdateCheck">2.6.0.1.20150312</string>
+    <string name="UMUpdateContent">更新内容</string>
+    <string name="UMUpdateNow">立即更新</string>
+    <string name="UMUpdateSize">仅需要下载:</string>
+    <string name="UMUpdateTitle">发现新版本</string>
+    <string name="XS_Setting_WearSensor">耳机佩戴感应</string>
+    <string name="XS_Setting_WearSensorDetail">开启佩戴感应后，取下耳塞即暂停播放，戴上耳塞将恢复音乐播放。</string>
+    <string name="about">约</string>
+    <string name="about_agreement_title">fiil+软件许可使用协议</string>
+    <string name="about_duer_notsupport">语音助手暂不支持</string>
+    <string name="about_duer_title">语音助手设置</string>
+    <string name="about_fill">关于fiil+</string>
+    <string name="about_search_language">识别语言</string>
+    <string name="about_search_online">在线搜歌</string>
+    <string name="about_search_quality">在线搜歌音质</string>
+    <string name="about_search_quea">在线播放音质</string>
+    <string name="about_search_stop">播放结束</string>
+    <string name="about_search_tittle">语音搜歌设置</string>
+    <string name="about_use_liuliang_linstenr">使用2G/3G/4G流量播放</string>
+    <string name="about_voice_assistant">语音助理</string>
+    <string name="access_page_location">定位信息</string>
+    <string name="access_page_need">为了您正常使用FIIL+，需要以下权限</string>
+    <string name="access_page_phone">手机信息</string>
+    <string name="access_page_storage">存储信息</string>
+    <string name="access_page_use">开始使用FIIL+</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_new_conversation">新建会话</string>
+    <string name="action_settings">设置</string>
+    <string name="action_shouming">功能FAQ</string>
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+    <string name="add_enjoy_by_look">浏览状态无法使用“最爱”功能</string>
+    <string name="add_enjoy_promit">登录</string>
+    <string name="add_local_notification">新建</string>
+    <string name="add_music">本地音乐</string>
+    <string name="after_music">下一首</string>
+    <string name="after_sales_service_details">售后服务详情, 请阅读</string>
+    <string name="after_sales_service_policy">《fiil耳机售后服务政策》</string>
+    <string name="age">年龄</string>
+    <string name="aims_step">目标%1$d步</string>
+    <string name="all_list_music">全部音乐</string>
+    <string name="all_music">全部音乐</string>
+    <string name="all_pause">全部暂停</string>
+    <string name="all_start">全部开始</string>
+    <string name="all_the_search">大家都在搜</string>
+    <string name="allow_agreement">我已阅读并同意《软件许可使用协议》</string>
+    <string name="alread_bind_headset">绑定的耳机</string>
+    <string name="alread_select_music_number">已选择(%1$d首)</string>
+    <string name="already_burn_time">已煲机</string>
+    <string name="anc_button">ANC</string>
+    <string name="anc_switch">开关降噪</string>
+    <string name="app_name">fiil+</string>
+    <string name="audition_and_download">试听与下载</string>
+    <string name="audition_and_lrc">封面图和歌词</string>
+    <string name="auto_clean">自动清理</string>
+    <string name="auto_match_lrc_and_pic">自动匹配封面图和歌词</string>
+    <string name="avg_speed">平均速度(kph)</string>
+    <string name="back">返回</string>
+    <string name="back_download">后台下载</string>
+    <string name="befour_music">上一首</string>
+    <string name="begin">开始</string>
+    <string name="best_enjoy">我的最爱</string>
+    <string name="big">大剧院</string>
+    <string name="bind_new_headset">绑定新耳机</string>
+    <string name="blueNext">跳过</string>
+    <string name="blue_to_set">进入手机设置</string>
+    <string name="bluebound">绑定新耳机</string>
+    <string name="bluecomplete">完成</string>
+    <string name="blueconned">FIIL Wireless已连接</string>
+    <string name="blueconnedF005">FIIL Diva Pro已连接</string>
+    <string name="blueconnedF006">FIIL Carat 已连接</string>
+    <string name="blueconnedF007">FIIL Carat M已连接</string>
+    <string name="blueconnedF008">FIIL Diva 已连接</string>
+    <string name="blueconnedF009">FIIL Vox 已连接</string>
+    <string name="blueconnedF011">FIIL Driifter Pro已连接</string>
+    <string name="blueconning">配对</string>
+    <string name="bluef006poit1">"关机状态下长按多功能键，直至耳机
+说出配对"</string>
+    <string name="bluef006poit2">蓝色指示灯频繁闪烁</string>
+    <string name="blueloading">loading...</string>
+    <string name="bluepoit1">"关机时长按耳机右下方按键，直到耳机
+说出配对"</string>
+    <string name="bluepoit2">FIIL灯频繁闪烁</string>
+    <string name="bluesearch">搜索耳机</string>
+    <string name="bluetooth_dis">您的蓝牙耳机已断开</string>
+    <string name="bound_ear_success">序列号绑定成功</string>
+    <string name="broadcast_heart_interval2">当前心率区间：燃脂</string>
+    <string name="broadcast_heart_interval3">当前心率区间：有氧锻炼</string>
+    <string name="broadcast_heart_interval4">当前心率区间：无氧耐力锻炼</string>
+    <string name="broadcast_heart_interval5">当前心率区间：剧烈爆发锻炼</string>
+    <string name="btn_enter">进入</string>
+    <string name="btn_start">开始煲机</string>
+    <string name="builderSetting">通知样式设置</string>
+    <string name="burn_compleat">本次煲机已完成</string>
+    <string name="burn_heatset_burning">进行中</string>
+    <string name="burn_heatset_pause">暂停</string>
+    <string name="burn_heatset_total_time">总3000分钟</string>
+    <string name="burn_name">煲耳机</string>
+    <string name="burn_toast_tixing">提醒</string>
+    <string name="burn_update_name">请您修改方案名称</string>
+    <string name="burncreate_bestie">我的FIIL Bestie耳机</string>
+    <string name="burncreate_blue">蓝牙模式</string>
+    <string name="burncreate_cancel">取消</string>
+    <string name="burncreate_carat">我的FIIL Carat耳机</string>
+    <string name="burncreate_cc">我的 FIIL CC耳机</string>
+    <string name="burncreate_cg">我的 FIIL CG耳机</string>
+    <string name="burncreate_conning">请连接您的FIIL Wireless耳机！</string>
+    <string name="burncreate_dialog_tittle">给新进度起个名字</string>
+    <string name="burncreate_diva">我的FIIL Diva耳机</string>
+    <string name="burncreate_driifter">我的FIIL Driifter耳机</string>
+    <string name="burncreate_exist">已存在此部FIIL Wireless的煲机进度。如需要从头开始，请先删除该进度</string>
+    <string name="burncreate_exist_carat">已存在此部FIIL Carat的煲机进度。如需要从头开始，请先删除该进度</string>
+    <string name="burncreate_exist_diva">已存在此部FIIL Diva的煲机进度。如需要从头开始，请先删除该进度</string>
+    <string name="burncreate_exist_driifter">已存在此部FIIL Driifter的煲机进度。如需要从头开始，请先删除该进度</string>
+    <string name="burncreate_f004">我的FIIL Diva耳机</string>
+    <string name="burncreate_fiil">我的FIIL耳机</string>
+    <string name="burncreate_huo">系列耳机</string>
+    <string name="burncreate_key">我的 FIIL Key耳机</string>
+    <string name="burncreate_line">有线模式</string>
+    <string name="burncreate_other">其他耳机</string>
+    <string name="burncreate_runner">我的FIIL Runner耳机</string>
+    <string name="burncreate_setting">设定</string>
+    <string name="burncreate_t">我的 FIIL T耳机</string>
+    <string name="burncreate_t2">我的 FIIL T2耳机</string>
+    <string name="burncreate_tittle">选择耳机类型</string>
+    <string name="burncreate_wireless">我的FIIL耳机</string>
+    <string name="burning_unclick">正在煲机，请停止后重试</string>
+    <string name="burnpager_add">点击 “+” 创建</string>
+    <string name="burnpager_empty">列表空空如也</string>
+    <string name="burnre_noear">未连接耳机</string>
+    <string name="burnre_one">该给您的</string>
+    <string name="burnre_two">煲机了</string>
+    <string name="burnstart_fourtage">第四阶段</string>
+    <string name="burnstart_okbtn">停止并退出</string>
+    <string name="burnstart_onestage">第一阶段</string>
+    <string name="burnstart_onetime">第一次</string>
+    <string name="burnstart_stopmes">本次煲机尚未完成，但已进行的煲机将会保存</string>
+    <string name="burnstart_stoptittle">停止本次煲机？</string>
+    <string name="burnstart_threestage">第三阶段</string>
+    <string name="burnstart_threetime">第三次</string>
+    <string name="burnstart_twostage">第二阶段</string>
+    <string name="burnstart_twotime">第二次</string>
+    <string name="burnstart_volume">音量</string>
+    <string name="burntime_fri">五</string>
+    <string name="burntime_mon">一</string>
+    <string name="burntime_sat">六</string>
+    <string name="burntime_save">保存</string>
+    <string name="burntime_setday">设置提醒日期</string>
+    <string name="burntime_settime">设置提醒时间</string>
+    <string name="burntime_sun">日</string>
+    <string name="burntime_thu">四</string>
+    <string name="burntime_tittle">设置提醒</string>
+    <string name="burntime_tue">二</string>
+    <string name="burntime_wed">三</string>
+    <string name="calibration_day">%s天前</string>
+    <string name="calibration_month">%s月前</string>
+    <string name="calibration_run_text1">校准跑步传感器，可以让您在进行室内跑步或未开fiil+时，跑步距离、速度计算更加准确。</string>
+    <string name="calibration_run_text2">您可以使用户外跑步的记录数据，来校准耳机的跑步传感器。</string>
+    <string name="calibration_today">今天</string>
+    <string name="calibration_walk_day">上次校准：%s天前</string>
+    <string name="calibration_walk_month">上次校准：%s月前</string>
+    <string name="calibration_walk_text1">校准步行传感器，可以让您在进行室内步行或未开fiil+时，步行距离、速度计算更加准确。</string>
+    <string name="calibration_walk_text2">您可以使用户外步行的记录数据，来校准耳机的步行传感器。</string>
+    <string name="calibration_walk_today">上次校准:今天</string>
+    <string name="calibration_walk_use">用运动记录校准</string>
+    <string name="calibration_walk_week">上次校准：%s周前</string>
+    <string name="calibration_walk_year">上次校准：%s年前</string>
+    <string name="calibration_week">%s周前</string>
+    <string name="calibration_year">%s年前</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_collection_fail">取消收藏失败</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="capture_error">请输入正确的序列号</string>
+    <string name="changeSkin_exist">请确认皮肤包是否存在</string>
+    <string name="changeSkin_fail">切换失败</string>
+    <string name="changeSkin_inspect">请检查</string>
+    <string name="changeSkin_success">切换成功</string>
+    <string name="change_black">深黑</string>
+    <string name="change_blue">冰蓝</string>
+    <string name="change_color">更改主题</string>
+    <string name="change_red">艳红</string>
+    <string name="channel_critical">Critical events</string>
+    <string name="channel_default">Default events</string>
+    <string name="channel_importance">Importance events</string>
+    <string name="channel_low">Low events</string>
+    <string name="channel_media">Media events</string>
+    <string name="charging">充电中</string>
+    <string name="charging_finish">%1$s分钟充满</string>
+    <string name="check_ele">检查电量</string>
+    <string name="check_state">检查状态</string>
+    <string name="checking">检测中...</string>
+    <string name="checking_rhythm">心率检测中...</string>
+    <string name="choose_ear_introduce">此版本还没有发售，敬请等待</string>
+    <string name="choose_ear_look">随便看看</string>
+    <string name="choose_ear_shop">访问fiil在线商城</string>
+    <string name="choose_ear_tittle">选择耳机型号</string>
+    <string name="choose_no_control">不支持%1$s的功能控制，将默认转至“音乐”页。</string>
+    <string name="choose_no_control_and_nosupport">不支持%1$s的功能控制，为您转至“服务”页</string>
+    <string name="choose_not_stand">当前fiil+版本不支持</string>
+    <string name="choosef001">FIIL</string>
+    <string name="choosef001_09">FIIL</string>
+    <string name="choosef002">FIIL</string>
+    <string name="choosef003">Bestie</string>
+    <string name="choosef004">Diva Wired</string>
+    <string name="choosef005">Diva</string>
+    <string name="choosef006">Carat</string>
+    <string name="choosef008">Diva</string>
+    <string name="choosef009">FIIL</string>
+    <string name="choosef020">Runner</string>
+    <string name="choosef17">T1</string>
+    <string name="clean">清除</string>
+    <string name="clean_all_item">全部清空</string>
+    <string name="clean_history">清除历史</string>
+    <string name="clear_local_notification">清除</string>
+    <string name="click_link">点击连接</string>
+    <string name="click_refresh">点击刷新</string>
+    <string name="click_requet">点击重试</string>
+    <string name="close">关</string>
+    <string name="close_manage">关闭</string>
+    <string name="collection">收藏</string>
+    <string name="collection_fail">收藏失败</string>
+    <string name="collection_success">收藏成功</string>
+    <string name="collectioned">已收藏</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">登录</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">退出</string>
+    <string name="com_facebook_loginview_log_out_button">退出</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Share</string>
+    <string name="com_facebook_tooltip_default">"New! You're in control - choose what info you want to share with apps."</string>
+    <string name="common">CommonActivity</string>
+    <string name="connect_seach_mode">正在搜索附近的%1$s</string>
+    <string name="consulting">进行咨询</string>
+    <string name="content">内容</string>
+    <string name="continue_keep">继续保持</string>
+    <string name="correct_value_error">本次运动耳机未全程佩戴，部分运动数据缺失，无法使用本次数据校准耳机传感器。</string>
+    <string name="create_local_notification">添加</string>
+    <string name="custom_activity">自定义UI</string>
+    <string name="custom_platform_share">自定义平台分享</string>
+    <string name="day">日</string>
+    <string name="default_run_jiaozhun">跑步传感器恢复默认</string>
+    <string name="default_walk_jiaozhun">步行传感器恢复默认</string>
+    <string name="defaults">Defaults</string>
+    <string name="delete">删除</string>
+    <string name="delete_burn_top">删除此煲机进度？</string>
+    <string name="delete_butn_info">煲机进度删除后无法恢复</string>
+    <string name="delete_error">删除数据失败</string>
+    <string name="delete_faile">删除失败%1$d首</string>
+    <string name="delete_hint">删除选中的%1$d首音乐？</string>
+    <string name="delete_record">删除本次数据</string>
+    <string name="delete_share_data">删除本次数据</string>
+    <string name="deleting">正在删除文件，请等待</string>
+    <string name="detail_info">基本信息</string>
+    <string name="dialog_connected_cancle">停止搜索</string>
+    <string name="dialog_connected_ok">断开后连接</string>
+    <string name="dialog_connected_scan">进入</string>
+    <string name="dialog_conneted_f002">FIIL Wireless已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f005">FIIL Diva Pro已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f005_2">FIIL Diva2 Pro已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f006">FIIL Carat已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f007">FIIL Carat M已经连接进入该型号页面？</string>
+    <string name="dialog_conneted_f008">FIIL Diva已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f008_2">FIIL Diva2已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f009">FIIL Vox已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f011">FIIL Driifter Pro已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f020">FIIL Runner已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f021">FIIL CC已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f022">FIIL T1 X已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f026">FIIL T1 XS已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f027">FIIL T1 Pro已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f028">FIIL CC Pro已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f029">FIIL T1 Lite已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f030">FIIL CC2已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f031">FIIL CG已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f033">FIIL CG Pro已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f035">FIIL T2 Pro已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f037">FIIL CC nano已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_f038">FIIL Key已经连接，进入该型号页面？</string>
+    <string name="dialog_conneted_other">您的耳机不支持与FIIL+连接，将为您转到“服务”页。</string>
+    <string name="dialog_conneted_scan">进入</string>
+    <string name="dialog_conneting_f002">"搜索到一部FIIL Wireless，
+ 进入该型号页面？"</string>
+    <string name="dialog_conneting_f005">"搜索到一部FIIL Diva Pro，
+ 进入该型号页面？"</string>
+    <string name="dialog_conneting_f005_2">"搜索到一部FIIL Diva2 Pro，
+ 进入该型号页面？"</string>
+    <string name="dialog_conneting_f006">"搜索到一部FIIL Carat，
+ 进入该型号页面？"</string>
+    <string name="dialog_conneting_f007">"搜索到一部FIIL Carat M，
+ 进入该型号页面？"</string>
+    <string name="dialog_conneting_f008">"搜索到一部FIIL Diva，
+ 进入该型号页面？"</string>
+    <string name="dialog_conneting_f008_2">"搜索到一部FIIL Diva2，
+ 进入该型号页面？"</string>
+    <string name="dialog_conneting_f009">"搜索到一部FIIL Vox，
+ 进入该型号页面？"</string>
+    <string name="dialog_conneting_other">"搜索到新的耳机，
+ 但本版本暂不支持您的耳机型号！"</string>
+    <string name="dialog_connetted_f002">"连接FIIL Wireless必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f005">"连接FIIL Diva Pro必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f005_2">"连接FIIL Diva2 Pro必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f006">"连接FIIL Carat必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f007">"连接FIIL Carat M必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f008">"连接FIIL Diva必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f008_2">"连接FIIL Diva2必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f009">"连接FIIL Vox必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f011">"连接FIIL Driifter pro必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f020">"连接FIIL Runner必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f021">"连接FIIL CC必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f022">"连接FIIL T1 X必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f026">"连接FIIL T1 XS必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f027">"连接FIIL T1 Pro必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f029">"连接FIIL T1 Lite必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f030">"连接FIIL CC2必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_connetted_f031">"连接%s必须先断开现在的耳机。
+ 音乐播放可能会被暂停，是否继续？"</string>
+    <string name="dialog_maximum_message">修改最大心率会影响您运动时数据的准确性。 非专业人士建议使用默认值：%1$d</string>
+    <string name="dialog_maximum_tittle">手动设置最大心率</string>
+    <string name="dialog_maximum_tittle_warn">您手动设置的最大心率不在合理范围内。使用此数值会严重影响运动数据的准确性，是否确认？</string>
+    <string name="dialog_resting_message">修改静息心率会影响您运动时数据的准确性。 非专业人士建议使用默认值：%1$d</string>
+    <string name="dialog_resting_tittle">手动设置静息心率</string>
+    <string name="dialog_resting_tittle_warn">您手动设置的静息心率不在合理范围内。使用此数值会严重影响运动数据的准确性，是否确认？</string>
+    <string name="dialog_tittle_cancel">返回修改</string>
+    <string name="dialog_tittle_ok">确认设置</string>
+    <string name="disconnect_bluetooth">请断开其他蓝牙设备</string>
+    <string name="diva_maf_control">开/关MAF</string>
+    <string name="diva_moni_mode">监听模式</string>
+    <string name="diva_nc_mode">降噪模式</string>
+    <string name="diva_open_mode">开放模式</string>
+    <string name="diva_power_control">开/关机</string>
+    <string name="diva_pro">FIIL Diva Pro</string>
+    <string name="diva_pro1_2">FIIL Diva1/2 Pro</string>
+    <string name="diva_pro2">FIIL Diva2 Pro</string>
+    <string name="diva_wind_mode">风中模式</string>
+    <string name="diva_wired">FIIL Diva Wired</string>
+    <string name="divapro_all_love">全部/最爱列表</string>
+    <string name="divapro_ear_phone">本地/蓝牙切换</string>
+    <string name="divapro_nc_mode">开放/兼听/降噪</string>
+    <string name="divapro_order_random">顺序/随机切换</string>
+    <string name="dont_use_voide">本地模式不可用</string>
+    <string name="double_click">双击</string>
+    <string name="double_exit">再点击一次返回键退出!</string>
+    <string name="download">下载</string>
+    <string name="download_cancle">取消下载</string>
+    <string name="download_completed">下载完成</string>
+    <string name="download_data_fail">加载数据失败</string>
+    <string name="download_fail">下载失败</string>
+    <string name="download_fiil">正在下载fiil+</string>
+    <string name="download_manager">下载管理</string>
+    <string name="download_music_hint">将下载歌曲%d首,确定下载吗</string>
+    <string name="download_now">立即下载</string>
+    <string name="download_path">下载路径</string>
+    <string name="download_quea">下载音质</string>
+    <string name="download_set">下载设置</string>
+    <string name="downloaded">已下载</string>
+    <string name="downloading">正在下载</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">"DUMMY
+CONTENT"</string>
+    <string name="ear_status_on_time">实时播报运动状态</string>
+    <string name="ele_low_10">电量不足10%</string>
+    <string name="ele_music">听歌</string>
+    <string name="ele_set">电量</string>
+    <string name="end_one_way">结束单程运动</string>
+    <string name="error">Error</string>
+    <string name="evernote_share">印象笔记分享</string>
+    <string name="every">每</string>
+    <string name="everyday_step">每日运动目标</string>
+    <string name="exclusive_content">独家内容</string>
+    <string name="f001_QA" formatted="false">"1. 降噪打开时左下侧电量指示灯长亮，颜色表示电池电量剩余：
+ 绿灯：>80% 电量
+ 黄灯：10%~80% 电量
+ 红灯：&lt;10% 电量
+
+2. 电池充满时工作时间：
+ 降噪关闭，中等音量，fiil灯熄灭：约50小时
+ 降噪打开，中等音量，fiil灯常亮：约32小时
+
+3. 电池充电充满后指示灯熄灭；
+
+4. 电池电量耗尽，降噪功能不可用，耳机依旧可以畅听音乐。"</string>
+    <string name="f002_QA" formatted="false">"1. 开机时单击右下侧按钮，左下侧电量指示灯颜色表示电池电量剩余：
+ 绿灯：>80% 电量
+ 黄灯：20%~80% 电量
+ 红灯：10%~20% 电量
+ 红灯闪烁：&lt;10% 电量
+
+2. 电池充电充满后指示灯熄灭；
+
+3. 电池电量耗尽，蓝牙、降噪等功能不可用，插入耳机音频线依旧可以畅听音乐。
+
+4. FIIL Wireless的蓝牙同时最多可连接2部手机/电脑/蓝牙设备，但同一时间只能接收来自其中1部设备的音乐或电话；
+
+5. “兼听”模式是FIIL Wireless在不播放声音的时候，不用取下耳机就可以清晰听到周围的声音；
+
+6. 任何来自连接设备的声音（音乐、电话、铃声、提示音）都会暂时中断“兼听”模式；声音停止后自动恢复；
+
+7. “高清语音”在使用网络语音聊天（例如：微信语音聊天、QQ电话、Skype通话等）、手机及运营商网络支持VoLTE通话时，可以显著提高通话质量。"</string>
+    <string name="f005_QA" formatted="false">"1. 开机时单击按钮，右侧电量指示灯显示电量；
+ 绿灯：>80% 电量
+ 黄灯：20％～80% 电量
+ 红灯：10％～20% 电量
+ 红灯闪烁：&lt;10% 电量
+
+ 2. 电池充电充满后指示灯熄灭；
+
+ 3. 电池电量耗尽，蓝牙、MAF*等功能不可用，插入耳机音频线依旧可以畅听音乐。
+
+ 4. FIIL Diva Pro的蓝牙同时最多可连接2部手机/电脑/蓝牙设备，但同一时间只能接收来自其中1部设备的音乐或电话；
+
+ 5. “高清语音”在使用网络语音聊天（例如：微信语音聊天、QQ电话、Skype通话等）、手机及运营商网络支持VoLTE通话时，可以显著提高通话质量。
+
+ *MAF是My AudioFiilter的缩写，是峰范（北京）科技有限公司的注册商标（TM）。"</string>
+    <string name="f006_QA" formatted="false">"1. 开机时单击线控多功能键，指示灯显示电量；
+ 绿灯：>80% 电量
+ 黄灯：20％～80% 电量
+ 红灯：10％～20% 电量
+ 红灯闪烁：&lt;10% 电量
+
+ 2. 电池充电充满后指示灯熄灭；
+
+ 3. FIIL Carat的蓝牙同时最多可连接2部手机/电脑/蓝牙设备，但同一时间只能接收来自其中1部设备的音乐或电话；
+
+ 4. FIIL SDS*智能均衡器技术，基于您运动时的步速，动态匹配音效。
+
+ 5. 单程运动的距离、代谢热量消耗，由FIIL Carat传感器中的数据计算得出。为保证数据准确性，运动过程中请保持耳机正确佩戴；
+
+ *FIIL SDS是是“FIIL Speed-Dependent-Sound”的缩写，是峰范（北京）科技有限公司的注册商标（TM）"</string>
+    <string name="f008_QA" formatted="false">"1. 开机时单击按钮，右侧电量指示灯显示电量；
+ 绿灯：>80% 电量
+ 黄灯：20％～80% 电量
+ 红灯：10％～20% 电量
+ 红灯闪烁：&lt;10% 电量
+
+ 2. 电池充电充满后指示灯熄灭；
+
+ 3. 电池电量耗尽，蓝牙、MAF*等功能不可用，插入耳机音频线依旧可以畅听音乐。
+
+ 4. FIIL Diva的蓝牙同时最多可连接2部手机/电脑/蓝牙设备，但同一时间只能接收来自其中1部设备的音乐或电话；
+
+ 5. “高清语音”在使用网络语音聊天（例如：微信语音聊天、QQ电话、Skype通话等）、手机及运营商网络支持VoLTE通话时，可以显著提高通话质量。
+
+ *MAF是My AudioFiilter的缩写，是峰范（北京）科技有限公司的注册商标（TM）。"</string>
+    <string name="f009_QA" formatted="false">"1. 开机时单击右下侧按钮，左下侧电量指示灯颜色表示电池电量剩余：
+ 绿灯：>80% 电量
+ 黄灯：20%~80% 电量
+ 红灯：10%~20% 电量
+ 红灯闪烁：&lt;10% 电量
+
+2. 电池充电充满后指示灯熄灭；
+
+3. 电池电量耗尽，蓝牙功能不可用，插入耳机音频线依旧可以畅听音乐。
+
+4. FIIL Vox的蓝牙同时最多可连接2部手机/电脑/蓝牙设备，但同一时间只能接收来自其中1部设备的音乐或电话；
+
+5. “高清语音”在使用网络语音聊天（例如：微信语音聊天、QQ电话、Skype通话等）、手机及运营商网络支持VoLTE通话时，可以显著提高通话质量。"</string>
+    <string name="facebook_app_id">1062184643852957</string>
+    <string name="fast">最快:</string>
+    <string name="fast_forward">快进</string>
+    <string name="fast_rewind">快退</string>
+    <string name="fatigue_heart1">心率是评定运动性疲劳最简易的指标。</string>
+    <string name="fatigue_heart2">在身体机能正常时，清晨清醒、起床前静卧的心率，相对稳定，接近于静息心率。 如果是运动过，经过一夜的休息，第二天清晨的心率较平时增加明显，并可能伴有肌肉关节酸疼的表现，则认为有疲劳累积现象。 如果连续几天持续增加，则建议调整运动强度，减少身体负荷。</string>
+    <string name="fatigue_heart3">请在清晨清醒、起床前静卧的5分钟内测量。</string>
+    <string name="fb_app_id">567261760019884</string>
+    <string name="fb_fragment_activity">使用 SDK Fragment</string>
+    <string name="fb_login">Facebook登录</string>
+    <string name="fb_logout">Facebook注销</string>
+    <string name="fb_share">Facebook分享</string>
+    <string name="feedback_contact_info">联系方式</string>
+    <string name="feedback_contact_title">联系方式（手机号/邮箱/QQ等选填）</string>
+    <string name="feedback_please_photo">拍照</string>
+    <string name="feedback_please_select_picture">从相册选择</string>
+    <string name="feedback_press_speech">按住说话</string>
+    <string name="feedback_release_cancel">松开手指,取消发送</string>
+    <string name="feedback_send">发送</string>
+    <string name="feedback_slide_up_cancel">手指上滑,取消发送</string>
+    <string name="feedback_title">用户反馈</string>
+    <string name="feekback_for_voide">反馈留言</string>
+    <string name="fiil06_line">播放/暂停/接听/挂断/主动连接</string>
+    <string name="fiil_carat">FIIL Carat</string>
+    <string name="fiil_carat_lite">FIIL Carat Lite</string>
+    <string name="fiil_carat_lite_music">音乐</string>
+    <string name="fiil_carat_m">FIIL Carat M</string>
+    <string name="fiil_cc">FIIL CC</string>
+    <string name="fiil_cc2">FIIL CC2</string>
+    <string name="fiil_cc_pro">FIIL CC Pro</string>
+    <string name="fiil_cg">FIIL CG</string>
+    <string name="fiil_cg_pro">FIIL CG Pro</string>
+    <string name="fiil_diva">FIIL Diva</string>
+    <string name="fiil_diva1_2">FIIL Diva1/2</string>
+    <string name="fiil_diva2">FIIL Diva2</string>
+    <string name="fiil_driifter">FIIL Driifter</string>
+    <string name="fiil_driifter_dnc">FIIL Driifter DNC</string>
+    <string name="fiil_driifter_dnc_plus">FIIL Driifter DNC Plus</string>
+    <string name="fiil_driifter_nc">FIIL Driifter Nc</string>
+    <string name="fiil_driifter_pro">FIIL Driifter Pro</string>
+    <string name="fiil_lamp">FIIL灯</string>
+    <string name="fiil_panel">FIIL灯面板</string>
+    <string name="fiil_runner">FIIL Runner</string>
+    <string name="fiil_smart">让 f i i l 耳 机 更 智 能</string>
+    <string name="fiil_t1">FIIL T1</string>
+    <string name="fiil_t1_lite">FIIL T1 Lite</string>
+    <string name="fiil_t1_pro">FIIL T1 Pro</string>
+    <string name="fiil_t1_x">FIIL T1 X</string>
+    <string name="fiil_t1_xs">FIIL T1 XS</string>
+    <string name="fiil_temp_color">FIIL灯颜色</string>
+    <string name="fiil_temp_set">FIIL灯设置</string>
+    <string name="fiil_vox">FIIL VOX</string>
+    <string name="file_no_exist">文件不存在，请重新下载</string>
+    <string name="file_no_qualifed">升级包验证失败(点击重新下载)</string>
+    <string name="fill">FIIL</string>
+    <string name="fill_bestie">FIIL Bestie</string>
+    <string name="fill_bestie_music">音乐</string>
+    <string name="fill_common_operation">常用操作</string>
+    <string name="fill_error_impact">信息有误可能对服务内容产生影响</string>
+    <string name="fill_line">耳机线控</string>
+    <string name="fill_music">音乐</string>
+    <string name="fill_wireless">FIIL Wireless</string>
+    <string name="find">发现</string>
+    <string name="finish">完成</string>
+    <string name="flags">Flags</string>
+    <string name="flickr_content">Flickr只支持图片分享</string>
+    <string name="flickr_no_client">未安装Flickr客户端</string>
+    <string name="flickr_no_content">请设置分享内容</string>
+    <string name="flickr_share">flickr分享</string>
+    <string name="flickr_showword">Flickr</string>
+    <string name="floatingwindow_permision_not_obtained">您的手机没有获取授权Fiil+获取浮窗权限</string>
+    <string name="flow_audition">使用2G/3G/4G流量试听？</string>
+    <string name="flow_audition_ok">流量试听</string>
+    <string name="flow_down">流量下载</string>
+    <string name="flow_down_music">使用2G/3G/4G流量下载？</string>
+    <string name="flow_down_music_ok">流量下载</string>
+    <string name="flow_listener">流量试听</string>
+    <string name="follow_hr">随心率</string>
+    <string name="follow_music">随音乐</string>
+    <string name="followsystem">跟随系统</string>
+    <string name="foursquare_content">Foursquare只支持纯图片分享</string>
+    <string name="foursquare_no_client">未安装Foursquare客户端</string>
+    <string name="foursquare_share">FourSquare分享</string>
+    <string name="foursquare_showword">Foursquare</string>
+    <string name="fragment_sport_Date">切换当前显示数据</string>
+    <string name="framwork_download_success">更新固件已下载完成</string>
+    <string name="free_flow">免流量</string>
+    <string name="friday">周五</string>
+    <string name="fuhao_star">*</string>
+    <string name="game">GameActivity</string>
+    <string name="go_server">去服务</string>
+    <string name="goto_common">普通Activity</string>
+    <string name="goto_facebook">添加Facebook分享</string>
+    <string name="goto_game">游戏Activity</string>
+    <string name="goto_video">摇一摇视频截图Activity</string>
+    <string name="gps_sign_weak">GPS信号不佳，运动数据将不准确</string>
+    <string name="have_updata">有更新</string>
+    <string name="headphones_not_wear">耳机没戴好，请检查佩戴</string>
+    <string name="healthy_carat_connecting">正在连接FIIL Carat M</string>
+    <string name="healthy_carat_connection">请连接FIIL Carat M，进行更多设置</string>
+    <string name="hearlthy_burn">您的出生年月？</string>
+    <string name="hearlthy_height">您的身高？</string>
+    <string name="hearlthy_man">男</string>
+    <string name="hearlthy_sex">您的性别？</string>
+    <string name="hearlthy_skip_reminder">完善个人资料可以使数据结果更加准确，是否跳过?</string>
+    <string name="hearlthy_target">您的每日目标？</string>
+    <string name="hearlthy_tittle">我的身体资料</string>
+    <string name="hearlthy_weight">您的体重？</string>
+    <string name="hearlthy_woman">女</string>
+    <string name="heartConnedF007">接下来，会指导您调整FIIL Carat M的佩戴 方式，避免运动耳机脱落。</string>
+    <string name="heart_eara_persent">心率区间</string>
+    <string name="heart_fatigue_test">疲劳度测试</string>
+    <string name="heart_maximum_rate">测量最大心率</string>
+    <string name="heart_rate_area">心率区间</string>
+    <string name="heart_rate_tittle">身体检测</string>
+    <string name="heart_record_tittle">测试记录</string>
+    <string name="heart_resting_rate">测量静息心率</string>
+    <string name="heart_run_tittle">校准步行传感器</string>
+    <string name="heart_sensor_run">传感器校准▪跑步</string>
+    <string name="heart_sensor_walk">传感器校准▪步行</string>
+    <string name="heart_share_info">运动详情</string>
+    <string name="heart_vo2_average">一般</string>
+    <string name="heart_vo2_excellent">卓越</string>
+    <string name="heart_vo2_fair">较差</string>
+    <string name="heart_vo2_good">良好</string>
+    <string name="heart_vo2_poor">非常差</string>
+    <string name="heart_walk_tittle">校准跑步传感器</string>
+    <string name="heart_wear_four">即将确定耳机是否能检测到您的心率</string>
+    <string name="heart_wear_move">请左右转动下头部，试试看佩戴是否牢固，心率检测稳定不断。</string>
+    <string name="heart_wear_now">当前心率</string>
+    <string name="heart_wear_one">为保证运动中能准确的记录您的心率等运动数据，获得最佳的音乐和佩戴体验，请正确、舒适的佩戴FIIL Carat M</string>
+    <string name="heart_wear_progress">心率监测中，请佩戴耳机保持不动。 如长时间没有显示心率，请重新调整佩戴。</string>
+    <string name="heart_wear_progressed">已检测到心率</string>
+    <string name="heart_wear_three">2. 请选用合适尺寸的耳塞和耳翼，并根据您的习惯安装耳挂，可适当旋转耳机以更加贴合。</string>
+    <string name="heart_wear_tittle">调整佩戴</string>
+    <string name="heart_wear_two">1. 佩戴时请注意识别左右耳塞：线控在右侧，心率传感器在左侧。佩戴时耳机线应绕到脖子后面。</string>
+    <string name="heartrate">心率</string>
+    <string name="heat_regist">现在注册</string>
+    <string name="heatset_alread_regist">已注册</string>
+    <string name="heatset_and_phone_ele_low">您的耳机和手机电量已不多</string>
+    <string name="heatset_ele_low">您的耳机电量已不多</string>
+    <string name="heatset_link_chong">升级成功，请重新连接耳机！</string>
+    <string name="heatset_no_regist">未注册</string>
+    <string name="heatset_pi_burn">正在煲机，请停止后再试</string>
+    <string name="heatset_pi_case">当前耳机与进度不匹配</string>
+    <string name="heatset_playlist">音乐管理</string>
+    <string name="heatset_repair_data">保修期</string>
+    <string name="heatset_reset">耳机设置将会恢复默认值, 和手机连接信息不会被清除</string>
+    <string name="heatset_setting_default">设为默认</string>
+    <string name="heatset_unbind_and_delete">解除绑定并删除</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="high">高音</string>
+    <string name="high_energy_saving">高节能</string>
+    <string name="horstorl_data">历史数据</string>
+    <string name="hour">小时</string>
+    <string name="hours">时</string>
+    <string name="hs_all_music">全部</string>
+    <string name="hs_enjoy_music">最爱</string>
+    <string name="i_dont_konw">未连接</string>
+    <string name="id_card">身份证号</string>
+    <string name="id_card_corrly">请输入正确的身份号码</string>
+    <string name="instagram_share">Instagram分享</string>
+    <string name="install_facebook">未安装facebook</string>
+    <string name="install_now">立刻安装</string>
+    <string name="install_weixin">未安装微信</string>
+    <string name="invoice_code">发票编号</string>
+    <string name="invoice_code_profit">根据购买方式不同，发票上编号也略有不同</string>
+    <string name="invoice_data">发票日期</string>
+    <string name="invoice_show">年/月/日</string>
+    <string name="invoice_top">发票抬头</string>
+    <string name="jiangzao">降噪</string>
+    <string name="jiangzao_open">降噪开启：高耗电</string>
+    <string name="jianting">兼听</string>
+    <string name="jianting_open">兼听开启：中耗电</string>
+    <string name="kakao_content">Kakao Talk只支持图片、文本分享</string>
+    <string name="kakao_no_client">未安装Kakao Talk客户端</string>
+    <string name="kakao_no_content">请设置分享内容</string>
+    <string name="kakao_share">Kakao Talk分享</string>
+    <string name="kakao_showword">Kakao Talk</string>
+    <string name="kalories">大卡</string>
+    <string name="keep">保留</string>
+    <string name="keting">客厅</string>
+    <string name="kilometer">公里</string>
+    <string name="laiwang_share">来往分享</string>
+    <string name="lanager_en">English</string>
+    <string name="lanager_yue">粤语</string>
+    <string name="lanager_zh">普通话</string>
+    <string name="largeIconDrawable">大图标</string>
+    <string name="later_measure">稍后</string>
+    <string name="layoutContentId">自定义内容</string>
+    <string name="layoutIconDrawableId">自定义大图标</string>
+    <string name="layoutIconId">自定义小图标</string>
+    <string name="layoutId">自定义样式</string>
+    <string name="layoutTitleId">自定义标题</string>
+    <string name="line_char_time">MMMdd</string>
+    <string name="line_content">Line只支持文本，图片</string>
+    <string name="line_no_client">未安装Line客户端</string>
+    <string name="line_no_content">请设置分享内容</string>
+    <string name="line_share">line分享</string>
+    <string name="line_showword">LINE</string>
+    <string name="line_total">今天</string>
+    <string name="link_fail">联网失败</string>
+    <string name="link_net">重新联网</string>
+    <string name="linkedin_content">linked只支持纯文本分享</string>
+    <string name="linkedin_no_client">未安装LinkedIn客户端</string>
+    <string name="linkedin_share">LinkedIn分享</string>
+    <string name="linkedin_showword">LinkedIn</string>
+    <string name="linstener_quea">在线播放音质</string>
+    <string name="listener_music">音乐</string>
+    <string name="local_notification">本地通知</string>
+    <string name="local_notification_content">内容</string>
+    <string name="local_notification_datetime">时间</string>
+    <string name="local_notification_repeatinginterval">重复间隔</string>
+    <string name="local_notification_repeatingnum">重复数</string>
+    <string name="local_notification_repeatingunit">重复单位</string>
+    <string name="local_notification_specialday">节日</string>
+    <string name="local_notification_ticker">提示</string>
+    <string name="local_notification_title">标题</string>
+    <string name="location_fail">定位失败</string>
+    <string name="log_out">退出登录</string>
+    <string name="log_out_ok_or_cancel">是否确认退出登录？</string>
+    <string name="login_WeChat">微信</string>
+    <string name="login_aggrement">同意<u>《fiil+软件许可使用协议》</u></string>
+    <string name="login_aggrement_privacy">和 隐私协议</string>
+    <string name="login_capacity">让    f i i l     耳     机     更     智     能</string>
+    <string name="login_for_body">查看和修改我的身体资料，需要登录您的账号。</string>
+    <string name="login_for_down">请先登录</string>
+    <string name="login_login">登录FIIL会员</string>
+    <string name="login_micro_blog">微博</string>
+    <string name="login_name">第三方登录</string>
+    <string name="login_qq">登录（QQ）</string>
+    <string name="login_qzone">登录（QQ空间）</string>
+    <string name="login_sina">登录（新浪微博）</string>
+    <string name="login_toast">请先阅读并同意《fiil+软件许可使用协议》</string>
+    <string name="login_tourists">游客进入</string>
+    <string name="logout_qq">注销登录（QQ）</string>
+    <string name="logout_qzone">注销登录（QQ空间）</string>
+    <string name="logout_sina">注销登录（新浪微博）</string>
+    <string name="long_click">长按</string>
+    <string name="long_click_befour_after">前后按住</string>
+    <string name="long_click_up_down">上下按住</string>
+    <string name="long_touch2s">拒接/语音点歌/开机</string>
+    <string name="long_touch4s">关机</string>
+    <string name="look_all_set">耳机选择</string>
+    <string name="low">低音</string>
+    <string name="low_ele">电量低</string>
+    <string name="lrc_and_pic_clean">清理封面图、歌词缓存</string>
+    <string name="lrc_and_pic_space">封面图、歌词占用</string>
+    <string name="lunarDay">日(阴历)</string>
+    <string name="lunarMonth">月(阴历)</string>
+    <string name="lunarYear">年(阴历)</string>
+    <string name="map_biyckey">骑行</string>
+    <string name="map_run">跑步</string>
+    <string name="map_walk">步行</string>
+    <string name="max_enjoy">最多只能有1000首最爱歌曲</string>
+    <string name="maximum_heart1">最大心率是运动负荷达到最大强度时，耗氧量和心率不能继续增加时，心率达到的最高水平。</string>
+    <string name="maximum_heart2">最大心率可用于确定心率区间，衡量运动强度。通过观察较高负荷运动下身体的反应，可以尽早暴露一些心血管疾病隐患。 最大心率与年龄、性别、遗传等因素有关。</string>
+    <string name="maximum_heart3">最好在测试前进行15分钟运动热身。测试时进行原地高抬腿运动，尽量抬高，频率尽量快。</string>
+    <string name="maximum_heart4">运动时请保证场地宽敞平坦，最好有人陪伴。避免运动时受伤。 测量结束后，建议至少休息10分钟。</string>
+    <string name="me_login">请登录</string>
+    <string name="me_verify">语音搜歌设置</string>
+    <string name="measuring_fail">运动进行中，无法测量%1$s，请先结束运动再试</string>
+    <string name="message_image_desc">Message Image</string>
+    <string name="messenger_send_button_text">Send</string>
+    <string name="min">分钟</string>
+    <string name="minute">分钟</string>
+    <string name="mkdir_fail">储存卡无法创建文件</string>
+    <string name="moblie_play_music_fail">移动网络下无法播放</string>
+    <string name="mode_ear">本地模式</string>
+    <string name="mode_phone">蓝牙模式</string>
+    <string name="model">耳机型号</string>
+    <string name="modify_local_notification">修改本地通知</string>
+    <string name="monday">周一</string>
+    <string name="month">月</string>
+    <string name="moreset_aptx">aptX音频</string>
+    <string name="moreset_auto">自动关机时间</string>
+    <string name="moreset_guide">功能FAQ</string>
+    <string name="moreset_heartwear">佩戴调整向导</string>
+    <string name="moreset_hint">触控提示音</string>
+    <string name="moreset_information">修改我的资料</string>
+    <string name="moreset_language">语音提示</string>
+    <string name="moreset_light">FIIL灯常亮</string>
+    <string name="moreset_maf">智能感应</string>
+    <string name="moreset_product_regist">产品注册</string>
+    <string name="moreset_records">项链模式运动记录</string>
+    <string name="moreset_reset">恢复默认设置</string>
+    <string name="moreset_search">语音唤醒</string>
+    <string name="moreset_searchset">语音搜歌设置</string>
+    <string name="moreset_setting">更多设置</string>
+    <string name="moreset_updte">固件版本</string>
+    <string name="moreset_use_seach">语音助理</string>
+    <string name="moreset_voice">高清语音</string>
+    <string name="msf_close">关</string>
+    <string name="msf_moni">兼听</string>
+    <string name="msf_nc">降噪</string>
+    <string name="msf_open">开放</string>
+    <string name="msf_set">MAF</string>
+    <string name="msf_wind">风中</string>
+    <string name="multi_conversation_activity">多会话模式</string>
+    <string name="music">音乐</string>
+    <string name="music_all">全部音乐(%1$d)</string>
+    <string name="music_all_pause">全部暂停</string>
+    <string name="music_audition">试听中</string>
+    <string name="music_cache">音乐缓存</string>
+    <string name="music_cache_clean">清理音乐缓存</string>
+    <string name="music_cache_limit">音乐缓存上限</string>
+    <string name="music_cache_space">音乐缓存占用</string>
+    <string name="music_chage">前一首/后一首</string>
+    <string name="music_come">歌曲来自酷我音乐</string>
+    <string name="music_delete">删除</string>
+    <string name="music_down_task_add">成功加入下载队列</string>
+    <string name="music_down_task_exists">已在下载队列中</string>
+    <string name="music_downed_delete_all">确认删除选中的歌曲么？</string>
+    <string name="music_downed_delete_record">确认删除吗？</string>
+    <string name="music_downed_play_all">全部播放</string>
+    <string name="music_downing1">下载中</string>
+    <string name="music_downing_choose">共%1$s首</string>
+    <string name="music_downing_delete_record">确认不再下载吗？</string>
+    <string name="music_downing_no_change">等待Wifi继续下载</string>
+    <string name="music_downing_no_net">当前网络不可用</string>
+    <string name="music_downing_no_storage">存储空间不足</string>
+    <string name="music_downing_no_url">下载地址失效，暂时无法下载</string>
+    <string name="music_downing_pause_all">全部暂停</string>
+    <string name="music_downing_ready">正在计算文件大小</string>
+    <string name="music_downing_start_all">全部开始</string>
+    <string name="music_downing_wait">等待中</string>
+    <string name="music_error">音乐文件无法播放，自动为您跳过</string>
+    <string name="music_for_hestset">耳机音乐</string>
+    <string name="music_for_phone">手机音乐</string>
+    <string name="music_home_down">下载</string>
+    <string name="music_home_list">榜单</string>
+    <string name="music_home_media">手机存储</string>
+    <string name="music_home_more">更多</string>
+    <string name="music_home_no_network">当前网络不可用，请检查网络设置</string>
+    <string name="music_home_storage">耳机存储</string>
+    <string name="music_home_tittle">音乐首页</string>
+    <string name="music_manager">音乐管理</string>
+    <string name="music_pause">暂停</string>
+    <string name="music_play_all">播放全部</string>
+    <string name="music_play_boole_ear">切换至本地播放模式？ 即将播放耳机存储器中的音乐，将无法听到来自手机的音乐和提示音。但手机来电仍会有提醒</string>
+    <string name="music_scan_whole">全盘扫描</string>
+    <string name="music_temp">音乐指示灯</string>
+    <string name="music_time">音乐时间</string>
+    <string name="music_zone">音乐</string>
+    <string name="must_keep_one">至少保留一个</string>
+    <string name="must_select_one">必须选中一个</string>
+    <string name="my">我的</string>
+    <string name="my_fiil_name">我的fiil耳机</string>
+    <string name="my_fill_heatset_name_default">我的FIIL耳机</string>
+    <string name="my_start">开始使用</string>
+    <string name="name">姓名</string>
+    <string name="needed">必填</string>
+    <string name="net_search">网络搜歌</string>
+    <string name="new_local_notification">新建本地通知</string>
+    <string name="new_step">今日步数</string>
+    <string name="next">同意开启权限</string>
+    <string name="nihao">你好</string>
+    <string name="no_bing_heatset">没有绑定耳机</string>
+    <string name="no_conn">未连接</string>
+    <string name="no_data">没有找到您搜索的结果哦</string>
+    <string name="no_lanager_profit">无提示</string>
+    <string name="no_lrc">暂无歌词</string>
+    <string name="no_match_content">抱歉，没有匹配内容</string>
+    <string name="no_more">没有更多内容</string>
+    <string name="no_more_content">没有更多内容了</string>
+    <string name="no_music_portif">当前列表无音乐可排序</string>
+    <string name="no_net_profit">抱歉，无法连接到网络，部分功能将无法使用</string>
+    <string name="no_null">请输入</string>
+    <string name="no_open_blue">未打开蓝牙</string>
+    <string name="no_profit">稍后提醒</string>
+    <string name="no_singer_download">暂无歌曲下载</string>
+    <string name="no_storger">没有储存卡</string>
+    <string name="no_support">当前不可用</string>
+    <string name="no_support_down">当前型号不支持下载</string>
+    <string name="no_support_play">当前的型号不支持播放</string>
+    <string name="not_indoor_outdoor">运动中无法切换</string>
+    <string name="not_switch_pattern">当前运动模式不可切换</string>
+    <string name="not_sync">未同步</string>
+    <string name="notificationSetting">通知设置</string>
+    <string name="now_bind">现在绑定</string>
+    <string name="now_login">现在登录</string>
+    <string name="now_measure">现在测量</string>
+    <string name="now_regist">现在注册</string>
+    <string name="now_updateing">正在更新</string>
+    <string name="number">手机号</string>
+    <string name="offline_write">线下门店填写</string>
+    <string name="ok">确定</string>
+    <string name="one_way_sport">开始/结束单程运动</string>
+    <string name="one_waying_hint">请先结束单程运动，再进行修改</string>
+    <string name="online_store_name">线下门店</string>
+    <string name="opean_now">现在开启</string>
+    <string name="open">打开</string>
+    <string name="open_anc_button">打开耳机右下方ANC按钮</string>
+    <string name="open_gps">无法使用手机定位功能，将无法正常记录你的运动路线。请打开手机的设置，允许fiil+使用定位服务。</string>
+    <string name="other">其他</string>
+    <string name="pagerme_about">关于</string>
+    <string name="pagerme_add">绑定新耳机</string>
+    <string name="pagerme_doorstore">查询fiil线下门店</string>
+    <string name="pagerme_feedback">意见反馈</string>
+    <string name="pagerme_shopping">访问fiil线上商城</string>
+    <string name="pagerme_verify">正品验证</string>
+    <string name="pagermef001">FIIL</string>
+    <string name="pagermef002">FIIL Wireless</string>
+    <string name="pagermef003">FIIL Bestie</string>
+    <string name="pause">暂停</string>
+    <string name="pedometer">计步</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="phone_corrly">请输入正确的手机号码</string>
+    <string name="phone_ele_low">您的手机电量已不多</string>
+    <string name="phone_music_opera">播放/暂停/接听</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="pinterest_share">Pinterest分享</string>
+    <string name="play">播放</string>
+    <string name="playLights">闪光</string>
+    <string name="playSound">声响</string>
+    <string name="playVibrate">振动</string>
+    <string name="play_all">播放全部(%1$d)</string>
+    <string name="play_enjoy">播放最爱(%1$d)</string>
+    <string name="play_error">暂时无法播放：</string>
+    <string name="play_mode">播放模式</string>
+    <string name="play_one">单曲循环</string>
+    <string name="play_pause_listener">播放/暂停/接听/挂断</string>
+    <string name="play_random">随机播放</string>
+    <string name="play_sort">顺序播放</string>
+    <string name="playing">正在播放</string>
+    <string name="please_charging">请充电</string>
+    <string name="please_conn_bluetooth_heatset">请先连接蓝牙耳机</string>
+    <string name="please_conn_carat">请先连接FIIL Carat蓝牙耳机</string>
+    <string name="please_conn_carat_pro">请先连接FIIL Carat M蓝牙耳机</string>
+    <string name="please_conn_diva">请先连接FIIL Diva蓝牙耳机</string>
+    <string name="please_conn_diva_pro">请先连接FIIL Diva pro蓝牙耳机</string>
+    <string name="please_conn_driifter_pro">请先连接FIIL Driifrter Pro蓝牙耳机</string>
+    <string name="please_conn_heatset">未连接耳机</string>
+    <string name="please_conn_runner">请先连接FIIL Runner蓝牙耳机</string>
+    <string name="please_conn_vox">请先连接FIIL Vox蓝牙耳机</string>
+    <string name="please_conn_wireless">请先连接FIIL Wireless蓝牙耳机</string>
+    <string name="please_conn_xx_mode">请先连接%1$s蓝牙耳机</string>
+    <string name="please_connect_net_request">请连接网络后重试</string>
+    <string name="please_do_not_pull_out_the_charger_in_the_update">升级中请勿拔出充电器</string>
+    <string name="please_login">请登录</string>
+    <string name="please_replace_id">请替换账号</string>
+    <string name="please_select_date">请选择日期</string>
+    <string name="please_speak_command">请说出您的指令</string>
+    <string name="please_wait_for_update">正在同步音乐信息，请稍候</string>
+    <string name="pocket_content">pocket只支持网页链接分享</string>
+    <string name="pocket_no_client">未安装pocket客户端</string>
+    <string name="pocket_share">Pocket分享</string>
+    <string name="pocket_showword">Pocket</string>
+    <string name="product_bind">还未进行产品绑定和注册，成功注册可享受一年保修服务，及领取其他权益的资格。</string>
+    <string name="product_profit">还未进行产品注册，成功注册享受一年保修服务</string>
+    <string name="product_regist">产品注册</string>
+    <string name="product_registration">产品注册享有一年内免费保修服务（仅限非人为损坏）、优先维修等优质售后服务。</string>
+    <string name="product_registration_button_01">如无法正常注册，或在产品注册过程中遇到问题,可通过微信公众号 “fiil耳机” , 或拨打fiil耳机客服电话</string>
+    <string name="product_registration_button_02">"产品注册仅限于峰范（北京）科技有限公司在中国大陆范围内合法销售的耳机产品：其具体类别及型号可登录网站查询。 
+
+不拘于以上条款约束，服务内容变化可能因公司经营状况和经营策略有所调整，请以fiil官网、“fiil耳机”公众号不时更新和提供的信息为准"</string>
+    <string name="professional">请选择职业</string>
+    <string name="pull_to_refresh_pull_label">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中…</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_tap_label">点击刷新</string>
+    <string name="putong">普通</string>
+    <string name="quit">退出</string>
+    <string name="recommended_code">销售顾问</string>
+    <string name="record_heart_compare">测量完成</string>
+    <string name="record_heart_hint">根据您的静息心率：%s</string>
+    <string name="record_heart_lei_compare">疲劳度测量完成</string>
+    <string name="record_heart_lei_start">运动疲劳度测量开始</string>
+    <string name="record_heart_lie">请平躺，并确保耳机正确佩戴。 本次测量过程将持续1分钟</string>
+    <string name="record_heart_lie_fatigue">请保持静坐，并确保耳机正确佩戴。 本次测量过程将持续1分钟。</string>
+    <string name="record_heart_lie_max">开始原地高抬腿，并确保耳机正确佩戴。 本次测量过程将持续120秒。运动时请注意安全。</string>
+    <string name="record_heart_max_compare">最大心率测量完成</string>
+    <string name="record_heart_max_start">最大心率测量开始</string>
+    <string name="record_heart_measuring">正在测量</string>
+    <string name="record_heart_rate">测试记录</string>
+    <string name="record_heart_results">本次测量的结果</string>
+    <string name="record_heart_start">开始测量</string>
+    <string name="record_heart_static_compare">静息心率测量完成</string>
+    <string name="record_heart_static_start">静息心率测量开始，请保持放松</string>
+    <string name="record_sport">运动记录</string>
+    <string name="refused_f005">拒接/语音点歌</string>
+    <string name="refused_help">拒接</string>
+    <string name="refused_long">挂断/拒接</string>
+    <string name="regesit_fail">注册失败，请稍后再试</string>
+    <string name="regist_extended_warranties">进行产品注册享受一年保修服务</string>
+    <string name="regist_product">您无需刻意保存注册结果。在您需要维修或参加优惠活动时, 请将您注册时产品型号和序列号告知工作人员, 得到核实后, 即可享受注册会员权益</string>
+    <string name="regist_success">已注册成功</string>
+    <string name="remind_to_fill_in_information">请您认真填写以下信息，务必保证信息真实有效</string>
+    <string name="remove_enjoy">移出最爱</string>
+    <string name="remove_enjoy_count">将%1$d首音乐移出最爱？</string>
+    <string name="repeatingInterval">重复间隔</string>
+    <string name="repeatingNum">重复数</string>
+    <string name="repeatingNumHint">-1表示一直重复</string>
+    <string name="repeatingUnit">重复单位</string>
+    <string name="replace">替换最爱歌曲</string>
+    <string name="replace_sport">替换</string>
+    <string name="resting_attention">注意</string>
+    <string name="resting_heart1">静息心率是指在清醒、不活动的安静状态下，每分钟心跳次数。</string>
+    <string name="resting_heart2">从医学临床观察来看，心脏越健壮，静息心率越低；静息心率经常偏快的人患冠心病，高血压，心脏猝死等心血管危险事件的几率明显超过心率偏慢的人。 观察静息心率长时间的变化，可用于衡量运动效果。</string>
+    <string name="resting_heart3">"请在休息充分后，没有摄入药物、酒精或咖啡的情况下，开始测量。
+最佳测量时间是清晨清醒、起床前静卧的5分钟内。"</string>
+    <string name="resting_text">测量建议</string>
+    <string name="restore_default_success">恢复默认成功</string>
+    <string name="run_calories">千卡</string>
+    <string name="run_km">公里</string>
+    <string name="run_pace">当前配速</string>
+    <string name="run_steps">步数</string>
+    <string name="run_stop">结束</string>
+    <string name="run_time_all">时间</string>
+    <string name="run_tips">长按结束</string>
+    <string name="sales_default">公司名称+店名+店员姓名</string>
+    <string name="san_click">三击</string>
+    <string name="saturday">周六</string>
+    <string name="scan_tip">请将扫描框对准包装盒底序列号扫描条形码</string>
+    <string name="scan_tips1">请将扫描框对准</string>
+    <string name="scan_tips2">包装盒底序列号</string>
+    <string name="scan_tips3">二维码</string>
+    <string name="scan_title">扫描二维码</string>
+    <string name="scan_use_camer">允许fiil+使用相机</string>
+    <string name="scan_use_location">允许fiil+定位权限</string>
+    <string name="scan_whole">全盘扫描</string>
+    <string name="screenOn">开屏</string>
+    <string name="sdk_fb_activity">使用 SDK Activity</string>
+    <string name="sds_close">FIIL SDS 关闭</string>
+    <string name="sds_mean">智能均衡器技术</string>
+    <string name="sds_open">FIIL SDS 开启</string>
+    <string name="search">搜索</string>
+    <string name="search_history">历史记录</string>
+    <string name="search_text">根据通知ID或标题内容查找...</string>
+    <string name="searing">正在搜索</string>
+    <string name="second">秒</string>
+    <string name="select_heat_option">请选择</string>
+    <string name="select_playlist">精选歌单</string>
+    <string name="select_professional">请选择职业</string>
+    <string name="sensor_success">校准成功</string>
+    <string name="serial_number">序列号</string>
+    <string name="serve_name">服务</string>
+    <string name="serve_name_burn">煲耳机</string>
+    <string name="serve_name_buy">在线购买</string>
+    <string name="serve_name_feed">意见反馈</string>
+    <string name="serve_name_operation">操作方法说明</string>
+    <string name="serve_name_phone">客服电话</string>
+    <string name="serve_name_quality">正品验证</string>
+    <string name="serve_name_register">产品注册</string>
+    <string name="serve_name_store">线下门店查询</string>
+    <string name="server_phone">400-850-7997</string>
+    <string name="set_default_fail">设置默认失败，请稍后再试</string>
+    <string name="set_default_success">设置成功</string>
+    <string name="setting_name">设定</string>
+    <string name="shake_openshare">注册摇一摇（打开分享面板）</string>
+    <string name="shake_scrshot">注册摇一摇（截图）</string>
+    <string name="shake_share">注册摇一摇截图（分享）</string>
+    <string name="share_by_qq">QQ分享</string>
+    <string name="share_by_weixin">微信分享</string>
+    <string name="share_by_yixin">易信分享</string>
+    <string name="share_calr">消耗热量(千卡)</string>
+    <string name="share_distance">距离(公里)</string>
+    <string name="share_fat_burning">燃脂</string>
+    <string name="share_having_oxygen">有氧</string>
+    <string name="share_heartrate">平均心率(次/分)</string>
+    <string name="share_hotbody">热身</string>
+    <string name="share_maxvo2">平均摄氧量</string>
+    <string name="share_no_oxygen">无氧</string>
+    <string name="share_record">平均记录</string>
+    <string name="share_rhythm">步频(步/分)</string>
+    <string name="share_severe">剧烈</string>
+    <string name="share_speedrate">平均配速(每公里)</string>
+    <string name="share_time">运动时间</string>
+    <string name="short_music">屏蔽短音乐</string>
+    <string name="sing_click">单击</string>
+    <string name="singer">歌手</string>
+    <string name="single_people">个人</string>
+    <string name="slide_befour_after">前后划</string>
+    <string name="slide_up_down">上下划</string>
+    <string name="small">小剧场</string>
+    <string name="smallIconDrawable">小图标</string>
+    <string name="soc">电池剩余</string>
+    <string name="song">歌名</string>
+    <string name="sort_download_time">按下载时间排序</string>
+    <string name="sort_name">按名称排序</string>
+    <string name="soundDrawable">声音</string>
+    <string name="specialDay">节日</string>
+    <string name="speed">速度</string>
+    <string name="sport_asterisk">未连接fiil+时，FIIL Carat M可以播报开启的带*的项目</string>
+    <string name="sport_data_result_success">同步成功</string>
+    <string name="sport_detection">身体检测</string>
+    <string name="sport_dis">里程(公里)</string>
+    <string name="sport_empty_hint">运动完成后可以从这里查看历史记录</string>
+    <string name="sport_indicator">运动指示灯</string>
+    <string name="sport_indoor">室内运动</string>
+    <string name="sport_menu_bike">骑行</string>
+    <string name="sport_menu_equipment">健身器材</string>
+    <string name="sport_menu_hike">步行</string>
+    <string name="sport_menu_run">跑步</string>
+    <string name="sport_menu_yoga">健身操和瑜伽</string>
+    <string name="sport_move">正在运动</string>
+    <string name="sport_one_way">单程运动</string>
+    <string name="sport_outdoor">室外运动</string>
+    <string name="sport_recde_empty">暂时还没有运动记录</string>
+    <string name="sport_record">运动记录</string>
+    <string name="sport_set">计步</string>
+    <string name="sport_start">开始运动</string>
+    <string name="sport_time_little">运动次数太少</string>
+    <string name="sport_tooshort">运动时间太短，无法保存</string>
+    <string name="sport_voice_close">自动播报关闭</string>
+    <string name="sport_voice_open">自动播报开启</string>
+    <string name="sport_voice_setting">播报设置</string>
+    <string name="sport_zone">我的运动</string>
+    <string name="sportadjust_adjustbutton">用运动记录校准</string>
+    <string name="sportprobencixiaozhun">以本次记录校准传感器</string>
+    <string name="sportprodelete_left">我再想想</string>
+    <string name="sportprodelete_title">删除本次运动记录？删除后无法恢复！</string>
+    <string name="sprot_data_result_error">同步失败，请检查网络</string>
+    <string name="sprot_energy">消耗(大卡)</string>
+    <string name="sprot_temp">运动指示灯</string>
+    <string name="standby">待机</string>
+    <string name="standby_time">待机时间</string>
+    <string name="start_burn_heatset">开始煲机</string>
+    <string name="start_end_sport_mode">开始/结束运动模式</string>
+    <string name="start_now">立即开始</string>
+    <string name="start_play">开始播放</string>
+    <string name="status_update">Updating Facebook status at</string>
+    <string name="step">步</string>
+    <string name="step_frequency">随步速</string>
+    <string name="stop">停止</string>
+    <string name="stop_scan">停止扫描</string>
+    <string name="storage_card1">存储卡1</string>
+    <string name="storage_card2">存储卡2</string>
+    <string name="storage_external_path">/Android/data/com.fengeek.f002/fiil/music</string>
+    <string name="storage_external_path_43">/fiil/music</string>
+    <string name="storage_external_size">%1$s可用，共%2$s</string>
+    <string name="style_music">存储</string>
+    <string name="style_set">风格</string>
+    <string name="style_sport">运动</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">"Successfully posted '%1$s'.
+Post ID: %2$s"</string>
+    <string name="sunday">周日</string>
+    <string name="take_scrshot">直接截图</string>
+    <string name="talk_later">以后再说</string>
+    <string name="tb_munion_tip_download_prefix">正在下载:</string>
+    <string name="test_introduce">《斗破苍穹》是一本连载于起点中文网的古装玄幻小说，作者是起点白金作家天蚕土豆（李虎），已完结。这里是属于斗气的世界，没有花俏艳丽的魔法，有的，仅仅是繁衍到巅峰的斗气.</string>
+    <string name="test_static_hr_dialog">"测量静息心率是检测心脏健康风险的一种方法。长期检测记录可提现运动的效果。
+充分休息状态的测量结果更加准确。"</string>
+    <string name="this_not_support">当前播放内容不支持设置播放模式</string>
+    <string name="thursday">周四</string>
+    <string name="ticker">提示</string>
+    <string name="timer_sport">MMMdd</string>
+    <string name="title">标题</string>
+    <string name="title_activity_burn_text">BurnTextActivity</string>
+    <string name="title_item_list">反馈列表</string>
+    <string name="today_selection">今日精选</string>
+    <string name="total_calr_qixie">器械总消耗(千卡)</string>
+    <string name="total_calr_wojia">健身操和瑜伽总消耗(千卡)</string>
+    <string name="total_distance_bicycle">骑行总里程(公里)</string>
+    <string name="total_distance_run">跑步总里程（公里）</string>
+    <string name="total_distance_walk">步行总里程（公里）</string>
+    <string name="tour_sport_hint">游客无法查看运动记录</string>
+    <string name="touris_come_in">游客模式下无法查看每日详情</string>
+    <string name="touris_log_in">请先登录再查看历史数据</string>
+    <string name="tourists_acces">游客进入</string>
+    <string name="trial_empty_hint">测量完成后可以从这里查看历史记录</string>
+    <string name="trial_error">测量断开，请重新测量</string>
+    <string name="trial_error_because">由于耳机未佩戴好，无法测量到心率，测量中断</string>
+    <string name="trial_recode_empty">暂时还没有测量记录</string>
+    <string name="try_again_after_charging">请充电后再试</string>
+    <string name="try_again_later">稍后再试</string>
+    <string name="try_whole_scan">列表空空如也，可以试试“全盘扫描”</string>
+    <string name="tuesday">周二</string>
+    <string name="tumblr_content">Tumblr只支持文本，图片，图文分享</string>
+    <string name="tumblr_no_client">未安装Tumblr客户端</string>
+    <string name="tumblr_no_content">请设置分享内容</string>
+    <string name="tumblr_share">tumblr分享</string>
+    <string name="tumblr_showword">Tumblr</string>
+    <string name="umeng_addfriend">添加好友</string>
+    <string name="umeng_auth">授权</string>
+    <string name="umeng_comment">评论相关</string>
+    <string name="umeng_comment1">用户信息</string>
+    <string name="umeng_comment2">本地登录</string>
+    <string name="umeng_comment3">本地授权</string>
+    <string name="umeng_comment4">好友功能</string>
+    <string name="umeng_comment5">评论功能</string>
+    <string name="umeng_comment6">注销</string>
+    <string name="umeng_comment7">解决事例</string>
+    <string name="umeng_commentmodular">评论模块</string>
+    <string name="umeng_common_action_cancel">取消</string>
+    <string name="umeng_common_action_continue">继续</string>
+    <string name="umeng_common_action_info_exist">正在下载中.</string>
+    <string name="umeng_common_action_pause">暂停</string>
+    <string name="umeng_common_download_failed">下载失败</string>
+    <string name="umeng_common_download_finish">下载完成，请点击安装</string>
+    <string name="umeng_common_download_notification_prefix">正在下载:</string>
+    <string name="umeng_common_icon">icon</string>
+    <string name="umeng_common_info_interrupt">下载出错啦，请检查网络后继续。</string>
+    <string name="umeng_common_network_break_alert">下载出错，请重试</string>
+    <string name="umeng_common_patch_finish">更新完成，请点击安装</string>
+    <string name="umeng_common_pause_notification_prefix">暂停:</string>
+    <string name="umeng_common_silent_download_finish">新版本已经准备好，请点击安装</string>
+    <string name="umeng_common_start_download_notification">正在下载应用</string>
+    <string name="umeng_common_start_patch_notification">正在更新安装包</string>
+    <string name="umeng_customlogin">自定义登录</string>
+    <string name="umeng_deleauth">清除对应授权</string>
+    <string name="umeng_example_home_btn_plus">社交分享</string>
+    <string name="umeng_fb_back">返回</string>
+    <string name="umeng_fb_change_contact_title">联系方式（手机号/邮箱/QQ等选填）</string>
+    <string name="umeng_fb_contact_email">电子邮件</string>
+    <string name="umeng_fb_contact_info">联系方式</string>
+    <string name="umeng_fb_contact_info_hint">QQ, 电话等我们能联系您的联系方式</string>
+    <string name="umeng_fb_contact_key_email">email</string>
+    <string name="umeng_fb_contact_key_other">plain</string>
+    <string name="umeng_fb_contact_key_phone">phone</string>
+    <string name="umeng_fb_contact_key_qq">qq</string>
+    <string name="umeng_fb_contact_other">其他</string>
+    <string name="umeng_fb_contact_phone">手机</string>
+    <string name="umeng_fb_contact_qq">QQ</string>
+    <string name="umeng_fb_contact_save">保存</string>
+    <string name="umeng_fb_count_down">限时倒数</string>
+    <string name="umeng_fb_feedback">意见反馈</string>
+    <string name="umeng_fb_no_record_permission">没有录音权限</string>
+    <string name="umeng_fb_notification_content_formatter_multiple_msg">收到来自开发者的 %d 条回复。</string>
+    <string name="umeng_fb_notification_content_formatter_single_msg">新回复: %s</string>
+    <string name="umeng_fb_notification_ticker_text">有新的回复</string>
+    <string name="umeng_fb_please_photo">拍照</string>
+    <string name="umeng_fb_please_select_picture">从相册选择</string>
+    <string name="umeng_fb_press_speech">按住说话</string>
+    <string name="umeng_fb_record_fail">录音失败</string>
+    <string name="umeng_fb_record_time_short">录音时间太短</string>
+    <string name="umeng_fb_release_cancel">松开手指,取消发送</string>
+    <string name="umeng_fb_release_send">松开发送</string>
+    <string name="umeng_fb_reply_content_default">你好， 我是产品经理，欢迎您反馈使用产品的感受和建议</string>
+    <string name="umeng_fb_send">发送</string>
+    <string name="umeng_fb_send_fail">发送失败</string>
+    <string name="umeng_fb_sending">正在发送…</string>
+    <string name="umeng_fb_slide_up_cancel">手指上滑,取消发送</string>
+    <string name="umeng_fb_time_minutes_ago">%d分钟前</string>
+    <string name="umeng_fb_time_pre_year_format">yy/MM/dd HH:mm:ss</string>
+    <string name="umeng_fb_time_right_now">刚刚</string>
+    <string name="umeng_fb_time_this_year_format">MM/dd HH:mm:ss</string>
+    <string name="umeng_fb_title">用户反馈</string>
+    <string name="umeng_fb_write_contact_title">填写联系信息</string>
+    <string name="umeng_getcommentlist">获取评论列表</string>
+    <string name="umeng_getfriendlist">获取好友列表</string>
+    <string name="umeng_loginqq">登录QQ</string>
+    <string name="umeng_loginqzone">登录QQ空间</string>
+    <string name="umeng_loginsina">登录新浪</string>
+    <string name="umeng_logoutqq">登出QQ</string>
+    <string name="umeng_logoutsina">登出新浪</string>
+    <string name="umeng_logoutzone">登出QQ空间</string>
+    <string name="umeng_nativequery">本地登录信息查询</string>
+    <string name="umeng_openshare">打开分享面板</string>
+    <string name="umeng_registershake">注册摇一摇</string>
+    <string name="umeng_sendcomment">发出评论</string>
+    <string name="umeng_shake">摇一摇</string>
+    <string name="umeng_shakeshare">摇一摇分享</string>
+    <string name="umeng_shakeshotscreen">摇一摇截屏</string>
+    <string name="umeng_share">分享</string>
+    <string name="umeng_share1">默认分享面板可编辑分享页</string>
+    <string name="umeng_share2">自定义分享面板可编辑分享页</string>
+    <string name="umeng_share3">单平台直接分享</string>
+    <string name="umeng_share4">多平台直接分享</string>
+    <string name="umeng_share5">默认分享面板可编辑分享页多平台</string>
+    <string name="umeng_socialize_back">返回</string>
+    <string name="umeng_socialize_cancel_btn_str">取消</string>
+    <string name="umeng_socialize_comment">评论</string>
+    <string name="umeng_socialize_comment_detail">评论详情</string>
+    <string name="umeng_socialize_content_hint">说点啥…</string>
+    <string name="umeng_socialize_friends">关注的好友</string>
+    <string name="umeng_socialize_img_des">aaa</string>
+    <string name="umeng_socialize_laiwang_default_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能</string>
+    <string name="umeng_socialize_login">登录</string>
+    <string name="umeng_socialize_login_qq">QQ空间</string>
+    <string name="umeng_socialize_mail">邮件</string>
+    <string name="umeng_socialize_msg_hor">小时前</string>
+    <string name="umeng_socialize_msg_min">分钟前</string>
+    <string name="umeng_socialize_msg_sec">秒前</string>
+    <string name="umeng_socialize_near_At">最近@的好友</string>
+    <string name="umeng_socialize_network_break_alert">请连接网络后再尝试！</string>
+    <string name="umeng_socialize_send">发布</string>
+    <string name="umeng_socialize_send_btn_str">发送</string>
+    <string name="umeng_socialize_share">分享</string>
+    <string name="umeng_socialize_share_content">友盟社会化组件（SDK）让移动应用快速整合社交分享功能，我们简化了社交平台的接入，为开发者提供坚实的基础服务。（一）支持各大主流社交平台， （二）支持图片、文字、gif动图、音频、视频；@好友，关注官方微博等功能。 （三）提供详尽的后台用户社交行为分析。www.umeng.com/social</string>
+    <string name="umeng_socialize_sina">新浪</string>
+    <string name="umeng_socialize_sms">短信</string>
+    <string name="umeng_socialize_text_add_custom_platform">请配置用户平台</string>
+    <string name="umeng_socialize_text_alipay_key">支付宝</string>
+    <string name="umeng_socialize_text_authorize">授权</string>
+    <string name="umeng_socialize_text_choose_account">选择已有帐号登录</string>
+    <string name="umeng_socialize_text_comment_hint">说点什么吧…</string>
+    <string name="umeng_socialize_text_douban_key">豆瓣网</string>
+    <string name="umeng_socialize_text_evernote_key">印象笔记</string>
+    <string name="umeng_socialize_text_facebook_key">facebook</string>
+    <string name="umeng_socialize_text_flickr_key">Flickr</string>
+    <string name="umeng_socialize_text_foursquare_key">Foursquare</string>
+    <string name="umeng_socialize_text_friend_list">好友列表</string>
+    <string name="umeng_socialize_text_googleplus_key">GooglePlus</string>
+    <string name="umeng_socialize_text_instagram_key">instagram</string>
+    <string name="umeng_socialize_text_kakao_key">Kakao Talk</string>
+    <string name="umeng_socialize_text_laiwang_dynamic_key">来往动态</string>
+    <string name="umeng_socialize_text_laiwang_key">来往</string>
+    <string name="umeng_socialize_text_laiwangdynamic_key">来往动态</string>
+    <string name="umeng_socialize_text_line_key">LINE</string>
+    <string name="umeng_socialize_text_linkedin_key">Linkedin</string>
+    <string name="umeng_socialize_text_loading_message">载入中,请稍候...</string>
+    <string name="umeng_socialize_text_login_fail">登录失败了，请重试</string>
+    <string name="umeng_socialize_text_pinterest_key">pinterest</string>
+    <string name="umeng_socialize_text_pocket_key">pocket</string>
+    <string name="umeng_socialize_text_qq_key">QQ</string>
+    <string name="umeng_socialize_text_qq_zone_key">QQ空间</string>
+    <string name="umeng_socialize_text_renren_key">人人网</string>
+    <string name="umeng_socialize_text_sina_key">微博</string>
+    <string name="umeng_socialize_text_tencent_key">腾讯微博</string>
+    <string name="umeng_socialize_text_tencent_no_connection">无法连接到腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_no_install">未安装腾讯微博客户端</string>
+    <string name="umeng_socialize_text_tencent_oauth_login_fail">授权登录失败</string>
+    <string name="umeng_socialize_text_tencent_version_no_match">版本不匹配，SSO只对微博客户端V3.8.1及以上的版本提供支持</string>
+    <string name="umeng_socialize_text_tumblr_key">Tumblr</string>
+    <string name="umeng_socialize_text_twitter_key">twitter</string>
+    <string name="umeng_socialize_text_ucenter">个人中心</string>
+    <string name="umeng_socialize_text_unauthorize">未授权</string>
+    <string name="umeng_socialize_text_visitor">游客</string>
+    <string name="umeng_socialize_text_waitting">请稍候...</string>
+    <string name="umeng_socialize_text_waitting_message">,请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qq">跳转QQ中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_qzone">跳转QZone中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_redirect">跳转</string>
+    <string name="umeng_socialize_text_waitting_share">分享中…</string>
+    <string name="umeng_socialize_text_waitting_weixin">跳转微信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_weixin_circle">跳转朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin">跳转易信中，请稍候...</string>
+    <string name="umeng_socialize_text_waitting_yixin_circle">跳转易信朋友圈中，请稍候...</string>
+    <string name="umeng_socialize_text_weixin_circle_key">微信朋友圈</string>
+    <string name="umeng_socialize_text_weixin_key">微信</string>
+    <string name="umeng_socialize_text_whatsapp_key">WhatsApp</string>
+    <string name="umeng_socialize_text_ydnote_key">有道云笔记</string>
+    <string name="umeng_socialize_text_yixin_key">易信</string>
+    <string name="umeng_socialize_text_yixincircle_key">易信朋友圈</string>
+    <string name="umeng_socialize_tip_blacklist">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_tip_loginfailed">对不起，因为违反了用户协议您已被禁言.</string>
+    <string name="umeng_socialize_ucenter_login_title_guide">Login as guset</string>
+    <string name="umeng_socialize_ucenter_login_title_platform">Login</string>
+    <string name="unbing_profit">确认解绑此耳机？解绑后部分功能无法正常使用，可能需要您重新输入序列号进行绑定</string>
+    <string name="unbound_fail">解除绑定失败，请稍后再试</string>
+    <string name="unbound_success">解绑成功</string>
+    <string name="uniform_speed">匀速</string>
+    <string name="up_to_last_version">已更新至最新版本</string>
+    <string name="updata_download_success">下载完成(点击更新)</string>
+    <string name="updata_fail">升级失败</string>
+    <string name="updata_success">升级成功</string>
+    <string name="updataing">升级中...</string>
+    <string name="update_fail">更新数据失败</string>
+    <string name="update_local_notification">修改</string>
+    <string name="update_tanstant_success">"升级固件传输完成正在更新
+稍后耳机会自动重启请耐心等待"</string>
+    <string name="updateing_text">"更新过程中请保持耳机靠近手机
+不要断开蓝牙连接，关闭耳机或退出程序"</string>
+    <string name="uptate_enjoy_profit">当前登录账号与耳机上次使用账号不一致。要使用“最爱”功能，需替换当前耳机上的最爱歌曲。（使用上次的账号登录、连接耳机，即可恢复被替换的最爱歌曲）</string>
+    <string name="uptate_sport_profit">当前登录账号与耳机上次使用账号不一致。要查看或保存运动记录，必须替换账号的个人资料。（此操作会将耳机上的离线运动数据，同步到当前账号上）</string>
+    <string name="use_liuliang_download">使用2G/3G/4G流量下载</string>
+    <string name="use_liuliang_linstenr">使用2G/3G/4G流量播放</string>
+    <string name="use_liuliang_pic">使用2G/3G/4G流量下载封面图</string>
+    <string name="user_agreement">阅读《fiil+软件许可使用协议》</string>
+    <string name="user_xieyi">使用协议</string>
+    <string name="verify_bound_bound">序列号已绑定，请解绑后再试</string>
+    <string name="verify_bound_fail">序列号绑定失败</string>
+    <string name="verify_bound_succ">序列号绑定成功</string>
+    <string name="verify_bounds">"输入您的耳机序列号，成为认证用户，
+享受更多会员功能和权益"</string>
+    <string name="verify_btn_bound">绑定</string>
+    <string name="verify_btn_regis">现在注册</string>
+    <string name="verify_btn_scan">扫描二维码</string>
+    <string name="verify_btn_submit">提交</string>
+    <string name="verify_btn_write">手动输入</string>
+    <string name="verify_code_meet">序列号不满足条件！</string>
+    <string name="verify_code_null">序列号不能为空！</string>
+    <string name="verify_error">"验证码有误，无法验证
+请检查后再试"</string>
+    <string name="verify_ethint">输入序列号</string>
+    <string name="verify_first">首次验证时间:</string>
+    <string name="verify_format_error">"序列号有误，请确认序列
+号和耳机型号后再试"</string>
+    <string name="verify_goods">您所验证的序列号是正品</string>
+    <string name="verify_net_no">您的网络可能有问题</string>
+    <string name="verify_regis">进行产品注册，享受更多会员权益</string>
+    <string name="verify_title">正品验证</string>
+    <string name="verify_title2">绑定耳机</string>
+    <string name="verify_warn">"请留意首次验证时间，如不是您亲自操作，
+可能存在风险"</string>
+    <string name="version_diffenert">当前版本fiil+不支持此型号</string>
+    <string name="video">VideoActivity</string>
+    <string name="video_start_time">00:00</string>
+    <string name="voice_average_heart">平均心率 *</string>
+    <string name="voice_cadence">步频 *</string>
+    <string name="voice_cadence_not">步频 *（当前运动模式不可用）</string>
+    <string name="voice_current_heart">当前心率 *</string>
+    <string name="voice_distance">距离 *</string>
+    <string name="voice_distance_not">距离 *（当前运动模式不可用）</string>
+    <string name="voice_frequency">播报频率</string>
+    <string name="voice_heart_consumption">热量消耗 *</string>
+    <string name="voice_heart_interval">心率区间</string>
+    <string name="voice_heart_speed">热量消耗速度 *</string>
+    <string name="voice_oxygen_uptake">当前摄氧量</string>
+    <string name="voice_pace">配速 *</string>
+    <string name="voice_pace_not">配速 *（当前运动模式不可用）</string>
+    <string name="voice_sensor">传感器状态</string>
+    <string name="voice_speed">速度 *</string>
+    <string name="voice_speed_not">速度 *（当前运动模式不可用）</string>
+    <string name="voice_sport_distances">按距离播报</string>
+    <string name="voice_sport_distances_not">按距离播报 *（当前模式不可用）</string>
+    <string name="voice_sport_time">按时间播报</string>
+    <string name="voice_start_stop">开始、暂停、停止</string>
+    <string name="voice_summary">总结</string>
+    <string name="voice_target_reach">目标达成</string>
+    <string name="voice_time">运动时间</string>
+    <string name="voice_tittle">播报设置</string>
+    <string name="voice_with_distance">按距离</string>
+    <string name="voice_with_time">按时间</string>
+    <string name="voicesearch">语音搜歌</string>
+    <string name="void_not_local">“本地模式”无法设置声场</string>
+    <string name="voide_close">自动播报关闭</string>
+    <string name="voide_hint_no_net">未连接网络，语音播报可能缺失或不正确。如要正常使用，请保持网络通畅</string>
+    <string name="voide_ontime">实时播报</string>
+    <string name="voide_open">自动播报开启</string>
+    <string name="voide_set">声场</string>
+    <string name="voide_support">语音技术由%1$s提供</string>
+    <string name="voide_supportname1">百度语音</string>
+    <string name="voide_supportname2">微软语音</string>
+    <string name="voide_supportname3">讯飞语音</string>
+    <string name="voide_supportname4">谷歌语音</string>
+    <string name="volum_change">增/减音量</string>
+    <string name="volum_change_continu">连续增/减音量</string>
+    <string name="wait_heatset_restart">等待耳机重启</string>
+    <string name="wait_wifi">等待Wifi</string>
+    <string name="warm">提醒</string>
+    <string name="web_tittle_name">电量详情</string>
+    <string name="webshop_diamesage">无可用网络，请检查你的网络设置</string>
+    <string name="webshop_diatittle">提示</string>
+    <string name="webshop_title">fiil线上商城</string>
+    <string name="wednesday">周三</string>
+    <string name="week_sport">周运动</string>
+    <string name="welcom_closevoice">关闭声音</string>
+    <string name="welcom_openvoice">开启声音</string>
+    <string name="welcom_skip">跳过</string>
+    <string name="welcome_get_permission">"由于fiil+无法获取设备信息的权限，不能正常运行，请开启权限后在使用fiil+。
+
+"</string>
+    <string name="welcome_get_tittle">请允许获取设备信息</string>
+    <string name="whatsapp_content">有道云笔记只支持文本，图片</string>
+    <string name="whatsapp_no_client">未安装有WhatsApp客户端</string>
+    <string name="whatsapp_no_content">请设置分享内容</string>
+    <string name="whatsapp_share">whatsapp分享</string>
+    <string name="whatsapp_showword">WhatsApp</string>
+    <string name="widget_soc">电量</string>
+    <string name="xieyi_content">"《fiil+软件许可使用协议》
+
+        请务必认真阅读和理解本《软件许可使用协议》（以下简称《协议》）中规定的所有权利和限制。除非您接受本《协议》条款，否则您无权下载、安装或使用本“软件”及其相关服务。您一旦安装、复制、下载、访问或以其它方式使用本软件产品，将视为对本《协议》的接受，即表示您同意接受本《协议》各项条款的约束。如果您不同意本《协议》中的条款，请不要安装、复制或使用本软件。
+
+        本《协议》是用户与峰范（北京）科技有限公司（下称“峰范”）之间关于用户下载、安装、使用、复制随附本《协议》的fiil+软件（以下简称“软件”或“fiil+”）的法律协议。
+
+    1.权利声明
+
+        本“软件”的一切知识产权，以及与“软件”相关的所有信息内容，包括但不限于：文字表述及其组合、图标、图饰、图像、图表、色彩、界面设计、版面框架、有关数据、附加程序、印刷材料或电子文档等均为峰范所有，受著作权法和国际著作权条约以及其他知识产权法律法规的保护。
+
+    2.许可范围
+
+        2.1 下载、安装和使用：本软件为免费软件，用户可以非商业性、无限制数量地下载、安装及使用本软件。
+
+        2.2 复制、分发和传播：用户可以非商业性、无限制数量地复制、分发和传播本软件产品。但必须保证每一份复制、分发和传播都是完整和真实的, 包括所有有关本软件产品的软件、电子文档, 版权和商标，亦包括本协议。
+
+    3.权利限制
+
+        3.1 禁止反向工程、反向编译和反向汇编：用户不得对本软件产品进行反向工程（Reverse Engineer）、反向编译（Decompile）或反向汇编（Disassemble），同时不得改动编译在程序文件内部的任何资源。除法律、法规明文规定允许上述活动外，用户必须遵守此协议限制。
+
+        3.2 组件分割：本软件产品是作为一个单一产品而被授予许可使用, 用户不得将各个部分分开用于任何目的。
+
+        3.3 个别授权： 如需进行商业性的销售、复制、分发，包括但不限于软件销售、预装、捆绑等，必须获得峰范的书面授权和许可。
+
+        3.4 保留权利：本协议未明示授权的其他一切权利仍归峰范所有， 用户使用其他权利时必须获得峰范的书面同意。
+
+    4.用户使用须知
+
+        4.1 软件功能：本软件提供fiil品牌耳机的产品介绍、煲耳机、fiil品牌蓝牙耳机连接和控制功能、fiil品牌耳机的正品查询、产品注册等功能。
+
+        4.2 本软件仅适用于其官方网站公布支持的操作系统，如果用户在安装本软件后因任何原因欲放弃使用，可使用各操作系统提供的删除方式删除本软件。
+
+        4.3 本软件由峰范提供产品支持。
+
+        4.4 软件的修改和升级：峰范保留随时为用户提供本软件的修改、升级版本的权利。软件升级更新会产生相应的数据流量费，由运营商收取。
+
+        4.5 本软件不含有任何旨在破坏用户数据和获取用户隐私信息的恶意代码，不含有任何监控、监视用户手机及计算机的功能代码，不会收集用户个人文件、文档等信息，不会泄漏用户隐私。
+
+        4.6 用户应在遵守法律及本协议的前提下使用本软件。用户无权实施包括但不限于下列行为：
+
+            4.6.1 删除或者改变本软件上的所有权利管理电子信息；
+
+            4.6.2 故意避开或者破坏著作权人为保护本软件著作权而采取的技术措施；
+
+            4.6.3 利用本软件误导、欺骗他人；
+
+            4.6.4 违反国家规定，对计算机信息系统功能进行删除、修改、增加、干扰，造成计算机信息系统不能正常运行；
+
+            4.6.5 未经允许，进入计算机信息网络或者使用计算机信息网络资源；
+
+            4.6.6 未经允许，对计算机信息网络功能进行删除、修改或者增加的；
+
+            4.6.7 未经允许，对计算机信息网络中存储、处理或者传输的数据和应用程序进行删除、修改或者增加；
+
+            4.6.8 破坏本软件系统或网站的正常运行，故意传播计算机病毒等破坏性程序；
+
+            4.6.9 其他任何危害计算机信息网络安全的行为；
+
+        4.7 对于从非峰范指定站点下载的本软件产品以及从非峰范发行的介质上获得的本软件产品，峰范无法保证该软件是否感染计算机或手机病毒、是否隐藏有伪装的特洛伊木马程序或者黑客软件，使用此类软件，将可能导致不可预测的风险，建议用户不要轻易下载、安装、使用，峰范不承担任何由此产生的一切法律责任。
+
+        4.8 隐私权保护
+
+            4.8.1 为了更好的改进产品体验，同时持续为用户提供最佳的服务。在不会涉及用户个人隐私前提下，fiil+会采用如下方式收集和使用您的设备和其他相关信息：
+
+                4.8.1.1 fiil+版本升级：为了让fiil+顺利进行升级，当用户打开fiil+时，fiil+会向峰范服务器上报用户使用的fiil+当前版本、品牌型号(避免不兼容)，用以与峰范服务器上的版本进行比对，查询对应的升级包。如果检测到有升级包，峰范会提示用户，由用户自主决定是否进行升级。对于非常重要的升级(如修复严重BUG)，用户不升级将无法继续使用原版本。峰范不会存储上报信息，或将其与用户的其他任何个人信息进行匹配，也不会将其用于其它商业目的。
+
+                4.8.1.2 耳机系统固件升级：为了检测用户的耳机固件版本是否有更新，需要将用户耳机固件的版本信息不定期传递到峰范服务器进行比对，用以查询固件是否有更新。当峰范服务器中存在固件的更高版本，峰范会提示用户，由用户自主决定是否进行升级。峰范不会将任何数据与用户的其他任何个人信息进行匹配，也不会将其用于其它商业目的。
+
+                4.8.1.3 峰范制定了严格的用户上传信息处理规则和安全保护措施来确保不超越目的和范围收集用户信息，确保用户上传信息的安全，确保用户上传信息不被滥用。
+
+            4.8.2 峰范制定了以下四项隐私权保护原则，指导我们如何来处理产品中涉及到用户隐私权和用户信息等方面的问题：
+
+               （1）利用我们收集的信息为用户提供有价值的产品和服务。
+
+               （2）开发符合隐私权标准和隐私权惯例的产品。
+
+               （3）将个人信息的收集透明化，并由权威第三方监督。
+
+               （4）尽最大的努力保护我们掌握的信息。
+
+               您可通过峰范科技网站查看我们有关隐私保护的详细内容，网址为：http://www.fiil.com/privacy.html
+
+    5.免责与责任限制
+
+        5.1 用户确认，其知悉本软件所有功能及峰范为实现本软件各功能所进行的必要操作，其根据自身需求自愿选择使用本软件及相关服务，因使用本软件及相关服务所存在的风险和一切后果将完全由其自己承担，峰范不承担任何责任。
+
+        5.2 本软件经过详细的测试，但不能保证与所有的软硬件系统完全兼容，不能保证本软件完全没有错误。如果出现不兼容及软件错误的情况，用户可通过软件内部的意见反馈功能将情况报告峰范，获得技术支持。如果无法解决兼容性问题，用户可以删除本软件。
+
+        5.3 在适用法律允许的最大范围内，对因使用或不能使用本软件所产生的损害及风险，包括但不限于直接或间接的个人损害、商业赢利的丧失、贸易中断、商业信息的丢失或任何其它经济损失，峰范不承担任何责任。
+
+        5.4 对于因电信系统或互联网网络故障、计算机故障或病毒、信息损坏或丢失、计算机系统问题或其它任何不可抗力原因而产生损失，峰范不承担任何责任。
+
+        5.5 用户违反本协议规定，对峰范造成损害的。峰范有权采取包括但不限于中断使用许可、停止提供服务、限制使用、法律追究等措施。
+
+    6.法律及争议解决
+
+        6.1 本协议适用中华人民共和国法律。
+
+        6.2 因本协议引起的或与本协议有关的任何争议，各方应友好协商解决；协商不成的，任何一方均可将有关争议提交至北京仲裁委员会并按照其届时有效的仲裁规则仲裁；仲裁裁决是终局的，对各方均有约束力。
+
+    7.其他条款
+
+        7.1 如果本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，或违反任何适用的法律，则该条款被视为删除，但本协议的其余条款仍应有效并且有约束力。
+
+        7.2 峰范有权随时根据有关法律、法规的变化以及公司经营状况和经营策略的调整等修改本协议。修改后的协议会随附于新版本软件。当发生有关争议时，以最新的协议文本为准。如果不同意改动的内容，用户可以自行删除本软件。如果用户继续使用本软件，则视为您接受本协议的变动。
+
+        7.3 峰范在法律允许的最大范围内对本协议拥有解释权与修改权。"</string>
+    <string name="year">年</string>
+    <string name="ynote_content">有道云笔记只支持文本，图片，图文分享</string>
+    <string name="ynote_no_client">未安装有道云笔记客户端</string>
+    <string name="ynote_no_content">请设置分享内容</string>
+    <string name="ynote_share">有道云笔记分享</string>
+    <string name="ynote_showword">有道云笔记</string>
+    <string name="you">您的</string>
+    <string name="zao_set">降噪</string>
+    <string name="ziran">原声</string>
+</resources>

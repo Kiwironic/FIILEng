@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_gide_img_serve" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+    <TextView android:textSize="@dimen/text_size_22px" android:textColor="@color/btn_skip_bg" android:id="@id/item_gide_tv_serve" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" />
+</LinearLayout>

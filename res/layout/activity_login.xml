@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/include" layout="@layout/activity_head_black" />
+    <ImageView android:id="@id/iv_login_logo" android:background="@mipmap/iv_login_logo" android:layout_width="140.0dip" android:layout_height="40.0dip" android:layout_marginTop="45.0dip" android:layout_below="@id/include" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/iv_login_bottom" android:background="@mipmap/iv_login_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/ll_login_text" android:layout_width="280.0dip" android:layout_height="20.0dip" android:layout_marginTop="51.0dip" android:layout_below="@id/iv_login_logo" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/text_size_22px" android:textColor="@color/heart_record_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_name" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/rl_btn_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/ll_login_text">
+        <LinearLayout android:id="@id/btn_wx" style="@style/Button_login">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/btn_logo_weibo" />
+            <TextView android:textSize="@dimen/text_size_28px" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="@string/login_WeChat" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/btn_xl" android:layout_marginTop="20.0dip" style="@style/Button_login">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/btn_logo_weixin" />
+            <TextView android:textSize="@dimen/text_size_28px" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="@string/login_micro_blog" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/play_all_layout" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <LinearLayout android:id="@id/ll_play_all" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/play_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/detail_down_play" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/heart_record_text" android:gravity="center_vertical" android:id="@id/play_all_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:text="@string/music_play_all" />
+        </LinearLayout>
+        <FrameLayout android:orientation="vertical" android:id="@id/select" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true">
+            <ImageView android:gravity="end" android:layout_gravity="center|clip_vertical" android:background="?android:selectableItemBackground" android:paddingLeft="15.0dip" android:paddingRight="12.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@mipmap/detail_down_all" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+            <TextView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/free_flow" />
+        </FrameLayout>
+        <View android:background="@color/music_select_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

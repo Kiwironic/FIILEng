@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_btn_down_push_press" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ff2d2d2d" android:gravity="center|left" android:id="@id/tv_door_store_current_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Current City" android:drawableRight="@mipmap/door_store_down" />
+    <View android:id="@id/v_popup_line" android:background="#ffededed" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:id="@id/lv_door_store_down_push" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="#ffededed" android:dividerHeight="1.0dip" />
+</LinearLayout>

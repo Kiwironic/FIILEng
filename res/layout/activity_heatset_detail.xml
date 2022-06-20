@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/heatset_detail_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <include layout="@layout/main_top" />
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="25.0dip">
+        <ImageView android:background="@mipmap/heatset_detail_login" android:layout_width="102.0dip" android:layout_height="22.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="40.0dip" />
+        <View android:background="@color/burn_top_name_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="40.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/heatset_textcolor" android:id="@id/tv_heatset_detail_serial_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="SN:F12345678901" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/heatset_alread_regist_textcolor" android:id="@id/tv_heatset_detail_alread_regist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25.0dip" android:text="@string/heatset_alread_regist" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <include layout="@layout/product_regist_line" />
+        <RelativeLayout android:id="@id/rl_heatinfo_repaire" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/heatset_textcolor" android:id="@id/tv_heatset_detail_repair" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="@string/heatset_repair_data" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/heatset_repair_data_textcolor" android:id="@id/tv_heatset_detail_repair_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25.0dip" android:text="2017-12-31" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/iv_extend_bao" android:background="@mipmap/moreset_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <include layout="@layout/product_regist_line" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:textSize="16.0sp" android:textColor="@color/after_sale_servier_policy_color" android:layout_gravity="center_horizontal" android:id="@id/btn_unbind_delete" android:background="@mipmap/heatset_detail_btn_background" android:layout_width="250.0dip" android:layout_height="40.0dip" android:layout_marginBottom="35.0dip" android:text="@string/heatset_unbind_and_delete" android:textAllCaps="false" skin:enable="true" />
+    </LinearLayout>
+</LinearLayout>

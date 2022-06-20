@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fengeek.view.MusicFrameLayout android:id="@id/all_sfl" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:beatnote="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_top" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <ImageView android:layout_gravity="bottom" android:id="@id/iv_heat_set_music_back" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:src="@mipmap/btn_new_back" android:scaleType="centerInside" />
+            <android.support.design.widget.TabLayout android:layout_gravity="bottom" android:id="@id/tab_layout_heatset_music" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0" style="@style/TabLayoutStyle" />
+            <ImageView android:layout_gravity="bottom" android:id="@id/iv_heat_set_setting" android:layout_width="40.0dip" android:layout_height="60.0dip" android:layout_marginRight="5.0dip" android:src="@mipmap/music_more_info" android:scaleType="centerInside" />
+            <FrameLayout android:layout_gravity="bottom" android:layout_width="48.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+        </LinearLayout>
+        <View android:background="#ff999999" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <android.support.v4.view.ViewPager android:id="@id/vp_heat_set_music" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include layout="@layout/layout_heatset_update" />
+</com.fengeek.view.MusicFrameLayout>

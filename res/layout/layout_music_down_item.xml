@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="80.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/fl_music_down_item" android:layout_width="35.0dip" android:layout_height="fill_parent">
+        <CheckBox android:layout_gravity="center" android:id="@id/cb_music_down_item" android:background="@drawable/selector_music_options" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginBottom="2.0dip" android:button="@null" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_weight="7.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_centerInParent="true">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/text_color" android:ellipsize="end" android:id="@id/down_top_text" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="If I become a memory" android:maxLines="2" android:singleLine="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/heart_record_text" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/down_count" android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="00:00" android:maxLines="2" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@id/down_progress" android:background="@color/music_select_color" android:layout_width="fill_parent" android:layout_height="2.0dip" android:secondaryProgress="100" android:layout_alignParentBottom="true" android:progressBackgroundTint="@color/music_select_color" android:secondaryProgressTint="@color/colorPrimary" android:backgroundTint="@color/music_select_color" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center|right" android:id="@id/down_single_clear" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:background="?selectableItemBackgroundBorderless" android:padding="5.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_marginBottom="2.0dip" android:src="@mipmap/invode_code_close" android:foregroundTint="#ff434343" />
+    </LinearLayout>
+</LinearLayout>

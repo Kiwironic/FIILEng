@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fengeek.view.FractionTranslateLayout android:background="@color/color_f8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:circlecolor="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/style_back2" android:background="@drawable/xs_home_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <RelativeLayout android:id="@id/rl_more_eq" android:visibility="visible" android:layout_height="50.0dip" android:layout_marginTop="5.0dip" style="@style/RelativeLayout_MoreSetting">
+                    <ImageView android:id="@id/iv_moreset_five" android:background="@mipmap/zidingyi" android:layout_width="16.0dip" android:layout_height="16.0dip" style="@style/fragment_set_img" />
+                    <TextView android:textColor="#ff565656" android:text="@string/CC_Setting_eq" android:layout_toRightOf="@id/iv_moreset_five" style="@style/TextView_MoreSetting_Little" />
+                    <ImageView android:id="@id/iv_moreset_five_arrow" style="@style/ImageView_MoreFragment_Arrow" />
+                </RelativeLayout>
+                <LinearLayout android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="130.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t1pro_bass_linearlt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:id="@id/t1pro_bass_imageV" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/t1pro_bass" />
+                        <TextView android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+                        <TextView android:id="@id/t1pro_bass_textV1" android:background="@drawable/style_bass_bg" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="-5.0dip" />
+                        <TextView android:textColor="#ff777777" android:gravity="center" android:id="@id/t1pro_bass_textV2" android:layout_width="55.0dip" android:layout_height="25.0dip" android:layout_marginTop="15.0dip" android:text="Bass" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t1pro_original_linearlt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:id="@id/t1pro_original_imageV" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/t1pro_original_sound" />
+                        <TextView android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+                        <TextView android:id="@id/t1pro_original_textV1" android:background="@drawable/style_bass_bg" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="-5.0dip" />
+                        <TextView android:textColor="#ff777777" android:gravity="center" android:id="@id/t1pro_original_textV2" android:layout_width="55.0dip" android:layout_height="25.0dip" android:layout_marginTop="15.0dip" android:text="Off" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t1pro_high_linearlt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:id="@id/t1pro_high_imageV" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/t1pro_high_pitch" />
+                        <TextView android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+                        <TextView android:id="@id/t1pro_high_textV1" android:background="@drawable/style_bass_bg" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="-5.0dip" />
+                        <TextView android:textColor="#ff777777" android:gravity="center" android:id="@id/t1pro_high_textV2" android:layout_width="55.0dip" android:layout_height="25.0dip" android:layout_marginTop="15.0dip" android:text="Treble" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t1pro_more_linearl" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:id="@id/t1pro_more_imageV" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/t1pro_more_eq" />
+                        <TextView android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" />
+                        <TextView android:id="@id/t1pro_more_textV1" android:background="@drawable/style_bass_bg" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="-5.0dip" />
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/t1pro_more_linearl2" android:layout_width="55.0dip" android:layout_height="25.0dip" android:layout_marginTop="15.0dip">
+                            <TextView android:textSize="14.0sp" android:textColor="#ff777777" android:id="@id/t1pro_more_textV2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="More" />
+                            <ImageView android:id="@id/t1pro_more_imageV2" android:layout_width="13.0dip" android:layout_height="13.0dip" android:src="@drawable/more_sound_effect" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <HorizontalScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/linear" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </HorizontalScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/style_back1" android:background="@drawable/xs_home_bg" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+                <RelativeLayout android:id="@id/rl_dsp_mode" android:visibility="visible" android:layout_height="50.0dip" style="@style/RelativeLayout_MusicSetting_home">
+                    <ImageView android:id="@id/iv_simple_mode_outside" android:background="@mipmap/dsp" android:layout_width="16.0dip" android:layout_height="16.0dip" style="@style/fragment_set_img" />
+                    <TextView android:text="@string/CC_Setting_dsp" android:layout_toRightOf="@id/iv_simple_mode_outside" style="@style/TextView_MoreSetting_Little" />
+                    <FrameLayout android:id="@id/fl_dsp_mode" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+                        <ImageView android:id="@id/iv_dsp_mode" android:background="@drawable/selector_btn_state" style="@style/ImageView_MoreFragment" />
+                    </FrameLayout>
+                </RelativeLayout>
+                <TextView android:textColor="#ff777777" android:id="@id/detailText1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="10.0dip" android:text="@string/CC_Setting_dspDetail" android:layout_below="@id/rl_dsp_mode" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/voice_linearLayout" android:background="@drawable/xs_home_bg" android:paddingBottom="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentBottom="true">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:background="@drawable/media_play" android:layout_width="16.0dip" android:layout_height="14.0dip" android:layout_marginLeft="15.0dip" style="@style/fragment_set_img" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ff565656" android:id="@id/voice_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Playback Controls" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textColor="#ff777777" android:id="@id/voice_textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:text="Media Adjustments" />
+                <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                    <ImageButton android:id="@id/volume_dowm" android:background="#ffffffff" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/selector_music_volume_dowm" android:layout_weight="1.0" />
+                    <ImageButton android:id="@id/pervious_piece" android:background="#ffffffff" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/selector_music_previous" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/play_pasue" android:layout_width="20.0dip" android:layout_height="fill_parent" android:src="@mipmap/btn_music_play" android:layout_weight="1.0" />
+                    <ImageButton android:id="@id/next_track" android:background="#ffffffff" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/selector_music_next" android:layout_weight="1.0" />
+                    <ImageButton android:id="@id/increase_volume" android:background="#ffffffff" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/selector_music_increase_volue" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/call_linearLayout" android:background="@drawable/xs_home_bg" android:paddingBottom="10.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentBottom="true">
+                <LinearLayout android:gravity="center_vertical" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:background="@drawable/style_call_volume" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="15.0dip" style="@style/fragment_set_img" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ff565656" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Call volume" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="35.0dip">
+                    <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/cc_voice_left" android:layout_weight="1.0" />
+                    <SeekBar android:id="@id/voice_seekbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:max="15" android:progressDrawable="@drawable/bg_adjust_seek_bar" android:minHeight="1.0dip" android:thumb="@drawable/cc_yingliang" android:layout_weight="8.0" android:min="0" />
+                    <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/cc_voice_right" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</com.fengeek.view.FractionTranslateLayout>

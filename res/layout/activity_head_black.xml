@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:beatnote="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/Rl_blueconnect_title" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" style="@style/RelativeLayout_Tittle">
+        <Button android:id="@id/btn_conn_back" android:background="@mipmap/btn_back1" android:layout_width="70.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" />
+        <TextView android:id="@id/tv_conn_fill" style="@style/TextView_Tittle" />
+        <Button android:textColor="#ff585858" android:id="@id/btn_conn_next" android:background="#00000000" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="40.0dip" android:text="@string/blueNext" android:layout_alignParentRight="true" android:textAllCaps="false" />
+        <ImageView android:id="@id/iv_heart_record" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@mipmap/heartfra_record" android:layout_toLeftOf="@id/iv_heart_setting" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center" android:id="@id/ll_heart_sport_gps_sign" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <include layout="@layout/layout_gps" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/music_select_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</LinearLayout>

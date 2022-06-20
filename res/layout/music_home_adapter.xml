@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/music_select_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/ll_music_home_top" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/iv_item_image" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:scaleType="centerCrop" />
+        <TextView android:id="@id/tv_item_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="" android:layout_toRightOf="@id/iv_item_image" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_item_music" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/music_home_more" />
+            <ImageView android:layout_marginLeft="10.0dip" style="@style/ImageView_MoreFragment_Arrow" />
+        </LinearLayout>
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_music_home" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/ll_music_home_top" />
+</RelativeLayout>

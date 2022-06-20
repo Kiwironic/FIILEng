@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="150" android:drawable="@mipmap/driifter_00" />
+    <item android:duration="150" android:drawable="@mipmap/driifter_01" />
+    <item android:duration="150" android:drawable="@mipmap/driifter_02" />
+    <item android:duration="150" android:drawable="@mipmap/driifter_03" />
+    <item android:duration="150" android:drawable="@mipmap/driifter_04" />
+    <item android:duration="150" android:drawable="@mipmap/driifter_05" />
+</animation-list>

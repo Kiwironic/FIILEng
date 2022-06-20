@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/burn_pager_whole_background" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.fengeek.view.CanSlideUpRecyclerView android:layout_gravity="center" android:id="@id/rv_burn" android:animationCache="false" android:layout_width="fill_parent" android:layout_height="500.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/rl_pager_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/iv_pager_bg" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/burnpager_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/burnpager_empty" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/my_fill_heatset_name_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/burnpager_add" />
+    </LinearLayout>
+</FrameLayout>

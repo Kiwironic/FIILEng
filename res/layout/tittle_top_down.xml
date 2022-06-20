@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_main_top" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:beatnote="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <ImageView android:id="@id/iv_main_menu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@mipmap/btn_back1" android:layout_centerVertical="true" />
+        <android.support.design.widget.TabLayout android:id="@id/tab_top_tittle" android:tag="tab_indicator_accent_color,bg_primary_color" android:layout_width="200.0dip" android:layout_height="48.0dip" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_down_top" android:layout_width="22.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@mipmap/iv_down_setting" android:scaleType="center" android:layout_toLeftOf="@id/iv_more_setting" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>
