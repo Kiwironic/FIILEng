@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/rv_heat_set_wireless" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/sticky_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <android.support.v4.view.ViewPager android:id="@id/vp_main_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-        <android.support.design.widget.TabLayout android:id="@id/tl_main_menu" android:layout_width="fill_parent" android:layout_height="50.0dip" style="@style/TabLayoutStyle" />
-    </LinearLayout>
-</RelativeLayout>

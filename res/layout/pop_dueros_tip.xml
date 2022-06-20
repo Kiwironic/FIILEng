@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/shap_white_radius_btn" android:layout_width="260.0dip" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/dueros_state_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:src="@mipmap/dueros_tip_success" />
-    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/color_565656" android:id="@id/dueros_state_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Congratulations, you have successfully bound your Baidu account" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/color_999999" android:id="@id/dueros_service_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="30.0dip" android:text="You can now enjoy intelligent voice assistance for your offered music, audio novels, consultation and other voice assistance services" android:lineSpacingMultiplier="1.1" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/dueros_btn" android:background="@drawable/select_com_btn" android:layout_width="130.0dip" android:layout_height="37.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="40.0dip" android:text="Use now" />
-</LinearLayout>

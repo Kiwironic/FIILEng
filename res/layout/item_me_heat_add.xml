@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/rl_pagerme" style="@style/RelativeLayout_pageme">
-        <TextView android:id="@id/tv_pagerme_heat_name" android:text="@string/pagermef001" style="@style/TextView_bind" />
-        <ImageView android:id="@id/iv_pagerme_pic" android:background="@mipmap/add_heatset" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    </RelativeLayout>
-    <View style="@style/View_pageme" />
-</LinearLayout>

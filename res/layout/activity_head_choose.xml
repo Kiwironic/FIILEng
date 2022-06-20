@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/rl_title" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="70.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:beatnote="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/ll_head_title" android:layout_height="50.0dip" style="@style/RelativeLayout_Tittle">
-        <Button android:id="@id/btn_head_back" android:background="@drawable/btn_back" style="@style/Button_AllBack_Background" />
-        <TextView android:id="@id/tv_head_title" style="@style/TextView_Tittle" />
-        <Button android:textColor="@drawable/btntext_choose" android:id="@id/btn_head_next" android:background="#00000000" android:layout_width="50.0dip" android:layout_height="40.0dip" android:text="@string/next" android:layout_centerVertical="true" android:textAllCaps="false" />
-    </RelativeLayout>
-</LinearLayout>

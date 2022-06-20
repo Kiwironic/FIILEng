@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:circlepointview="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
-    <cn.feng.skin.manager.view.ColumnCharView android:id="@id/sport_column_chart" android:paddingLeft="20.0dip" android:paddingTop="35.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" circlepointview:progressColor="@color/colorPrimary" skin:enable="true" />
-</FrameLayout>

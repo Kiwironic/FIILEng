@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="60.0dip" android:minHeight="60.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/iv_left_rv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:src="@mipmap/electricity" android:layout_centerVertical="true" />
-    <TextView android:textColor="@color/black" android:id="@id/tv_left_rv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Battery details" android:layout_centerInParent="true" />
-    <ImageView android:id="@id/iv_left_iv_menu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@mipmap/electricity" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</RelativeLayout>

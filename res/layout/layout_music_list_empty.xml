@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_music_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
-    <ImageView android:layout_gravity="center_horizontal" android:background="@mipmap/no_music_image" android:layout_width="107.0dip" android:layout_height="107.0dip" />
-    <TextView android:textSize="20.0sp" android:textColor="#ff616161" android:layout_gravity="center_horizontal" android:id="@id/tv_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/burnpager_empty" />
-    <TextView android:textSize="17.0sp" android:textColor="#ff888888" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_scan_try" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/try_whole_scan" />
-    <Button android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/btn_scan_whole" android:background="@mipmap/button3" android:layout_width="258.0dip" android:layout_height="41.0dip" android:layout_marginTop="25.0dip" android:text="@string/scan_whole" skin:enable="true" />
-</LinearLayout>

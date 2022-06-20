@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_display_item" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/iv_display_item" android:background="@mipmap/sport_display_heart2" android:layout_width="52.0dip" android:layout_height="52.0dip" />
-    <TextView android:textColor="@drawable/selector_share_params_textcolor" android:id="@id/tv_display_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="33333" />
-</LinearLayout>

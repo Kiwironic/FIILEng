@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="center_vertical" android:id="@id/tv_music_show_pause" android:paddingLeft="40.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/all_pause" />
-    <View android:background="@color/music_select_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
-    <TextView android:gravity="center_vertical" android:id="@id/tv_music_show_start" android:paddingLeft="40.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/all_start" />
-    <View android:background="@color/music_select_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" />
-    <TextView android:gravity="center_vertical" android:id="@id/tv_music_show_set" android:paddingLeft="40.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/download_set" />
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_selected="true" android:drawable="@mipmap/cc_burn_select" />
-    <item android:state_selected="false" android:state_pressed="false" android:drawable="@mipmap/cc_burn" />
-    <item android:state_pressed="true" android:drawable="@mipmap/cc_burn_select" />
-</selector>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="60.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/small_text_size" android:textColor="@color/hand_opr_title_color" android:gravity="center" android:id="@id/tv_heat_set_show_type_one_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_centerHorizontal="true" />
-    <ImageView android:background="@mipmap/point_to_down" android:layout_width="12.0dip" android:layout_height="16.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="28.0dip" android:layout_toRightOf="@id/tv_heat_set_show_type_one_title" />
-</RelativeLayout>

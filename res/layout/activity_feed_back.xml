@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/tittle" layout="@layout/activity_head_black" />
-    <Button android:id="@id/feedback_button" android:background="@null" android:layout_width="50.0dip" android:layout_height="20.0dip" android:layout_alignBottom="@id/tittle" android:layout_alignParentRight="true" />
-    <FrameLayout android:id="@id/container" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/feedback_button" />
-    <include layout="@layout/activity_head_button" />
-</RelativeLayout>

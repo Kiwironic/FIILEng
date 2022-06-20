@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@mipmap/background" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/layout_door_store_top" />
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.amap.api.maps.MapView android:id="@id/mv_door_store_map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <ImageView android:id="@id/iv_door_store_map_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="23.0dip" android:layout_marginBottom="25.0dip" android:src="@mipmap/map_location" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
-    </RelativeLayout>
-</LinearLayout>

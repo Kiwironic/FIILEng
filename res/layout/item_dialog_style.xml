@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/rl_item_dialog" android:layout_width="fill_parent" android:layout_height="60.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="18.0sp" android:textColor="@color/regist_success_text_color" android:id="@id/tv_dialog_name" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginLeft="33.0dip" android:text="Mandarin" android:layout_centerVertical="true" />
-    <ImageView android:id="@id/iv_is_select" android:background="@drawable/selector_choose_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="33.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    <View android:background="@color/burn_top_name_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
-</RelativeLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/avatar_left_iv" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="20.0dip" android:src="@mipmap/duer_avatar" />
-    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_left_duer_chat_bg" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="50.0dip" android:layout_toRightOf="@id/avatar_left_iv">
-        <TextView android:textColor="#ff565656" android:id="@id/chat_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[Double-click] the multi-function button on the headset to wake up the voice assistance" />
-        <ImageView android:id="@id/chat_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@mipmap/duer_illustrate" />
-    </LinearLayout>
-</RelativeLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:textColor="@color/jie_shao_textcolor" android:id="@id/btn_popup_explain" android:tag="skin:jie_shao_textcolor:textColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_shouming" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="50.0dip" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/fiil_temp_color" android:layout_width="43.0dip" android:layout_height="45.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_centerInParent="true" app:srcCompat="@mipmap/fiil_temp_red" />
-    <ImageView android:id="@id/fiil_temp_color_tag" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginBottom="5.0dip" android:layout_alignRight="@id/fiil_temp_color" android:layout_alignBottom="@id/fiil_temp_color" app:srcCompat="@mipmap/fiil_temp_red_select" />
-</RelativeLayout>

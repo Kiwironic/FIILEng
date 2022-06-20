@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:background="@color/left_menu_lint_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
-    <TextView android:textSize="@dimen/small_text_size" android:textColor="@color/popup_door_store_press" android:gravity="center_vertical" android:id="@id/tv_item_heat_left_menu" android:background="@drawable/selector_item_press_state" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</LinearLayout>

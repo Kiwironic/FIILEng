@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:background="@drawable/shape_music_toast" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.7"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_music_toast_show" android:layout_width="200.0dip" android:layout_height="60.0dip" />
-</FrameLayout>
